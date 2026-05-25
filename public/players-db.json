@@ -32219,5 +32219,1371 @@
       }
     ],
     "scrapedAt": "2026-05-25T01:23:51.423Z"
+  },
+  "andrew-aj-kelsall": {
+    "name": "Andrew Aj Kelsall",
+    "slug": "andrew-aj-kelsall",
+    "rank": 999,
+    "allTimeScore": 476,
+    "allTimeRank": 85,
+    "timesDrafted": 6,
+    "totalCashes": 60,
+    "avgSalary": 16.83,
+    "highestSalary": 36,
+    "highestSalaryYear": 2024,
+    "lowestSalary": 1,
+    "lowestSalaryYear": 2019,
+    "years": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 288,
+        "cashes": 44
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 179,
+        "cashes": 15
+      },
+      {
+        "type": "Draw",
+        "pts": 53,
+        "cashes": 3
+      },
+      {
+        "type": "Stud",
+        "pts": 22,
+        "cashes": 3
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 21,
+        "cashes": 7
+      },
+      {
+        "type": "Omaha 8",
+        "pts": 15,
+        "cashes": 4
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 238,
+        "cashes": 44
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 270,
+        "cashes": 13
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 70,
+        "cashes": 19
+      }
+    ],
+    "history": [
+      {
+        "year": 2019,
+        "pts": 21,
+        "cost": 1,
+        "cashes": 10
+      },
+      {
+        "year": 2021,
+        "pts": 131,
+        "cost": 5,
+        "cashes": 10
+      },
+      {
+        "year": 2022,
+        "pts": 116,
+        "cost": 14,
+        "cashes": 17
+      },
+      {
+        "year": 2023,
+        "pts": 157,
+        "cost": 24,
+        "cashes": 13
+      },
+      {
+        "year": 2024,
+        "pts": 51,
+        "cost": 36,
+        "cashes": 10
+      },
+      {
+        "year": 2025,
+        "pts": 102,
+        "cost": 21,
+        "cashes": 16
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:48:09.506Z",
+    "fixedSlug": "andrew-kelsall"
+  },
+  "joao-simao-peres": {
+    "name": "Joao Simao Peres",
+    "slug": "joao-simao-peres",
+    "rank": 999,
+    "allTimeScore": 253,
+    "allTimeRank": 147,
+    "timesDrafted": 3,
+    "totalCashes": 23,
+    "avgSalary": 20,
+    "highestSalary": 45,
+    "highestSalaryYear": 2025,
+    "lowestSalary": 7,
+    "lowestSalaryYear": 2023,
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 126,
+        "cashes": 22
+      },
+      {
+        "type": "Omaha 8",
+        "pts": 109,
+        "cashes": 5
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 42,
+        "cashes": 4
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 3,
+        "cashes": 2
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 114,
+        "cashes": 17
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 99,
+        "cashes": 4
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 21,
+        "cashes": 5
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 46,
+        "cashes": 7
+      }
+    ],
+    "history": [
+      {
+        "year": 2023,
+        "pts": 23,
+        "cost": 7,
+        "cashes": 8
+      },
+      {
+        "year": 2024,
+        "pts": 230,
+        "cost": 8,
+        "cashes": 15
+      },
+      {
+        "year": 2025,
+        "pts": 27,
+        "cost": 45,
+        "cashes": 10
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:48:15.416Z",
+    "fixedSlug": "joao-simao"
+  },
+  "nikolay-evdakov": {
+    "name": "Nikolay Evdakov",
+    "slug": "nikolay-evdakov",
+    "rank": 999,
+    "allTimeScore": 48,
+    "allTimeRank": 326,
+    "timesDrafted": 1,
+    "totalCashes": 2,
+    "avgSalary": 12,
+    "highestSalary": 12,
+    "highestSalaryYear": 2011,
+    "lowestSalary": 12,
+    "lowestSalaryYear": 2011,
+    "years": [
+      2011
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 47,
+        "cashes": 1
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 1,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 47,
+        "cashes": 1
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 1,
+        "cashes": 1
+      }
+    ],
+    "history": [
+      {
+        "year": 2011,
+        "pts": 48,
+        "cost": 12,
+        "cashes": 2
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:49:52.987Z"
+  },
+  "heather-alcorn": {
+    "name": "Heather Alcorn",
+    "slug": "heather-alcorn",
+    "rank": 999,
+    "allTimeScore": 44,
+    "allTimeRank": 334,
+    "timesDrafted": 1,
+    "totalCashes": 8,
+    "avgSalary": 0,
+    "highestSalary": 0,
+    "highestSalaryYear": 2024,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2024,
+    "years": [
+      2024
+    ],
+    "gameType": [
+      {
+        "type": "Draw",
+        "pts": 41,
+        "cashes": 2
+      },
+      {
+        "type": "Hold Em",
+        "pts": 3,
+        "cashes": 6
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 44,
+        "cashes": 8
+      }
+    ],
+    "history": [
+      {
+        "year": 2024,
+        "pts": 65,
+        "cost": 1,
+        "cashes": 47
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:49:54.914Z"
+  },
+  "vitaly-lunkin": {
+    "name": "Vitaly Lunkin",
+    "slug": "vitaly-lunkin",
+    "rank": 999,
+    "allTimeScore": 37,
+    "allTimeRank": 338,
+    "timesDrafted": 1,
+    "totalCashes": 4,
+    "avgSalary": 10,
+    "highestSalary": 10,
+    "highestSalaryYear": 2011,
+    "lowestSalary": 10,
+    "lowestSalaryYear": 2011,
+    "years": [
+      2011
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 37,
+        "cashes": 4
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 36,
+        "cashes": 3
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 1,
+        "cashes": 1
+      }
+    ],
+    "history": [
+      {
+        "year": 2011,
+        "pts": 37,
+        "cost": 10,
+        "cashes": 4
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:49:56.871Z"
+  },
+  "kristijonas-andrulis": {
+    "name": "Kristijonas Andrulis",
+    "slug": "kristijonas-andrulis",
+    "rank": 999,
+    "allTimeScore": 37,
+    "allTimeRank": 338,
+    "timesDrafted": 1,
+    "totalCashes": 1,
+    "avgSalary": 4,
+    "highestSalary": 4,
+    "highestSalaryYear": 2021,
+    "lowestSalary": 4,
+    "lowestSalaryYear": 2021,
+    "years": [
+      2021
+    ],
+    "gameType": [
+      {
+        "type": "Draw",
+        "pts": 37,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 37,
+        "cashes": 1
+      }
+    ],
+    "history": [
+      {
+        "year": 2021,
+        "pts": 37,
+        "cost": 4,
+        "cashes": 1
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:49:58.818Z"
+  },
+  "konstantin-maslak": {
+    "name": "Konstantin Maslak",
+    "slug": "konstantin-maslak",
+    "rank": 999,
+    "allTimeScore": 36,
+    "allTimeRank": 340,
+    "timesDrafted": 2,
+    "totalCashes": 5,
+    "avgSalary": 7,
+    "highestSalary": 13,
+    "highestSalaryYear": 2019,
+    "lowestSalary": 1,
+    "lowestSalaryYear": 2016,
+    "years": [
+      2016,
+      2019
+    ],
+    "gameType": [
+      {
+        "type": "Draw",
+        "pts": 32,
+        "cashes": 1
+      },
+      {
+        "type": "Hold Em",
+        "pts": 2,
+        "cashes": 2
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 1,
+        "cashes": 1
+      },
+      {
+        "type": "Stud",
+        "pts": 1,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 35,
+        "cashes": 4
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 1,
+        "cashes": 1
+      }
+    ],
+    "history": [
+      {
+        "year": 2016,
+        "pts": 36,
+        "cost": 1,
+        "cashes": 5
+      },
+      {
+        "year": 2019,
+        "pts": 0,
+        "cost": 13,
+        "cashes": 0
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:01.106Z"
+  },
+  "levi-carden": {
+    "name": "Levi Carden",
+    "slug": "levi-carden",
+    "rank": 999,
+    "allTimeScore": 36,
+    "allTimeRank": 340,
+    "timesDrafted": 2,
+    "totalCashes": 3,
+    "avgSalary": 0,
+    "highestSalary": 0,
+    "highestSalaryYear": 2024,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2024,
+    "years": [
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 36,
+        "cashes": 3
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 1,
+        "cashes": 1
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 3,
+        "cashes": 1
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 32,
+        "cashes": 1
+      }
+    ],
+    "history": [
+      {
+        "year": 2024,
+        "pts": 3,
+        "cost": 0,
+        "cashes": 1087
+      },
+      {
+        "year": 2025,
+        "pts": null,
+        "cost": null,
+        "cashes": null
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:03.429Z"
+  },
+  "mikael-thuritz": {
+    "name": "Mikael Thuritz",
+    "slug": "mikael-thuritz",
+    "rank": 999,
+    "allTimeScore": 34,
+    "allTimeRank": 342,
+    "timesDrafted": 1,
+    "totalCashes": 1,
+    "avgSalary": 28,
+    "highestSalary": 28,
+    "highestSalaryYear": 2011,
+    "lowestSalary": 28,
+    "lowestSalaryYear": 2011,
+    "years": [
+      2011
+    ],
+    "gameType": [
+      {
+        "type": "Omaha 8",
+        "pts": 34,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 34,
+        "cashes": 1
+      }
+    ],
+    "history": [
+      {
+        "year": 2011,
+        "pts": 34,
+        "cost": 28,
+        "cashes": 1
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:05.354Z"
+  },
+  "scotty-nguyen": {
+    "name": "Scotty Nguyen",
+    "slug": "scotty-nguyen",
+    "rank": 999,
+    "allTimeScore": 34,
+    "allTimeRank": 342,
+    "timesDrafted": 1,
+    "totalCashes": 1,
+    "avgSalary": 35,
+    "highestSalary": 35,
+    "highestSalaryYear": 2011,
+    "lowestSalary": 35,
+    "lowestSalaryYear": 2011,
+    "years": [
+      2011
+    ],
+    "gameType": [
+      {
+        "type": "Mixed Games",
+        "pts": 34,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 34,
+        "cashes": 1
+      }
+    ],
+    "history": [
+      {
+        "year": 2011,
+        "pts": 34,
+        "cost": 35,
+        "cashes": 1
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:07.284Z"
+  },
+  "mike-sexton": {
+    "name": "Mike Sexton",
+    "slug": "mike-sexton",
+    "rank": 999,
+    "allTimeScore": 34,
+    "allTimeRank": 342,
+    "timesDrafted": 1,
+    "totalCashes": 6,
+    "avgSalary": 1,
+    "highestSalary": 1,
+    "highestSalaryYear": 2013,
+    "lowestSalary": 1,
+    "lowestSalaryYear": 2013,
+    "years": [
+      2013
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 15,
+        "cashes": 3
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 11,
+        "cashes": 1
+      },
+      {
+        "type": "Stud",
+        "pts": 7,
+        "cashes": 1
+      },
+      {
+        "type": "Stud 8",
+        "pts": 1,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 2,
+        "cashes": 2
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 3,
+        "cashes": 1
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 11,
+        "cashes": 1
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 18,
+        "cashes": 2
+      }
+    ],
+    "history": [
+      {
+        "year": 2013,
+        "pts": 34,
+        "cost": 1,
+        "cashes": 6
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:09.205Z"
+  },
+  "ilya-krupin": {
+    "name": "Ilya Krupin",
+    "slug": "ilya-krupin",
+    "rank": 999,
+    "allTimeScore": 33,
+    "allTimeRank": 346,
+    "timesDrafted": 1,
+    "totalCashes": 4,
+    "avgSalary": 1,
+    "highestSalary": 1,
+    "highestSalaryYear": 2016,
+    "lowestSalary": 1,
+    "lowestSalaryYear": 2016,
+    "years": [
+      2016
+    ],
+    "gameType": [
+      {
+        "type": "Omaha 8",
+        "pts": 31,
+        "cashes": 2
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 2,
+        "cashes": 2
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 29,
+        "cashes": 1
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 2,
+        "cashes": 1
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 2,
+        "cashes": 2
+      }
+    ],
+    "history": [
+      {
+        "year": 2016,
+        "pts": 33,
+        "cost": 1,
+        "cashes": 4
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:11.128Z"
+  },
+  "romain-lewis": {
+    "name": "Romain Lewis",
+    "slug": "romain-lewis",
+    "rank": 999,
+    "allTimeScore": 33,
+    "allTimeRank": 346,
+    "timesDrafted": 1,
+    "totalCashes": 7,
+    "avgSalary": 1,
+    "highestSalary": 1,
+    "highestSalaryYear": 2022,
+    "lowestSalary": 1,
+    "lowestSalaryYear": 2022,
+    "years": [
+      2022
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 33,
+        "cashes": 7
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 1,
+        "cashes": 1
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 16,
+        "cashes": 2
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 16,
+        "cashes": 4
+      }
+    ],
+    "history": [
+      {
+        "year": 2022,
+        "pts": 33,
+        "cost": 1,
+        "cashes": 7
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:14.079Z"
+  },
+  "cherish-andrews": {
+    "name": "Cherish Andrews",
+    "slug": "cherish-andrews",
+    "rank": 999,
+    "allTimeScore": 33,
+    "allTimeRank": 346,
+    "timesDrafted": 3,
+    "totalCashes": 18,
+    "avgSalary": 1.33,
+    "highestSalary": 3,
+    "highestSalaryYear": 2025,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2024,
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 37,
+        "cashes": 20
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 6,
+        "cashes": 4
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 10,
+        "cashes": 17
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 22,
+        "cashes": 1
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 2,
+        "cashes": 1
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 9,
+        "cashes": 6
+      }
+    ],
+    "history": [
+      {
+        "year": 2023,
+        "pts": 11,
+        "cost": 1,
+        "cashes": 10
+      },
+      {
+        "year": 2024,
+        "pts": 8,
+        "cost": 13,
+        "cashes": 160
+      },
+      {
+        "year": 2025,
+        "pts": 10,
+        "cost": 3,
+        "cashes": 7
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:17.791Z"
+  },
+  "brian-tate": {
+    "name": "Brian Tate",
+    "slug": "brian-tate",
+    "rank": 999,
+    "allTimeScore": 31,
+    "allTimeRank": 351,
+    "timesDrafted": 2,
+    "totalCashes": 4,
+    "avgSalary": 3.5,
+    "highestSalary": 4,
+    "highestSalaryYear": 2015,
+    "lowestSalary": 3,
+    "lowestSalaryYear": 2016,
+    "years": [
+      2015,
+      2016
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 18,
+        "cashes": 2
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 13,
+        "cashes": 2
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 13,
+        "cashes": 2
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 11,
+        "cashes": 1
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 7,
+        "cashes": 1
+      }
+    ],
+    "history": [
+      {
+        "year": 2015,
+        "pts": 23,
+        "cost": 4,
+        "cashes": 2
+      },
+      {
+        "year": 2016,
+        "pts": 8,
+        "cost": 3,
+        "cashes": 2
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:20.102Z"
+  },
+  "fabrice-soulier": {
+    "name": "Fabrice Soulier",
+    "slug": "fabrice-soulier",
+    "rank": 999,
+    "allTimeScore": 30,
+    "allTimeRank": 352,
+    "timesDrafted": 2,
+    "totalCashes": 4,
+    "avgSalary": 7,
+    "highestSalary": 11,
+    "highestSalaryYear": 2013,
+    "lowestSalary": 3,
+    "lowestSalaryYear": 2012,
+    "years": [
+      2012,
+      2013
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 22,
+        "cashes": 3
+      },
+      {
+        "type": "Stud",
+        "pts": 8,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 9,
+        "cashes": 2
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 3,
+        "cashes": 1
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 18,
+        "cashes": 1
+      }
+    ],
+    "history": [
+      {
+        "year": 2012,
+        "pts": 26,
+        "cost": 3,
+        "cashes": 2
+      },
+      {
+        "year": 2013,
+        "pts": 4,
+        "cost": 11,
+        "cashes": 2
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:22.402Z"
+  },
+  "sam-laskowitz": {
+    "name": "Sam Laskowitz",
+    "slug": "sam-laskowitz",
+    "rank": 999,
+    "allTimeScore": 30,
+    "allTimeRank": 352,
+    "timesDrafted": 2,
+    "totalCashes": 5,
+    "avgSalary": 3.5,
+    "highestSalary": 6,
+    "highestSalaryYear": 2024,
+    "lowestSalary": 1,
+    "lowestSalaryYear": 2025,
+    "years": [
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 82,
+        "cashes": 11
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 1,
+        "cashes": 1
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 4,
+        "cashes": 2
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 23,
+        "cashes": 1
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 54,
+        "cashes": 7
+      }
+    ],
+    "history": [
+      {
+        "year": 2024,
+        "pts": 30,
+        "cost": 6,
+        "cashes": 5
+      },
+      {
+        "year": 2025,
+        "pts": 52,
+        "cost": 1,
+        "cashes": 6
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:24.722Z"
+  },
+  "andrew-ostapchenko": {
+    "name": "Andrew Ostapchenko",
+    "slug": "andrew-ostapchenko",
+    "rank": 999,
+    "allTimeScore": 30,
+    "allTimeRank": 352,
+    "timesDrafted": 2,
+    "totalCashes": 3,
+    "avgSalary": 0.5,
+    "highestSalary": 1,
+    "highestSalaryYear": 2025,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2024,
+    "years": [
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 239,
+        "cashes": 12
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 25,
+        "cashes": 2
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 26,
+        "cashes": 4
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 5,
+        "cashes": 2
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 106,
+        "cashes": 2
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 127,
+        "cashes": 6
+      }
+    ],
+    "history": [
+      {
+        "year": 2024,
+        "pts": 3,
+        "cost": 6,
+        "cashes": 14
+      },
+      {
+        "year": 2025,
+        "pts": 234,
+        "cost": 1,
+        "cashes": 11
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:27.008Z"
+  },
+  "mike-thorpe": {
+    "name": "Mike Thorpe",
+    "slug": "mike-thorpe",
+    "rank": 999,
+    "allTimeScore": 28,
+    "allTimeRank": 355,
+    "timesDrafted": 3,
+    "totalCashes": 7,
+    "avgSalary": 0.33,
+    "highestSalary": 1,
+    "highestSalaryYear": 2023,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2024,
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Draw",
+        "pts": 13,
+        "cashes": 3
+      },
+      {
+        "type": "Omaha 8",
+        "pts": 12,
+        "cashes": 1
+      },
+      {
+        "type": "Stud 8",
+        "pts": 11,
+        "cashes": 1
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 3,
+        "cashes": 3
+      },
+      {
+        "type": "Hold Em",
+        "pts": 1,
+        "cashes": 1
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 1,
+        "cashes": 1
+      },
+      {
+        "type": "Razz",
+        "pts": 1,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 18,
+        "cashes": 7
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 22,
+        "cashes": 2
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 2,
+        "cashes": 2
+      }
+    ],
+    "history": [
+      {
+        "year": 2023,
+        "pts": 27,
+        "cost": 1,
+        "cashes": 6
+      },
+      {
+        "year": 2024,
+        "pts": 1,
+        "cost": 0,
+        "cashes": 42
+      },
+      {
+        "year": 2025,
+        "pts": 4,
+        "cost": 1,
+        "cashes": 39
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:29.669Z"
+  },
+  "bradley-jansen": {
+    "name": "Bradley Jansen",
+    "slug": "bradley-jansen",
+    "rank": 999,
+    "allTimeScore": 28,
+    "allTimeRank": 355,
+    "timesDrafted": 1,
+    "totalCashes": 6,
+    "avgSalary": 0,
+    "highestSalary": 0,
+    "highestSalaryYear": 2024,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2024,
+    "years": [
+      2024
+    ],
+    "gameType": [
+      {
+        "type": "Mixed Games",
+        "pts": 25,
+        "cashes": 3
+      },
+      {
+        "type": "Hold Em",
+        "pts": 2,
+        "cashes": 2
+      },
+      {
+        "type": "Draw",
+        "pts": 1,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 5,
+        "cashes": 5
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 23,
+        "cashes": 1
+      }
+    ],
+    "history": [
+      {
+        "year": 2024,
+        "pts": 6,
+        "cost": 0,
+        "cashes": 21
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:31.644Z"
+  },
+  "kathy-liebert": {
+    "name": "Kathy Liebert",
+    "slug": "kathy-liebert",
+    "rank": 999,
+    "allTimeScore": 27,
+    "allTimeRank": 357,
+    "timesDrafted": 1,
+    "totalCashes": 6,
+    "avgSalary": 1,
+    "highestSalary": 1,
+    "highestSalaryYear": 2018,
+    "lowestSalary": 1,
+    "lowestSalaryYear": 2018,
+    "years": [
+      2018
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 27,
+        "cashes": 6
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 25,
+        "cashes": 4
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 2,
+        "cashes": 2
+      }
+    ],
+    "history": [
+      {
+        "year": 2018,
+        "pts": 27,
+        "cost": 1,
+        "cashes": 6
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:33.602Z"
+  },
+  "carlos-mortensen": {
+    "name": "Carlos Mortensen",
+    "slug": "carlos-mortensen",
+    "rank": 999,
+    "allTimeScore": 26,
+    "allTimeRank": 359,
+    "timesDrafted": 1,
+    "totalCashes": 3,
+    "avgSalary": 19,
+    "highestSalary": 19,
+    "highestSalaryYear": 2011,
+    "lowestSalary": 19,
+    "lowestSalaryYear": 2011,
+    "years": [
+      2011
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 26,
+        "cashes": 3
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 1,
+        "cashes": 1
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 12,
+        "cashes": 1
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 13,
+        "cashes": 1
+      }
+    ],
+    "history": [
+      {
+        "year": 2011,
+        "pts": 26,
+        "cost": 19,
+        "cashes": 3
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:35.602Z"
+  },
+  "jake-bazeley": {
+    "name": "Jake Bazeley",
+    "slug": "jake-bazeley",
+    "rank": 999,
+    "allTimeScore": 26,
+    "allTimeRank": 359,
+    "timesDrafted": 1,
+    "totalCashes": 6,
+    "avgSalary": 0,
+    "highestSalary": 0,
+    "highestSalaryYear": 2018,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2018,
+    "years": [
+      2018
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 26,
+        "cashes": 6
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 26,
+        "cashes": 6
+      }
+    ],
+    "history": [
+      {
+        "year": 2018,
+        "pts": 6,
+        "cost": 1440,
+        "cashes": 1
+      }
+    ],
+    "scrapedAt": "2026-05-25T21:50:43.113Z"
   }
 }
