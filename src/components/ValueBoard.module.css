@@ -1,0 +1,211 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 12px 14px;
+}
+
+.search {
+  width: 100%;
+  font-size: 13px;
+  padding: 7px 12px;
+}
+
+.sortRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.sortLabel {
+  font-size: 11px;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 2px;
+}
+
+.sortBtn {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--text2);
+  border: 1px solid var(--border);
+}
+.sortBtn:hover { color: var(--text); background: var(--bg3); }
+.sortBtn.active { background: var(--accent); color: #0f0f0f; border-color: var(--accent); font-weight: 600; }
+
+.filters {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text2);
+  cursor: pointer;
+}
+.check input { cursor: pointer; accent-color: var(--accent); }
+
+/* Table */
+.tableWrap {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.table thead tr {
+  background: var(--bg3);
+}
+
+.table th {
+  padding: 9px 12px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  vertical-align: middle;
+}
+
+.table tbody tr:last-child td { border-bottom: none; }
+.table tbody tr:hover td { background: var(--bg3); }
+
+.table tbody tr.inTeam td { background: rgba(74,222,128,0.04); }
+.table tbody tr.isBonus td { }
+
+.colRank  { width: 36px; text-align: center; }
+.colName  { min-width: 160px; }
+.colNum   { width: 70px; text-align: right; }
+.colBar   { width: 80px; padding: 8px 6px; }
+.colAction { width: 70px; text-align: right; }
+
+.rankNum {
+  font-size: 11px;
+  color: var(--text3);
+}
+
+.nameBtn {
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-size: 13px;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  font-weight: 500;
+}
+.nameBtn:hover { color: var(--accent); background: transparent; }
+
+.inTeamDot {
+  color: var(--green);
+  font-size: 11px;
+  margin-left: 6px;
+}
+
+.ppdVal { color: var(--accent); font-weight: 600; }
+.dim    { color: var(--text3); }
+
+.bar {
+  height: 4px;
+  background: var(--bg4);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.barFill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 2px;
+  transition: width 0.3s;
+}
+
+.actionBtns { display: flex; gap: 4px; justify-content: flex-end; }
+
+.addBtn {
+  padding: 3px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--text2);
+  border: 1px solid var(--border);
+  line-height: 1;
+}
+.addBtn:hover:not(:disabled) { color: var(--green); border-color: var(--green); background: rgba(74,222,128,0.08); }
+.addBtn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+.bonusBtn {
+  padding: 3px 8px;
+  font-size: 12px;
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid rgba(232,200,74,0.3);
+}
+.bonusBtn:hover { background: rgba(232,200,74,0.1); }
+
+.inTeamLabel { font-size: 11px; color: var(--green); }
+
+.empty { padding: 2rem; text-align: center; color: var(--text3); font-size: 13px; }
+
+.hint {
+  font-size: 11px;
+  color: var(--text3);
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+.topRow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bottomRow {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.yearPicker {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.noteDot { margin-left: 4px; font-size: 11px; }

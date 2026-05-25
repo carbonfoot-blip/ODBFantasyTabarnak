@@ -1,112 +1,117 @@
-import { useState, useCallback } from 'react'
-import { PlayerSearch } from './components/PlayerSearch'
-import { PlayerPanel } from './components/PlayerPanel'
-import { TeamSidebar } from './components/TeamSidebar'
-import { ApiKeyPrompt } from './components/ApiKeyPrompt'
+import { useState, useEffect } from 'react'
+import { PlayerSearch }  from './components/PlayerSearch'
+import { PlayerPanel }   from './components/PlayerPanel'
+import { TeamSidebar }   from './components/TeamSidebar'
+import { ValueBoard }    from './components/ValueBoard'
+import { ComparePanel }  from './components/ComparePanel'
+import { CostEditor }    from './components/CostEditor'
+import { SocialTab }     from './components/SocialTab'
+import { DbEditor }      from './components/DbEditor'
 import { ToastContainer } from './components/Toast'
 import { useLocalStorage } from './hooks/useLocalStorage'
-import { fetchPlayerHistory } from './services/api'
+import { fetchNotes } from './services/notesService'
 import styles from './App.module.css'
 
 const MAX_TEAM = 8
+const TABS = [
+  { id: 'search',  label: '🔍 Search'    },
+  { id: 'value',   label: '📊 Rankings'  },
+  { id: 'compare', label: '⚡ Compare'   },
+  { id: 'costs',   label: '💰 Costs'     },
+  { id: 'social',  label: '📌 Scouting'  },
+  { id: 'db',      label: '🗄 DB Editor' },
+]
 
 export default function App() {
-  // Persistent state
-  const [apiKey, setApiKey] = useLocalStorage('odb_apikey', '')
-  const [team, setTeam] = useLocalStorage('odb_team_2026', [])
+  const [team, setTeam]           = useLocalStorage('odb_team_2026', [])
   const [bonusPick, setBonusPick] = useLocalStorage('odb_bonus_2026', null)
-  const [budget, setBudget] = useLocalStorage('odb_budget_2026', 0)
-  const [playerCache, setPlayerCache] = useLocalStorage('odb_cache_2026', {})
+  const [budget, setBudget]       = useLocalStorage('odb_budget_2026', 0)
+  const [costs, setCosts]         = useLocalStorage('odb_costs_2026', {})
+  const [notes, setNotes]         = useLocalStorage('odb_notes_2026', {})
+  const [binId, setBinId]         = useLocalStorage('odb_jsonbin_id', '')
+  const [apiKey, setApiKey]       = useLocalStorage('odb_jsonbin_key', '')
 
-  // Session state
+  const [db, setDb]               = useState({})
+  const [dbLoaded, setDbLoaded]   = useState(false)
+  const [dbError, setDbError]     = useState(null)
   const [currentPlayer, setCurrentPlayer] = useState(null)
-  const [loading, setLoading] = useState(false)
-  const [toasts, setToasts] = useState([])
+  const [activeTab, setActiveTab] = useState('search')
+  const [toasts, setToasts]       = useState([])
+
+  useEffect(() => {
+    fetch('./players-db.json')
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
+      .then(data => { setDb(data); setDbLoaded(true) })
+      .catch(err => { setDbError(err.message); setDbLoaded(true) })
+  }, [])
+
+  // Auto-sync notes from JSONBin on load if configured
+  useEffect(() => {
+    if (!binId || !apiKey) return
+    fetchNotes(binId, apiKey)
+      .then(remote => { if (Object.keys(remote).length) setNotes(remote) })
+      .catch(() => {})
+  }, [binId, apiKey])
 
   function toast(message) {
     const id = Date.now()
     setToasts(prev => [...prev, { id, message }])
   }
+  function removeToast(id) { setToasts(prev => prev.filter(t => t.id !== id)) }
 
-  function removeToast(id) {
-    setToasts(prev => prev.filter(t => t.id !== id))
+  function handleSelectPlayer(base, tab) {
+    const dbData = db[base.slug] || {}
+    const cost   = costs[base.slug] ?? null
+    setCurrentPlayer({ ...base, ...dbData, cost })
+    if (tab) setActiveTab(tab)
+    else setActiveTab('search')
   }
 
-  function saveApiKey(key) {
-    setApiKey(key)
-    toast('API key saved!')
+  function handleSaveCost(slug, cost) {
+    setCosts(prev => ({ ...prev, [slug]: cost }))
+    setCurrentPlayer(prev => prev?.slug === slug ? { ...prev, cost } : prev)
+    setTeam(prev => prev.map(p => p.slug === slug ? { ...p, cost } : p))
+    if (bonusPick?.slug === slug) setBonusPick(prev => ({ ...prev, cost }))
   }
 
-  // Select player — merges cached data
-  function handleSelectPlayer(base) {
-    const cached = playerCache[base.slug] || {}
-    setCurrentPlayer({ ...base, ...cached })
-  }
-
-  // Fetch stats from 25KFantasy via Anthropic API
-  const handleFetchStats = useCallback(async () => {
-    if (!currentPlayer) return
-    if (!apiKey) { toast('Set your Anthropic API key first'); return }
-    setLoading(true)
-    try {
-      const data = await fetchPlayerHistory(currentPlayer.slug, apiKey)
-      // Add 2026 pending row
-      const history2026 = [...(data.history || []), { year: 2026, pending: true, pts: 0, cashes: 0 }]
-      const enriched = { ...data, history: history2026 }
-
-      // Update cache
-      setPlayerCache(prev => ({ ...prev, [currentPlayer.slug]: enriched }))
-
-      // Update current player
-      setCurrentPlayer(prev => ({ ...prev, ...enriched }))
-
-      // Update in team if present
-      setTeam(prev => prev.map(p => p.slug === currentPlayer.slug ? { ...p, ...enriched } : p))
-      if (bonusPick?.slug === currentPlayer.slug) {
-        setBonusPick(prev => ({ ...prev, ...enriched }))
-      }
-
-      toast(`Stats loaded for ${currentPlayer.name}!`)
-    } catch (err) {
-      toast(`Error: ${err.message}`)
-    } finally {
-      setLoading(false)
-    }
-  }, [currentPlayer, apiKey, setPlayerCache, setTeam, bonusPick, setBonusPick])
-
-  // Add player to team
   function handleAddToTeam(player) {
     if (team.find(p => p.slug === player.slug)) { toast('Already in team'); return }
     if (team.length >= MAX_TEAM) { toast('Team is full (8 players max)'); return }
-    const entry = { ...player, ...(playerCache[player.slug] || {}), isBonus: false }
-    setTeam(prev => [...prev, entry])
+    if (!player.cost) { toast('Enter the 2026 cost first'); return }
+    setTeam(prev => [...prev, { ...player, isBonus: false }])
     toast(`${player.name} added to team!`)
   }
 
-  // Add as bonus pick
   function handleAddBonus(player) {
-    const entry = { ...player, ...(playerCache[player.slug] || {}), cost: 0, isBonus: true }
-    setBonusPick(entry)
+    setBonusPick({ ...player, cost: 0, isBonus: true })
     toast(`${player.name} set as bonus pick!`)
   }
 
-  function handleRemoveFromTeam(slug) {
-    setTeam(prev => prev.filter(p => p.slug !== slug))
+  function handleRemoveFromTeam(slug) { setTeam(prev => prev.filter(p => p.slug !== slug)) }
+  function handleRemoveBonus()        { setBonusPick(null) }
+
+  function handleSaveDb(slug, updated) {
+    setDb(prev => ({ ...prev, [slug]: updated }))
+    toast(`${updated.name} saved to DB`)
   }
 
-  function handleRemoveBonus() {
-    setBonusPick(null)
+  function handleNotesChange(updated) { setNotes(updated) }
+  function handleSetCredentials(id, key) { setBinId(id); setApiKey(key) }
+
+  // Navigate to social tab for a specific player (from Compare tab)
+  function handleSelectTabSocial(tabId, player) {
+    if (player) {
+      const dbData = db[player.slug] || {}
+      setCurrentPlayer({ ...player, ...dbData, cost: costs[player.slug] ?? null })
+    }
+    setActiveTab(tabId)
   }
 
-  function handleSelectFromTeam(player) {
-    handleSelectPlayer(player)
-  }
-
-  const showApiPrompt = !apiKey
+  const costsEntered = Object.values(costs).filter(Boolean).length
+  const notesCount   = Object.values(notes).filter(n => n?.text).length
 
   return (
     <div className={styles.app}>
-      {/* Header */}
       <header className={styles.header}>
         <div className={styles.headerLeft}>
           <span className={styles.logo}>♠</span>
@@ -116,65 +121,116 @@ export default function App() {
           </div>
         </div>
         <div className={styles.headerRight}>
-          <a
-            href="https://www.25kfantasy.com/odb-fantasy/"
-            target="_blank"
-            rel="noreferrer"
-            className={styles.externalLink}
-          >
+          {dbLoaded && !dbError && (
+            <span className={styles.dbBadge}>✓ {Object.keys(db).length} players</span>
+          )}
+          {dbError && <span className={styles.dbError}>⚠ DB not found</span>}
+          {costsEntered > 0 && <span className={styles.costsBadge}>{costsEntered} costs</span>}
+          {notesCount   > 0 && <span className={styles.notesBadge}>{notesCount} notes</span>}
+          <a href="https://www.25kfantasy.com/odb-fantasy/" target="_blank" rel="noreferrer" className={styles.externalLink}>
             25KFantasy ↗
           </a>
-          <button
-            className={styles.apiBtn}
-            onClick={() => setApiKey('')}
-            title="Reset API key"
-          >
-            🔑 {apiKey ? 'API key set' : 'No API key'}
-          </button>
         </div>
       </header>
 
+      <div className={styles.tabBar}>
+        {TABS.map(t => (
+          <button
+            key={t.id}
+            className={`${styles.tab} ${activeTab === t.id ? styles.tabActive : ''}`}
+            onClick={() => setActiveTab(t.id)}
+          >
+            {t.label}
+            {t.id === 'costs'  && costsEntered > 0 && <span className={styles.tabBadge}>{costsEntered}</span>}
+            {t.id === 'social' && notesCount   > 0 && <span className={styles.tabBadge}>{notesCount}</span>}
+          </button>
+        ))}
+      </div>
+
       <main className={styles.main}>
-        {/* Left column: search + player panel */}
         <div className={styles.leftCol}>
-          {showApiPrompt && (
-            <div className={styles.apiPromptWrap}>
-              <ApiKeyPrompt onSave={saveApiKey} />
-            </div>
+
+          {activeTab === 'search' && (
+            <>
+              <PlayerSearch onSelect={p => handleSelectPlayer(p)} />
+              {!dbLoaded && <div className={styles.loading}>Loading player database…</div>}
+              {dbLoaded && dbError && (
+                <div className={styles.dbWarning}>
+                  <strong>⚠ Player stats database not found.</strong><br />
+                  Run <code>node scripts/scrape.mjs</code> first, then rebuild and redeploy.
+                </div>
+              )}
+              {currentPlayer ? (
+                <PlayerPanel
+                  key={currentPlayer.slug}
+                  player={currentPlayer}
+                  savedCost={costs[currentPlayer.slug] ?? null}
+                  onSaveCost={handleSaveCost}
+                  onAddToTeam={handleAddToTeam}
+                  onAddBonus={handleAddBonus}
+                />
+              ) : (
+                <div className={styles.emptyPanel}>
+                  <div className={styles.emptyIcon}>♠ ♥ ♦ ♣</div>
+                  <p>Search for a player above to view their stats</p>
+                  <p className={styles.emptyHint}>
+                    Use <strong>Rankings</strong> to sort all players by value ·
+                    <strong> Compare</strong> for head-to-head ·
+                    <strong> Costs</strong> to bulk-enter prices ·
+                    <strong> Scouting</strong> for shared notes
+                  </p>
+                </div>
+              )}
+            </>
           )}
 
-          <PlayerSearch onSelect={handleSelectPlayer} />
-
-          {currentPlayer ? (
-            <PlayerPanel
-              key={currentPlayer.slug}
-              player={currentPlayer}
+          {activeTab === 'value' && (
+            <ValueBoard
+              db={db} costs={costs} team={team} bonusPick={bonusPick}
+              notes={notes}
+              onSelectPlayer={p => handleSelectPlayer(p)}
               onAddToTeam={handleAddToTeam}
               onAddBonus={handleAddBonus}
-              onFetchStats={handleFetchStats}
-              loading={loading}
             />
-          ) : (
-            <div className={styles.emptyPanel}>
-              <div className={styles.emptyIcon}>♠ ♥ ♦ ♣</div>
-              <p>Search for a player above to view their stats</p>
-              <p className={styles.emptyHint}>
-                Type a name to search across all 480+ players in the database.
-                Select one to view their year-by-year history and add them to your team.
-              </p>
-            </div>
           )}
+
+          {activeTab === 'compare' && (
+            <ComparePanel
+              db={db} costs={costs}
+              notes={notes}
+              onAddToTeam={handleAddToTeam}
+              onAddBonus={handleAddBonus}
+              onSelectTab={handleSelectTabSocial}
+            />
+          )}
+
+          {activeTab === 'costs' && (
+            <CostEditor db={db} costs={costs} onSaveCost={handleSaveCost} />
+          )}
+
+          {activeTab === 'social' && (
+            <SocialTab
+              db={db}
+              notes={notes}
+              onNotesChange={handleNotesChange}
+              binId={binId}
+              apiKey={apiKey}
+              onSetCredentials={handleSetCredentials}
+            />
+          )}
+
+          {activeTab === 'db' && (
+            <DbEditor db={db} onSave={handleSaveDb} />
+          )}
+
         </div>
 
-        {/* Right column: team sidebar */}
         <TeamSidebar
-          team={team}
-          bonusPick={bonusPick}
-          budget={budget}
+          team={team} bonusPick={bonusPick} budget={budget}
           onSetBudget={setBudget}
           onRemove={handleRemoveFromTeam}
           onRemoveBonus={handleRemoveBonus}
-          onSelectPlayer={handleSelectFromTeam}
+          onSelectPlayer={p => handleSelectPlayer(p)}
         />
       </main>
 

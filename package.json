@@ -2,16 +2,19 @@
   "name": "odb-fantasy-2026",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/carbonfoot-blip/ODBFantasyTabarnak",
+  "homepage": ".",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "scrape": "node scripts/scrape.mjs",
+    "fix": "node scripts/fix-player.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "playwright": "^1.44.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.1",

@@ -5,7 +5,6 @@
   background: var(--bg);
 }
 
-/* Header */
 .header {
   display: flex;
   align-items: center;
@@ -50,7 +49,26 @@
 .headerRight {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+}
+
+.dbBadge {
+  font-size: 11px;
+  color: var(--green);
+  background: rgba(74,222,128,0.08);
+  border: 1px solid rgba(74,222,128,0.2);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.dbError {
+  font-size: 11px;
+  color: var(--red);
+  background: rgba(248,113,113,0.08);
+  border: 1px solid rgba(248,113,113,0.2);
+  padding: 3px 8px;
+  border-radius: 4px;
+  cursor: help;
 }
 
 .externalLink {
@@ -64,13 +82,6 @@
 }
 .externalLink:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
 
-.apiBtn {
-  font-size: 12px;
-  padding: 5px 10px;
-  color: var(--text2);
-}
-
-/* Main layout */
 .main {
   display: grid;
   grid-template-columns: 1fr 300px;
@@ -84,9 +95,7 @@
 }
 
 @media (max-width: 900px) {
-  .main {
-    grid-template-columns: 1fr;
-  }
+  .main { grid-template-columns: 1fr; }
 }
 
 .leftCol {
@@ -96,12 +105,31 @@
   min-width: 0;
 }
 
-/* API prompt */
-.apiPromptWrap {
-  padding: 1rem 0;
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text3);
+  font-size: 13px;
 }
 
-/* Empty state */
+.dbWarning {
+  background: rgba(248,113,113,0.06);
+  border: 1px solid rgba(248,113,113,0.2);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  font-size: 13px;
+  color: var(--text2);
+  line-height: 1.7;
+}
+.dbWarning code {
+  background: var(--bg3);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 12px;
+  color: var(--accent);
+}
+
 .emptyPanel {
   background: var(--bg2);
   border: 1px dashed var(--border2);
@@ -127,4 +155,59 @@
   color: var(--text3);
   max-width: 360px;
   line-height: 1.6;
+}
+
+/* Tab bar */
+.tabBar {
+  display: flex;
+  gap: 2px;
+  padding: 0 1.25rem;
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+}
+
+.tab {
+  padding: 10px 16px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  color: var(--text2);
+  font-size: 13px;
+  margin-bottom: -1px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.15s;
+}
+.tab:hover { color: var(--text); background: transparent; }
+.tabActive { color: var(--accent); border-bottom-color: var(--accent); }
+
+.tabBadge {
+  background: rgba(232,200,74,0.2);
+  color: var(--accent);
+  font-size: 10px;
+  padding: 1px 5px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.costsBadge {
+  font-size: 11px;
+  color: var(--accent);
+  background: rgba(232,200,74,0.1);
+  border: 1px solid rgba(232,200,74,0.25);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.notesBadge {
+  font-size: 11px;
+  color: #60a5fa;
+  background: rgba(96,165,250,0.1);
+  border: 1px solid rgba(96,165,250,0.25);
+  padding: 3px 8px;
+  border-radius: 4px;
 }
