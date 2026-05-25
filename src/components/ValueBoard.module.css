@@ -237,3 +237,17 @@
   font-weight: 600;
   color: var(--text);
 }
+
+.noteBtn {
+  background: transparent;
+  border: none;
+  font-size: 13px;
+  padding: 2px 4px;
+  opacity: 0.25;
+  cursor: pointer;
+  margin-left: 2px;
+  transition: opacity 0.15s;
+}
+.noteBtn:hover { opacity: 1; background: transparent; }
+.noteBtn.noteBtnActive { opacity: 0.85; }
+.noteBtn.noteBtnActive:hover { opacity: 1; }

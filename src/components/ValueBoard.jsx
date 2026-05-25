@@ -16,7 +16,7 @@ function getYearData(history, year) {
   return history?.find(h => h.year === year) ?? null
 }
 
-export function ValueBoard({ db, costs, team, bonusPick, onSelectPlayer, onAddToTeam, onAddBonus, notes }) {
+export function ValueBoard({ db, costs, team, bonusPick, onSelectPlayer, onAddToTeam, onAddBonus, onViewNote, notes }) {
   const [sortBy, setSortBy]               = useState('est_ppd')
   const [filterBonus, setFilterBonus]     = useState(false)
   const [filterHasCost, setFilterHasCost] = useState(false)
@@ -49,7 +49,7 @@ export function ValueBoard({ db, costs, team, bonusPick, onSelectPlayer, onAddTo
       .filter(r => {
         if (filterBonus && !r.isBonus) return false
         if (filterHasCost && !r.cost2026) return false
-        if (filterExclude1 && r.cost2026 === 1) return false
+        if (filterExclude1 && r.yCost === 1) return false
         if (!showInTeam && r.inTeam) return false
         if (search && !r.name.toLowerCase().includes(search.toLowerCase())) return false
         return true
@@ -205,6 +205,11 @@ export function ValueBoard({ db, costs, team, bonusPick, onSelectPlayer, onAddTo
                       {r.isBonus && <button className={styles.bonusBtn} onClick={() => onAddBonus({ name: r.name, slug: r.slug, rank: r.rank, allTimeScore: r.allTimeScore, history: r.history })} title="Bonus pick">★</button>}
                     </div>
                   )}
+                  <button
+                    className={`${styles.noteBtn} ${r.hasNote ? styles.noteBtnActive : ''}`}
+                    onClick={() => onViewNote({ name: r.name, slug: r.slug, rank: r.rank, allTimeScore: r.allTimeScore })}
+                    title={r.hasNote ? 'View scouting note' : 'Add scouting note'}
+                  >📌</button>
                 </td>
               </tr>
             ))}

@@ -191,6 +191,7 @@ export default function App() {
               onSelectPlayer={p => handleSelectPlayer(p)}
               onAddToTeam={handleAddToTeam}
               onAddBonus={handleAddBonus}
+              onViewNote={p => handleSelectTabSocial('social', p)}
             />
           )}
 
