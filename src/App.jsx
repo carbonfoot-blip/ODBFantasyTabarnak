@@ -51,7 +51,7 @@ export default function App() {
     fetchNotes(gistId, ghToken)
       .then(remote => { if (Object.keys(remote).length) setNotes(remote) })
       .catch(() => {})
-  }, [storageId])
+  }, [gistId, ghToken])
 
   function toast(message) {
     const id = Date.now()
@@ -213,8 +213,9 @@ export default function App() {
               db={db}
               notes={notes}
               onNotesChange={handleNotesChange}
-              storageId={storageId}
-              onSetBlobId={handleSetStorageId}
+              gistId={gistId}
+              token={ghToken}
+              onSetCredentials={handleSetGistCredentials}
             />
           )}
 
