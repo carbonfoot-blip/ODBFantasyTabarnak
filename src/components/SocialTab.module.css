@@ -327,3 +327,43 @@
   color: var(--green);
   border-color: rgba(74,222,128,0.3);
 }
+
+.setupStepBox {
+  display: flex;
+  gap: 12px;
+  background: var(--bg3);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+}
+
+.stepNum {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #0f0f0f;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.stepContent { display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.stepTitle { font-size: 13px; font-weight: 600; color: var(--text); }
+.stepLink { font-size: 12px; color: var(--accent); }
+.stepHint { font-size: 11px; color: var(--text3); line-height: 1.5; }
+
+.tokenRow { display: flex; gap: 6px; }
+.tokenInput { flex: 1; font-family: monospace; font-size: 12px; padding: 7px 10px; }
+.showBtn { font-size: 12px; padding: 5px 10px; flex-shrink: 0; }
+
+.setupActions { display: flex; flex-direction: column; gap: 8px; }
+.setupOr { font-size: 11px; color: var(--text3); }
+.existingRow { display: flex; gap: 6px; }
+.gistInput { flex: 1; font-family: monospace; font-size: 12px; padding: 7px 10px; }
+
+.connected { font-size: 11px; color: var(--green); display: flex; align-items: center; gap: 4px; }
+.gistCode { font-family: monospace; font-size: 11px; background: var(--bg3); padding: 1px 5px; border-radius: 3px; }

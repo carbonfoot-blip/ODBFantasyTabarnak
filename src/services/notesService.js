@@ -1,47 +1,73 @@
 /**
- * Shared scouting notes via jsonstorage.net
- * Free, no account needed, CORS-enabled, data persists permanently.
- *
- * Setup (one time — 10 seconds):
- *  Just click "Create storage" in the app — it auto-generates an ID.
- *  Share that ID with your partner. Done.
+ * Shared scouting notes via GitHub Gist
+ * 
+ * You already have a GitHub account — no new signup needed!
+ * 
+ * Setup (one time):
+ *  1. Go to: https://github.com/settings/tokens/new
+ *  2. Note name: "ODB Fantasy Notes"
+ *  3. Expiration: "No expiration"
+ *  4. Scopes: check only "gist"
+ *  5. Click "Generate token" → copy it
+ *  6. Paste the token in the app — it auto-creates the Gist for you
+ * 
+ * Share the Gist ID (shown in the app) with your partner.
+ * Your partner needs their OWN token (same steps) to save notes,
+ * OR you can share your token with them directly (simpler for draft night).
  */
 
-const BASE = 'https://api.jsonstorage.net/v1/json'
+const GITHUB_API = 'https://api.github.com'
 
-// Free tier API key (public, rate-limited but sufficient for personal use)
-const API_KEY = 'free'
-
-export async function createStorage() {
-  const resp = await fetch(`${BASE}?apiKey=${API_KEY}`, {
+export async function createGist(token) {
+  const resp = await fetch(`${GITHUB_API}/gists`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ _created: new Date().toISOString() }),
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json',
+      'X-GitHub-Api-Version': '2022-11-28',
+    },
+    body: JSON.stringify({
+      description: 'ODB Fantasy 2026 — Scouting Notes',
+      public: false,
+      files: {
+        'odb-notes.json': { content: JSON.stringify({}) }
+      }
+    })
   })
-  if (!resp.ok) throw new Error(`Create failed: ${resp.status} ${await resp.text()}`)
+  if (!resp.ok) throw new Error(`GitHub error: ${resp.status} — check your token has "gist" scope`)
   const data = await resp.json()
-  // Returns { uri: "https://api.jsonstorage.net/v1/json/xxx/yyy" }
-  // Extract the ID from the uri
-  const parts = data.uri?.split('/') || []
-  const id = parts.slice(-2).join('/')  // "userId/blobId"
-  if (!id) throw new Error('No ID returned')
-  return id
+  return data.id
 }
 
-export async function fetchNotes(storageId) {
-  if (!storageId) return {}
-  const resp = await fetch(`${BASE}/${storageId}?apiKey=${API_KEY}`)
+export async function fetchNotes(gistId, token) {
+  if (!gistId) return {}
+  const headers = token
+    ? { 'Authorization': `Bearer ${token}`, 'X-GitHub-Api-Version': '2022-11-28' }
+    : { 'X-GitHub-Api-Version': '2022-11-28' }
+  const resp = await fetch(`${GITHUB_API}/gists/${gistId}`, { headers })
   if (resp.status === 404) return {}
   if (!resp.ok) throw new Error(`Fetch failed: ${resp.status}`)
-  return await resp.json()
+  const data = await resp.json()
+  const content = data.files?.['odb-notes.json']?.content
+  if (!content) return {}
+  return JSON.parse(content)
 }
 
-export async function saveNotes(storageId, notes) {
-  if (!storageId) throw new Error('Missing storage ID')
-  const resp = await fetch(`${BASE}/${storageId}?apiKey=${API_KEY}`, {
-    method: 'PUT',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(notes),
+export async function saveNotes(gistId, token, notes) {
+  if (!gistId) throw new Error('Missing Gist ID')
+  if (!token)  throw new Error('Missing GitHub token')
+  const resp = await fetch(`${GITHUB_API}/gists/${gistId}`, {
+    method: 'PATCH',
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json',
+      'X-GitHub-Api-Version': '2022-11-28',
+    },
+    body: JSON.stringify({
+      files: {
+        'odb-notes.json': { content: JSON.stringify(notes) }
+      }
+    })
   })
   if (!resp.ok) throw new Error(`Save failed: ${resp.status}`)
   return true

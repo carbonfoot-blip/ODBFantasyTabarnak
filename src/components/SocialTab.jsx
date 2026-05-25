@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from 'react'
 import { BONUS_SLUGS } from '../data/players'
 import { PlayerSearch } from './PlayerSearch'
-import { fetchNotes, saveNotes, createStorage } from '../services/notesService'
+import { fetchNotes, saveNotes, createGist } from '../services/notesService'
 import styles from './SocialTab.module.css'
 
-export function SocialTab({ db, notes, onNotesChange, storageId, onSetStorageId }) {
+export function SocialTab({ db, notes, onNotesChange, gistId, token, onSetCredentials }) {
   const [currentPlayer, setCurrentPlayer] = useState(null)
   const [draft, setDraft]                 = useState('')
   const [saving, setSaving]               = useState(false)
@@ -12,8 +12,10 @@ export function SocialTab({ db, notes, onNotesChange, storageId, onSetStorageId 
   const [creating, setCreating]           = useState(false)
   const [lastSync, setLastSync]           = useState(null)
   const [error, setError]                 = useState(null)
-  const [showSetup, setShowSetup]         = useState(!storageId)
-  const [setupStorageId, setSetupStorageId]     = useState(storageId || '')
+  const [showSetup, setShowSetup]         = useState(!gistId || !token)
+  const [setupToken, setSetupToken]       = useState(token || '')
+  const [setupGistId, setSetupGistId]     = useState(gistId || '')
+  const [showToken, setShowToken]         = useState(false)
   const autoSaveRef = useRef(null)
 
   useEffect(() => {
@@ -21,7 +23,6 @@ export function SocialTab({ db, notes, onNotesChange, storageId, onSetStorageId 
     setDraft(notes[currentPlayer.slug]?.text || '')
   }, [currentPlayer?.slug])
 
-  // Auto-save 2s after typing stops
   useEffect(() => {
     if (!currentPlayer) return
     clearTimeout(autoSaveRef.current)
@@ -30,8 +31,7 @@ export function SocialTab({ db, notes, onNotesChange, storageId, onSetStorageId 
   }, [draft])
 
   function handleSelectPlayer(base) {
-    const dbData = db[base.slug] || {}
-    setCurrentPlayer({ ...base, ...dbData })
+    setCurrentPlayer({ ...base, ...(db[base.slug] || {}) })
   }
 
   async function handleSave(text) {
@@ -47,53 +47,41 @@ export function SocialTab({ db, notes, onNotesChange, storageId, onSetStorageId 
       delete updated[currentPlayer.slug]
     }
     onNotesChange(updated)
-
-    if (storageId) {
-      setSaving(true)
-      setError(null)
-      try {
-        await saveNotes(storageId, updated)
-      } catch (e) {
-        setError(`Save failed: ${e.message}`)
-      } finally {
-        setSaving(false)
-      }
+    if (gistId && token) {
+      setSaving(true); setError(null)
+      try { await saveNotes(gistId, token, updated) }
+      catch (e) { setError(`Save failed: ${e.message}`) }
+      finally { setSaving(false) }
     }
   }
 
   async function handleSync() {
-    if (!storageId) { setShowSetup(true); return }
-    setSyncing(true)
-    setError(null)
+    if (!gistId) { setShowSetup(true); return }
+    setSyncing(true); setError(null)
     try {
-      const remote = await fetchNotes(storageId)
+      const remote = await fetchNotes(gistId, token)
       onNotesChange(remote)
       setLastSync(new Date())
       if (currentPlayer) setDraft(remote[currentPlayer.slug]?.text || '')
-    } catch (e) {
-      setError(`Sync failed: ${e.message}`)
-    } finally {
-      setSyncing(false)
-    }
+    } catch (e) { setError(`Sync failed: ${e.message}`) }
+    finally { setSyncing(false) }
   }
 
-  async function handleCreateStorage() {
-    setCreating(true)
-    setError(null)
+  async function handleCreate() {
+    if (!setupToken) { setError('Enter your GitHub token first'); return }
+    setCreating(true); setError(null)
     try {
-      const id = await createStorage()
-      setSetupStorageId(id)
-      onSetStorageId(id)
+      const id = await createGist(setupToken)
+      onSetCredentials(id, setupToken)
+      setSetupGistId(id)
       setShowSetup(false)
-    } catch (e) {
-      setError(`Could not create storage: ${e.message}`)
-    } finally {
-      setCreating(false)
-    }
+    } catch (e) { setError(e.message) }
+    finally { setCreating(false) }
   }
 
-  function handleSaveCredentials() {
-    onSetStorageId(setupStorageId.trim())
+  function handleSaveExisting() {
+    if (!setupToken || !setupGistId) return
+    onSetCredentials(setupGistId.trim(), setupToken.trim())
     setShowSetup(false)
   }
 
@@ -106,54 +94,82 @@ export function SocialTab({ db, notes, onNotesChange, storageId, onSetStorageId 
   return (
     <div className={styles.wrap}>
 
-      {/* Setup panel */}
       {showSetup && (
         <div className={styles.setupBox}>
-          <div className={styles.setupTitle}>⚙️ Setup shared notes</div>
+          <div className={styles.setupTitle}>⚙️ Setup shared notes via GitHub Gist</div>
           <p className={styles.setupDesc}>
-            Notes are stored on <strong>JSONStorage.com</strong> — free, no account needed.
-            Create a storage once, share the ID with your partner.
+            You already have a GitHub account — just create a token with "gist" access. Takes 1 minute.
           </p>
 
-          <div className={styles.setupOptions}>
-            {/* Option A: create new */}
-            <div className={styles.setupOption}>
-              <div className={styles.setupOptionTitle}>Option A — Create new (first time)</div>
-              <button className="primary" onClick={handleCreateStorage} disabled={creating}>
-                {creating ? '⟳ Creating…' : '✦ Create a new shared storage'}
-              </button>
-              <p className={styles.setupHint}>Automatically generates a storage ID for you and your partner to share.</p>
+          <div className={styles.setupStepBox}>
+            <div className={styles.stepNum}>1</div>
+            <div className={styles.stepContent}>
+              <div className={styles.stepTitle}>Create a GitHub token</div>
+              <a
+                href="https://github.com/settings/tokens/new?description=ODB+Fantasy+Notes&scopes=gist"
+                target="_blank" rel="noreferrer"
+                className={styles.stepLink}
+              >
+                → Click here to open GitHub token page ↗
+              </a>
+              <div className={styles.stepHint}>Set expiration to "No expiration", check only <strong>gist</strong> scope, click Generate.</div>
             </div>
+          </div>
 
-            <div className={styles.setupOr}>— or —</div>
-
-            {/* Option B: enter existing ID */}
-            <div className={styles.setupOption}>
-              <div className={styles.setupOptionTitle}>Option B — Enter existing Storage ID</div>
-              <div className={styles.setupRow}>
+          <div className={styles.setupStepBox}>
+            <div className={styles.stepNum}>2</div>
+            <div className={styles.stepContent}>
+              <div className={styles.stepTitle}>Paste your token</div>
+              <div className={styles.tokenRow}>
                 <input
-                  type="text"
-                  placeholder="e.g. 1234567890123456789"
-                  value={setupStorageId}
-                  onChange={e => setSetupStorageId(e.target.value)}
-                  className={styles.setupInput}
+                  type={showToken ? 'text' : 'password'}
+                  placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
+                  value={setupToken}
+                  onChange={e => setSetupToken(e.target.value)}
+                  className={styles.tokenInput}
                 />
-                <button onClick={handleSaveCredentials} disabled={!setupStorageId}>Use this ID</button>
+                <button className={styles.showBtn} onClick={() => setShowToken(s => !s)}>
+                  {showToken ? 'Hide' : 'Show'}
+                </button>
               </div>
-              <p className={styles.setupHint}>Your partner already created a storage? Enter their ID here.</p>
+            </div>
+          </div>
+
+          <div className={styles.setupStepBox}>
+            <div className={styles.stepNum}>3</div>
+            <div className={styles.stepContent}>
+              <div className={styles.stepTitle}>Create the shared Gist</div>
+              <div className={styles.setupActions}>
+                <button className="primary" onClick={handleCreate} disabled={creating || !setupToken}>
+                  {creating ? '⟳ Creating…' : '✦ Create shared Gist'}
+                </button>
+                <span className={styles.setupOr}>— or, if partner already created one —</span>
+                <div className={styles.existingRow}>
+                  <input
+                    type="text"
+                    placeholder="Gist ID (e.g. a1b2c3d4e5f6...)"
+                    value={setupGistId}
+                    onChange={e => setSetupGistId(e.target.value)}
+                    className={styles.gistInput}
+                  />
+                  <button onClick={handleSaveExisting} disabled={!setupGistId || !setupToken}>
+                    Use this Gist
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       )}
 
-      {/* Header bar */}
+      {/* Header */}
       <div className={styles.headerBar}>
         <div className={styles.headerLeft}>
           <span className={styles.headerTitle}>📌 Scouting Notes</span>
           <span className={styles.headerSub}>
-            {storageId
-              ? <span className={styles.storageId}>☁ Storage: <code>{storageId}</code></span>
-              : <span className={styles.noStorage}>⚠ Local only — set up sharing above</span>}
+            {gistId
+              ? <span className={styles.connected}>☁ GitHub Gist connected · <code className={styles.gistCode}>{gistId.substring(0, 12)}…</code></span>
+              : <span className={styles.noBlob}>⚠ Not configured — set up sharing above</span>}
           </span>
         </div>
         <div className={styles.headerRight}>
@@ -165,18 +181,18 @@ export function SocialTab({ db, notes, onNotesChange, storageId, onSetStorageId 
         </div>
       </div>
 
-      {/* Storage ID share reminder */}
-      {storageId && !showSetup && (
+      {/* Gist ID share banner */}
+      {gistId && !showSetup && (
         <div className={styles.shareReminder}>
-          📋 Share this Storage ID with your partner: <code className={styles.storageCode}>{storageId}</code>
-          <button className={styles.copyBtn} onClick={() => { navigator.clipboard.writeText(storageId); }}>Copy</button>
+          📋 Share this Gist ID with your partner (they need their own GitHub token):
+          <code className={styles.blobCode}>{gistId}</code>
+          <button className={styles.copyBtn} onClick={() => navigator.clipboard.writeText(gistId)}>Copy</button>
         </div>
       )}
 
       {error && <div className={styles.error}>{error}</div>}
 
       <div className={styles.layout}>
-        {/* Left: editor */}
         <div className={styles.editorCol}>
           <PlayerSearch onSelect={handleSelectPlayer} />
 
@@ -189,29 +205,23 @@ export function SocialTab({ db, notes, onNotesChange, storageId, onSetStorageId 
                   {BONUS_SLUGS.has(currentPlayer.slug) && <span className="tag bonus" style={{ marginLeft: 8 }}>Bonus eligible</span>}
                 </div>
               </div>
-
               <textarea
                 className={styles.textarea}
-                placeholder={`Scouting notes for ${currentPlayer.name}…\n\nEx.:\n- Posted on X that he's skipping first 2 weeks of WSOP\n- PokerNews article: playing full schedule this year\n- Won a bracelet last week — in peak form`}
+                placeholder={`Scouting notes for ${currentPlayer.name}…\n\nEx.:\n- Tweeted il skip les 2 premières semaines du WSOP\n- PokerNews: playing full schedule this year\n- Won a bracelet last week — peak form`}
                 value={draft}
                 onChange={e => setDraft(e.target.value)}
                 rows={10}
               />
-
               <div className={styles.editorFooter}>
                 <span className={styles.autoSaveNote}>
                   {saving ? '💾 Saving…' : isSaved ? '✓ Saved' : '✏ Unsaved…'}
                 </span>
-                <button
-                  className="primary"
-                  style={{ fontSize: 12, padding: '6px 14px' }}
+                <button className="primary" style={{ fontSize: 12, padding: '6px 14px' }}
                   onClick={() => { clearTimeout(autoSaveRef.current); handleSave(draft) }}
-                  disabled={saving}
-                >
+                  disabled={saving}>
                   Save note
                 </button>
               </div>
-
               {notes[currentPlayer.slug]?.updatedAt && (
                 <div className={styles.lastUpdated}>
                   Last updated: {new Date(notes[currentPlayer.slug].updatedAt).toLocaleString()}
@@ -221,22 +231,20 @@ export function SocialTab({ db, notes, onNotesChange, storageId, onSetStorageId 
           ) : (
             <div className={styles.emptyEditor}>
               <div className={styles.emptyIcon}>📌</div>
-              <p>Search for a player above to add scouting notes</p>
-              <p className={styles.emptyHint}>Notes sync in real time with your partner via JSONStorage</p>
+              <p>Search a player to add scouting notes</p>
+              <p className={styles.emptyHint}>Notes are shared with your partner via GitHub Gist</p>
             </div>
           )}
         </div>
 
-        {/* Right: notes feed */}
         <div className={styles.feedCol}>
           <div className={styles.feedTitle}>All notes ({playerNotes.length})</div>
           {playerNotes.length === 0 ? (
-            <div className={styles.feedEmpty}>No notes yet — add your first one!</div>
+            <div className={styles.feedEmpty}>No notes yet!</div>
           ) : (
             <div className={styles.feed}>
               {playerNotes.map(([slug, note]) => (
-                <div
-                  key={slug}
+                <div key={slug}
                   className={`${styles.feedItem} ${currentPlayer?.slug === slug ? styles.feedItemActive : ''}`}
                   onClick={() => handleSelectPlayer({ name: note.playerName, slug, rank: db[slug]?.rank || 999, allTimeScore: db[slug]?.allTimeScore || 0 })}
                 >
