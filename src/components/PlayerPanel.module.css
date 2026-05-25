@@ -214,3 +214,58 @@
   border-top: 1px solid var(--border);
   line-height: 1.5;
 }
+
+/* Scouting note section */
+.noteSection {
+  background: var(--bg3);
+  border: 1px solid rgba(232,200,74,0.2);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.noteSectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.noteLabel {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.noteEditBtn {
+  font-size: 11px;
+  padding: 3px 8px;
+  color: var(--accent);
+  border: 1px solid rgba(232,200,74,0.3);
+  border-radius: var(--radius);
+  background: transparent;
+  cursor: pointer;
+}
+.noteEditBtn:hover { background: rgba(232,200,74,0.08); }
+
+.noteText {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.noteEmpty {
+  font-size: 12px;
+  color: var(--text3);
+  font-style: italic;
+}
+
+.noteTime {
+  font-size: 10px;
+  color: var(--text3);
+}

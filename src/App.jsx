@@ -7,6 +7,7 @@ import { ComparePanel }  from './components/ComparePanel'
 import { CostEditor }    from './components/CostEditor'
 import { SocialTab }     from './components/SocialTab'
 import { DbEditor }      from './components/DbEditor'
+import { NoteModal }    from './components/NoteModal'
 import { ToastContainer } from './components/Toast'
 import { useLocalStorage } from './hooks/useLocalStorage'
 import { fetchNotes } from './services/notesService'
@@ -37,6 +38,7 @@ export default function App() {
   const [currentPlayer, setCurrentPlayer] = useState(null)
   const [activeTab, setActiveTab] = useState('search')
   const [toasts, setToasts]       = useState([])
+  const [noteModal, setNoteModal] = useState(null) // player object or null
 
   useEffect(() => {
     fetch('./players-db.json')
@@ -168,6 +170,8 @@ export default function App() {
                   onSaveCost={handleSaveCost}
                   onAddToTeam={handleAddToTeam}
                   onAddBonus={handleAddBonus}
+                  note={notes[currentPlayer.slug] ?? null}
+                  onEditNote={() => setNoteModal(currentPlayer)}
                 />
               ) : (
                 <div className={styles.emptyPanel}>
@@ -191,7 +195,7 @@ export default function App() {
               onSelectPlayer={p => handleSelectPlayer(p)}
               onAddToTeam={handleAddToTeam}
               onAddBonus={handleAddBonus}
-              onViewNote={p => handleSelectTabSocial('social', p)}
+              onViewNote={p => setNoteModal({ ...p, ...(db[p.slug] || {}) })}
             />
           )}
 
@@ -234,6 +238,17 @@ export default function App() {
           onSelectPlayer={p => handleSelectPlayer(p)}
         />
       </main>
+
+      {noteModal && (
+        <NoteModal
+          player={noteModal}
+          notes={notes}
+          onNotesChange={handleNotesChange}
+          gistId={gistId}
+          token={ghToken}
+          onClose={() => setNoteModal(null)}
+        />
+      )}
 
       <ToastContainer toasts={toasts} onRemove={removeToast} />
     </div>

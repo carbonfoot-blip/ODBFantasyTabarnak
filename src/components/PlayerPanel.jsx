@@ -5,7 +5,7 @@ import styles from './PlayerPanel.module.css'
 
 const TABS = ['History', 'By Game Type', 'By Buy-In']
 
-export function PlayerPanel({ player, savedCost, onSaveCost, onAddToTeam, onAddBonus }) {
+export function PlayerPanel({ player, savedCost, onSaveCost, onAddToTeam, onAddBonus, note, onEditNote }) {
   const [tab, setTab]   = useState('History')
   const [cost, setCost] = useState(savedCost ?? player.cost ?? '')
 
@@ -102,6 +102,24 @@ export function PlayerPanel({ player, savedCost, onSaveCost, onAddToTeam, onAddB
           !player.buyIn
             ? <div className={styles.empty}>No buy-in data available.</div>
             : <SimpleTable rows={player.buyIn} cols={['level','pts','cashes']} headers={['Buy-in level','Total pts','Cashes']} />
+        )}
+      </div>
+
+      {/* Scouting note */}
+      <div className={styles.noteSection}>
+        <div className={styles.noteSectionHeader}>
+          <span className={styles.noteLabel}>📌 Scouting note</span>
+          <button className={styles.noteEditBtn} onClick={onEditNote}>
+            {note ? 'Edit note' : '+ Add note'}
+          </button>
+        </div>
+        {note ? (
+          <div className={styles.noteText}>{note.text}</div>
+        ) : (
+          <div className={styles.noteEmpty}>No scouting note yet — click "Add note" to add one.</div>
+        )}
+        {note?.updatedAt && (
+          <div className={styles.noteTime}>Updated {new Date(note.updatedAt).toLocaleString()}</div>
         )}
       </div>
 

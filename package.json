@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist",
     "scrape": "node scripts/scrape.mjs",
-    "fix": "node scripts/fix-player.mjs"
+    "fix": "node scripts/fix-player.mjs",
+    "update-costs": "node scripts/update-costs-2026.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
