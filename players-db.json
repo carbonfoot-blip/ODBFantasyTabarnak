@@ -32328,7 +32328,7 @@
         "cashes": 16
       }
     ],
-    "scrapedAt": "2026-05-25T21:48:09.506Z",
+    "scrapedAt": "2026-05-25T23:22:47.927Z",
     "fixedSlug": "andrew-kelsall"
   },
   "joao-simao-peres": {
@@ -32413,7 +32413,7 @@
         "cashes": 10
       }
     ],
-    "scrapedAt": "2026-05-25T21:48:15.416Z",
+    "scrapedAt": "2026-05-25T23:22:50.544Z",
     "fixedSlug": "joao-simao"
   },
   "nikolay-evdakov": {
@@ -33585,5 +33585,836 @@
       }
     ],
     "scrapedAt": "2026-05-25T21:50:43.113Z"
+  },
+  "dan-zack": {
+    "name": "Dan Zack",
+    "slug": "dan-zack",
+    "rank": 999,
+    "allTimeScore": 998,
+    "allTimeRank": 31,
+    "timesDrafted": 9,
+    "totalCashes": 88,
+    "avgSalary": 47.78,
+    "highestSalary": 109,
+    "highestSalaryYear": 2023,
+    "lowestSalary": 13,
+    "lowestSalaryYear": 2025,
+    "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Mixed Games",
+        "pts": 253,
+        "cashes": 15
+      },
+      {
+        "type": "Hold Em",
+        "pts": 247,
+        "cashes": 45
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 188,
+        "cashes": 20
+      },
+      {
+        "type": "Omaha 8",
+        "pts": 138,
+        "cashes": 6
+      },
+      {
+        "type": "Draw",
+        "pts": 113,
+        "cashes": 7
+      },
+      {
+        "type": "Stud 8",
+        "pts": 101,
+        "cashes": 1
+      },
+      {
+        "type": "Razz",
+        "pts": 73,
+        "cashes": 2
+      },
+      {
+        "type": "Stud",
+        "pts": 20,
+        "cashes": 2
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 212,
+        "cashes": 62
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 564,
+        "cashes": 18
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 107,
+        "cashes": 3
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 250,
+        "cashes": 15
+      }
+    ],
+    "history": [
+      {
+        "year": 2016,
+        "pts": 22,
+        "cost": 16,
+        "cashes": 3
+      },
+      {
+        "year": 2017,
+        "pts": 59,
+        "cost": 22,
+        "cashes": 10
+      },
+      {
+        "year": 2018,
+        "pts": 128,
+        "cost": 32,
+        "cashes": 7
+      },
+      {
+        "year": 2019,
+        "pts": 179,
+        "cost": 39,
+        "cashes": 14
+      },
+      {
+        "year": 2021,
+        "pts": 182,
+        "cost": 62,
+        "cashes": 16
+      },
+      {
+        "year": 2022,
+        "pts": 351,
+        "cost": 87,
+        "cashes": 16
+      },
+      {
+        "year": 2023,
+        "pts": 52,
+        "cost": 109,
+        "cashes": 10
+      },
+      {
+        "year": 2024,
+        "pts": 25,
+        "cost": 50,
+        "cashes": 12
+      },
+      {
+        "year": 2025,
+        "pts": 135,
+        "cost": 13,
+        "cashes": 10
+      }
+    ],
+    "scrapedAt": "2026-05-25T23:22:19.498Z",
+    "fixedSlug": "daniel-zack"
+  },
+  "chino-rheem": {
+    "name": "Chino Rheem",
+    "slug": "chino-rheem",
+    "rank": 999,
+    "allTimeScore": 474,
+    "allTimeRank": 88,
+    "timesDrafted": 7,
+    "totalCashes": 39,
+    "avgSalary": 21.29,
+    "highestSalary": 45,
+    "highestSalaryYear": 2025,
+    "lowestSalary": 1,
+    "lowestSalaryYear": 2018,
+    "years": [
+      2014,
+      2016,
+      2018,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 228,
+        "cashes": 27
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 124,
+        "cashes": 7
+      },
+      {
+        "type": "Omaha 8",
+        "pts": 95,
+        "cashes": 4
+      },
+      {
+        "type": "Stud",
+        "pts": 91,
+        "cashes": 1
+      },
+      {
+        "type": "Stud 8",
+        "pts": 61,
+        "cashes": 1
+      },
+      {
+        "type": "Draw",
+        "pts": 33,
+        "cashes": 5
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 23,
+        "cashes": 4
+      },
+      {
+        "type": "Short Deck",
+        "pts": 11,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 254,
+        "cashes": 24
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 355,
+        "cashes": 10
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 6,
+        "cashes": 3
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 51,
+        "cashes": 13
+      }
+    ],
+    "history": [
+      {
+        "year": 2014,
+        "pts": 73,
+        "cost": 4,
+        "cashes": 3
+      },
+      {
+        "year": 2016,
+        "pts": 23,
+        "cost": 2,
+        "cashes": 4
+      },
+      {
+        "year": 2018,
+        "pts": 5,
+        "cost": 1,
+        "cashes": 3
+      },
+      {
+        "year": 2022,
+        "pts": 168,
+        "cost": 29,
+        "cashes": 9
+      },
+      {
+        "year": 2023,
+        "pts": 131,
+        "cost": 28,
+        "cashes": 11
+      },
+      {
+        "year": 2024,
+        "pts": 74,
+        "cost": 40,
+        "cashes": 9
+      },
+      {
+        "year": 2025,
+        "pts": 192,
+        "cost": 45,
+        "cashes": 11
+      }
+    ],
+    "scrapedAt": "2026-05-25T23:22:23.473Z",
+    "fixedSlug": "david-rheem"
+  },
+  "kristen-foxen": {
+    "name": "Kristen Foxen",
+    "slug": "kristen-foxen",
+    "rank": 999,
+    "allTimeScore": 431,
+    "allTimeRank": 96,
+    "timesDrafted": 7,
+    "totalCashes": 43,
+    "avgSalary": 8.43,
+    "highestSalary": 31,
+    "highestSalaryYear": 2025,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2017,
+    "years": [
+      2017,
+      2018,
+      2019,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 416,
+        "cashes": 48
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 35,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 106,
+        "cashes": 19
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 223,
+        "cashes": 7
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 51,
+        "cashes": 6
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 71,
+        "cashes": 17
+      }
+    ],
+    "history": [
+      {
+        "year": 2017,
+        "pts": 7,
+        "cost": 737,
+        "cashes": 1
+      },
+      {
+        "year": 2018,
+        "pts": 7,
+        "cost": 631,
+        "cashes": 1
+      },
+      {
+        "year": 2019,
+        "pts": 10,
+        "cost": 7,
+        "cashes": 46
+      },
+      {
+        "year": 2022,
+        "pts": 2,
+        "cost": 8,
+        "cashes": 2629
+      },
+      {
+        "year": 2023,
+        "pts": 73,
+        "cost": 17,
+        "cashes": 7
+      },
+      {
+        "year": 2024,
+        "pts": 215,
+        "cost": 11,
+        "cashes": 10
+      },
+      {
+        "year": 2025,
+        "pts": 20,
+        "cost": 31,
+        "cashes": 6
+      }
+    ],
+    "scrapedAt": "2026-05-25T23:22:27.457Z",
+    "fixedSlug": "kristen-bicknell"
+  },
+  "daniel-shak": {
+    "name": "Daniel Shak",
+    "slug": "daniel-shak",
+    "rank": 999,
+    "allTimeScore": 344,
+    "allTimeRank": 112,
+    "timesDrafted": 5,
+    "totalCashes": 29,
+    "avgSalary": 7.6,
+    "highestSalary": 18,
+    "highestSalaryYear": 2012,
+    "lowestSalary": 1,
+    "lowestSalaryYear": 2023,
+    "years": [
+      2012,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 186,
+        "cashes": 18
+      },
+      {
+        "type": "Stud",
+        "pts": 91,
+        "cashes": 1
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 52,
+        "cashes": 6
+      },
+      {
+        "type": "Draw",
+        "pts": 15,
+        "cashes": 3
+      },
+      {
+        "type": "Omaha 8",
+        "pts": 6,
+        "cashes": 4
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 2,
+        "cashes": 2
+      },
+      {
+        "type": "Stud 8",
+        "pts": 1,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 175,
+        "cashes": 14
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 145,
+        "cashes": 10
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 14,
+        "cashes": 3
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 19,
+        "cashes": 8
+      }
+    ],
+    "history": [
+      {
+        "year": 2012,
+        "pts": 5,
+        "cost": 18,
+        "cashes": 4
+      },
+      {
+        "year": 2022,
+        "pts": 28,
+        "cost": 5,
+        "cashes": 6
+      },
+      {
+        "year": 2023,
+        "pts": 228,
+        "cost": 1,
+        "cashes": 9
+      },
+      {
+        "year": 2024,
+        "pts": 83,
+        "cost": 4,
+        "cashes": 10
+      },
+      {
+        "year": 2025,
+        "pts": 9,
+        "cost": 10,
+        "cashes": 6
+      }
+    ],
+    "scrapedAt": "2026-05-25T23:22:30.814Z",
+    "fixedSlug": "dan-shak"
+  },
+  "michael-holtz": {
+    "name": "Michael Holtz",
+    "slug": "michael-holtz",
+    "rank": 999,
+    "allTimeScore": 288,
+    "allTimeRank": 131,
+    "timesDrafted": 3,
+    "totalCashes": 40,
+    "avgSalary": 0.33,
+    "highestSalary": 1,
+    "highestSalaryYear": 2025,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2024,
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 227,
+        "cashes": 42
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 37,
+        "cashes": 1
+      },
+      {
+        "type": "Omaha 8",
+        "pts": 18,
+        "cashes": 2
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 16,
+        "cashes": 4
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 260,
+        "cashes": 40
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 38,
+        "cashes": 9
+      }
+    ],
+    "history": [
+      {
+        "year": 2023,
+        "pts": 1962,
+        "cost": 1,
+        "cashes": 83
+      },
+      {
+        "year": 2024,
+        "pts": 36,
+        "cost": 22,
+        "cashes": 231
+      },
+      {
+        "year": 2025,
+        "pts": 10,
+        "cost": 1,
+        "cashes": 9
+      }
+    ],
+    "scrapedAt": "2026-05-25T23:22:35.624Z",
+    "fixedSlug": "mike-holtz"
+  },
+  "joe-cada": {
+    "name": "Joe Cada",
+    "slug": "joe-cada",
+    "rank": 999,
+    "allTimeScore": 256,
+    "allTimeRank": 144,
+    "timesDrafted": 5,
+    "totalCashes": 35,
+    "avgSalary": 1,
+    "highestSalary": 2,
+    "highestSalaryYear": 2023,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2019,
+    "years": [
+      2019,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 306,
+        "cashes": 40
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 3,
+        "cashes": 3
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 2,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 171,
+        "cashes": 30
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 49,
+        "cashes": 2
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 2,
+        "cashes": 1
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 89,
+        "cashes": 11
+      }
+    ],
+    "history": [
+      {
+        "year": 2019,
+        "pts": 8,
+        "cost": 920,
+        "cashes": 1
+      },
+      {
+        "year": 2022,
+        "pts": 55,
+        "cost": 1,
+        "cashes": 10
+      },
+      {
+        "year": 2023,
+        "pts": 111,
+        "cost": 2,
+        "cashes": 7
+      },
+      {
+        "year": 2024,
+        "pts": 4,
+        "cost": 1,
+        "cashes": 10
+      },
+      {
+        "year": 2025,
+        "pts": 55,
+        "cost": 1,
+        "cashes": 9
+      }
+    ],
+    "scrapedAt": "2026-05-25T23:22:38.963Z",
+    "fixedSlug": "joseph-cada"
+  },
+  "matt-wantman": {
+    "name": "Matt Wantman",
+    "slug": "matt-wantman",
+    "rank": 999,
+    "allTimeScore": 156,
+    "allTimeRank": 208,
+    "timesDrafted": 4,
+    "totalCashes": 38,
+    "avgSalary": 13.25,
+    "highestSalary": 30,
+    "highestSalaryYear": 2024,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2021,
+    "years": [
+      2021,
+      2023,
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 216,
+        "cashes": 29
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 31,
+        "cashes": 11
+      },
+      {
+        "type": "Draw",
+        "pts": 10,
+        "cashes": 1
+      },
+      {
+        "type": "Mixed Games",
+        "pts": 7,
+        "cashes": 5
+      },
+      {
+        "type": "Omaha 8",
+        "pts": 1,
+        "cashes": 1
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 33,
+        "cashes": 32
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 105,
+        "cashes": 2
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 59,
+        "cashes": 5
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 68,
+        "cashes": 8
+      }
+    ],
+    "history": [
+      {
+        "year": 2021,
+        "pts": 8,
+        "cost": 191,
+        "cashes": 1
+      },
+      {
+        "year": 2023,
+        "pts": 128,
+        "cost": 2,
+        "cashes": 14
+      },
+      {
+        "year": 2024,
+        "pts": 8,
+        "cost": 30,
+        "cashes": 16
+      },
+      {
+        "year": 2025,
+        "pts": 109,
+        "cost": 21,
+        "cashes": 9
+      }
+    ],
+    "scrapedAt": "2026-05-25T23:22:41.936Z",
+    "fixedSlug": "matthew-wantman"
+  },
+  "daniel-sepiol": {
+    "name": "Daniel Sepiol",
+    "slug": "daniel-sepiol",
+    "rank": 999,
+    "allTimeScore": 79,
+    "allTimeRank": 287,
+    "timesDrafted": 2,
+    "totalCashes": 20,
+    "avgSalary": 6,
+    "highestSalary": 12,
+    "highestSalaryYear": 2025,
+    "lowestSalary": 0,
+    "lowestSalaryYear": 2024,
+    "years": [
+      2024,
+      2025
+    ],
+    "gameType": [
+      {
+        "type": "Hold Em",
+        "pts": 150,
+        "cashes": 22
+      },
+      {
+        "type": "Pot Limit Omaha",
+        "pts": 4,
+        "cashes": 5
+      }
+    ],
+    "buyIn": [
+      {
+        "level": "Low Stakes (≤ $1,500)",
+        "pts": 74,
+        "cashes": 16
+      },
+      {
+        "level": "High Stakes ($10,000 - $24,999)",
+        "pts": 7,
+        "cashes": 3
+      },
+      {
+        "level": "Nosebleed Stakes ($25,000+)",
+        "pts": 45,
+        "cashes": 2
+      },
+      {
+        "level": "Mid Stakes ($1,501 - $9,999)",
+        "pts": 28,
+        "cashes": 6
+      }
+    ],
+    "history": [
+      {
+        "year": 2024,
+        "pts": 189,
+        "cost": 1,
+        "cashes": 52
+      },
+      {
+        "year": 2025,
+        "pts": 75,
+        "cost": 12,
+        "cashes": 7
+      }
+    ],
+    "scrapedAt": "2026-05-25T23:22:44.207Z",
+    "fixedSlug": "dan-sepiol"
   }
 }
