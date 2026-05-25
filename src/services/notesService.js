@@ -1,49 +1,46 @@
 /**
- * Shared scouting notes via JSONBlob.com
- * 100% free, no account required, data persists permanently.
+ * Shared scouting notes via jsonstorage.net
+ * Free, no account needed, CORS-enabled, data persists permanently.
  *
- * Setup (one time — takes 30 seconds):
- *  1. Open your browser and go to: https://jsonblob.com/api/jsonBlob
- *     with a POST request — OR just click "Create Blob" in the app below.
- *  2. You get back a URL like: https://jsonblob.com/api/jsonBlob/1234567890
- *     The ID is the number at the end (e.g. 1234567890)
- *  3. Share that ID with your partner — no API key needed!
- *
- * Both you and your partner use the SAME Blob ID. That's it.
+ * Setup (one time — 10 seconds):
+ *  Just click "Create storage" in the app — it auto-generates an ID.
+ *  Share that ID with your partner. Done.
  */
 
-const BASE = 'https://jsonblob.com/api/jsonBlob'
+const BASE = 'https://api.jsonstorage.net/v1/json'
 
-export async function createBlob() {
-  const resp = await fetch(BASE, {
+// Free tier API key (public, rate-limited but sufficient for personal use)
+const API_KEY = 'free'
+
+export async function createStorage() {
+  const resp = await fetch(`${BASE}?apiKey=${API_KEY}`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ _created: new Date().toISOString() }),
   })
-  if (!resp.ok) throw new Error(`Create failed: ${resp.status}`)
-  // The blob ID is in the Location header or the URL
-  const location = resp.headers.get('Location') || ''
-  const id = location.split('/').pop()
-  if (!id) throw new Error('Could not extract blob ID from response')
+  if (!resp.ok) throw new Error(`Create failed: ${resp.status} ${await resp.text()}`)
+  const data = await resp.json()
+  // Returns { uri: "https://api.jsonstorage.net/v1/json/xxx/yyy" }
+  // Extract the ID from the uri
+  const parts = data.uri?.split('/') || []
+  const id = parts.slice(-2).join('/')  // "userId/blobId"
+  if (!id) throw new Error('No ID returned')
   return id
 }
 
-export async function fetchNotes(blobId) {
-  if (!blobId) return {}
-  const resp = await fetch(`${BASE}/${blobId}`, {
-    headers: { 'Accept': 'application/json' }
-  })
+export async function fetchNotes(storageId) {
+  if (!storageId) return {}
+  const resp = await fetch(`${BASE}/${storageId}?apiKey=${API_KEY}`)
   if (resp.status === 404) return {}
   if (!resp.ok) throw new Error(`Fetch failed: ${resp.status}`)
-  const data = await resp.json()
-  return data || {}
+  return await resp.json()
 }
 
-export async function saveNotes(blobId, notes) {
-  if (!blobId) throw new Error('Missing Blob ID')
-  const resp = await fetch(`${BASE}/${blobId}`, {
+export async function saveNotes(storageId, notes) {
+  if (!storageId) throw new Error('Missing storage ID')
+  const resp = await fetch(`${BASE}/${storageId}?apiKey=${API_KEY}`, {
     method: 'PUT',
-    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(notes),
   })
   if (!resp.ok) throw new Error(`Save failed: ${resp.status}`)

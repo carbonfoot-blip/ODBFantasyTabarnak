@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from 'react'
 import { BONUS_SLUGS } from '../data/players'
 import { PlayerSearch } from './PlayerSearch'
-import { fetchNotes, saveNotes, createBlob } from '../services/notesService'
+import { fetchNotes, saveNotes, createStorage } from '../services/notesService'
 import styles from './SocialTab.module.css'
 
-export function SocialTab({ db, notes, onNotesChange, blobId, onSetBlobId }) {
+export function SocialTab({ db, notes, onNotesChange, storageId, onSetStorageId }) {
   const [currentPlayer, setCurrentPlayer] = useState(null)
   const [draft, setDraft]                 = useState('')
   const [saving, setSaving]               = useState(false)
@@ -12,8 +12,8 @@ export function SocialTab({ db, notes, onNotesChange, blobId, onSetBlobId }) {
   const [creating, setCreating]           = useState(false)
   const [lastSync, setLastSync]           = useState(null)
   const [error, setError]                 = useState(null)
-  const [showSetup, setShowSetup]         = useState(!blobId)
-  const [setupBlobId, setSetupBlobId]     = useState(blobId || '')
+  const [showSetup, setShowSetup]         = useState(!storageId)
+  const [setupStorageId, setSetupStorageId]     = useState(storageId || '')
   const autoSaveRef = useRef(null)
 
   useEffect(() => {
@@ -48,11 +48,11 @@ export function SocialTab({ db, notes, onNotesChange, blobId, onSetBlobId }) {
     }
     onNotesChange(updated)
 
-    if (blobId) {
+    if (storageId) {
       setSaving(true)
       setError(null)
       try {
-        await saveNotes(blobId, updated)
+        await saveNotes(storageId, updated)
       } catch (e) {
         setError(`Save failed: ${e.message}`)
       } finally {
@@ -62,11 +62,11 @@ export function SocialTab({ db, notes, onNotesChange, blobId, onSetBlobId }) {
   }
 
   async function handleSync() {
-    if (!blobId) { setShowSetup(true); return }
+    if (!storageId) { setShowSetup(true); return }
     setSyncing(true)
     setError(null)
     try {
-      const remote = await fetchNotes(blobId)
+      const remote = await fetchNotes(storageId)
       onNotesChange(remote)
       setLastSync(new Date())
       if (currentPlayer) setDraft(remote[currentPlayer.slug]?.text || '')
@@ -77,23 +77,23 @@ export function SocialTab({ db, notes, onNotesChange, blobId, onSetBlobId }) {
     }
   }
 
-  async function handleCreateBlob() {
+  async function handleCreateStorage() {
     setCreating(true)
     setError(null)
     try {
-      const id = await createBlob()
-      setSetupBlobId(id)
-      onSetBlobId(id)
+      const id = await createStorage()
+      setSetupStorageId(id)
+      onSetStorageId(id)
       setShowSetup(false)
     } catch (e) {
-      setError(`Could not create blob: ${e.message}`)
+      setError(`Could not create storage: ${e.message}`)
     } finally {
       setCreating(false)
     }
   }
 
   function handleSaveCredentials() {
-    onSetBlobId(setupBlobId.trim())
+    onSetStorageId(setupStorageId.trim())
     setShowSetup(false)
   }
 
@@ -111,36 +111,36 @@ export function SocialTab({ db, notes, onNotesChange, blobId, onSetBlobId }) {
         <div className={styles.setupBox}>
           <div className={styles.setupTitle}>⚙️ Setup shared notes</div>
           <p className={styles.setupDesc}>
-            Notes are stored on <strong>JSONBlob.com</strong> — free, no account needed.
-            Create a blob once, share the ID with your partner.
+            Notes are stored on <strong>JSONStorage.com</strong> — free, no account needed.
+            Create a storage once, share the ID with your partner.
           </p>
 
           <div className={styles.setupOptions}>
             {/* Option A: create new */}
             <div className={styles.setupOption}>
               <div className={styles.setupOptionTitle}>Option A — Create new (first time)</div>
-              <button className="primary" onClick={handleCreateBlob} disabled={creating}>
-                {creating ? '⟳ Creating…' : '✦ Create a new shared blob'}
+              <button className="primary" onClick={handleCreateStorage} disabled={creating}>
+                {creating ? '⟳ Creating…' : '✦ Create a new shared storage'}
               </button>
-              <p className={styles.setupHint}>Automatically generates a blob ID for you and your partner to share.</p>
+              <p className={styles.setupHint}>Automatically generates a storage ID for you and your partner to share.</p>
             </div>
 
             <div className={styles.setupOr}>— or —</div>
 
             {/* Option B: enter existing ID */}
             <div className={styles.setupOption}>
-              <div className={styles.setupOptionTitle}>Option B — Enter existing Blob ID</div>
+              <div className={styles.setupOptionTitle}>Option B — Enter existing Storage ID</div>
               <div className={styles.setupRow}>
                 <input
                   type="text"
                   placeholder="e.g. 1234567890123456789"
-                  value={setupBlobId}
-                  onChange={e => setSetupBlobId(e.target.value)}
+                  value={setupStorageId}
+                  onChange={e => setSetupStorageId(e.target.value)}
                   className={styles.setupInput}
                 />
-                <button onClick={handleSaveCredentials} disabled={!setupBlobId}>Use this ID</button>
+                <button onClick={handleSaveCredentials} disabled={!setupStorageId}>Use this ID</button>
               </div>
-              <p className={styles.setupHint}>Your partner already created a blob? Enter their ID here.</p>
+              <p className={styles.setupHint}>Your partner already created a storage? Enter their ID here.</p>
             </div>
           </div>
         </div>
@@ -151,9 +151,9 @@ export function SocialTab({ db, notes, onNotesChange, blobId, onSetBlobId }) {
         <div className={styles.headerLeft}>
           <span className={styles.headerTitle}>📌 Scouting Notes</span>
           <span className={styles.headerSub}>
-            {blobId
-              ? <span className={styles.blobId}>☁ Blob: <code>{blobId}</code></span>
-              : <span className={styles.noBlob}>⚠ Local only — set up sharing above</span>}
+            {storageId
+              ? <span className={styles.storageId}>☁ Storage: <code>{storageId}</code></span>
+              : <span className={styles.noStorage}>⚠ Local only — set up sharing above</span>}
           </span>
         </div>
         <div className={styles.headerRight}>
@@ -165,11 +165,11 @@ export function SocialTab({ db, notes, onNotesChange, blobId, onSetBlobId }) {
         </div>
       </div>
 
-      {/* Blob ID share reminder */}
-      {blobId && !showSetup && (
+      {/* Storage ID share reminder */}
+      {storageId && !showSetup && (
         <div className={styles.shareReminder}>
-          📋 Share this Blob ID with your partner: <code className={styles.blobCode}>{blobId}</code>
-          <button className={styles.copyBtn} onClick={() => { navigator.clipboard.writeText(blobId); }}>Copy</button>
+          📋 Share this Storage ID with your partner: <code className={styles.storageCode}>{storageId}</code>
+          <button className={styles.copyBtn} onClick={() => { navigator.clipboard.writeText(storageId); }}>Copy</button>
         </div>
       )}
 
@@ -222,7 +222,7 @@ export function SocialTab({ db, notes, onNotesChange, blobId, onSetBlobId }) {
             <div className={styles.emptyEditor}>
               <div className={styles.emptyIcon}>📌</div>
               <p>Search for a player above to add scouting notes</p>
-              <p className={styles.emptyHint}>Notes sync in real time with your partner via JSONBlob</p>
+              <p className={styles.emptyHint}>Notes sync in real time with your partner via JSONStorage</p>
             </div>
           )}
         </div>
