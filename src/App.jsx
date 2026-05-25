@@ -28,8 +28,7 @@ export default function App() {
   const [budget, setBudget]       = useLocalStorage('odb_budget_2026', 0)
   const [costs, setCosts]         = useLocalStorage('odb_costs_2026', {})
   const [notes, setNotes]         = useLocalStorage('odb_notes_2026', {})
-  const [binId, setBinId]         = useLocalStorage('odb_jsonbin_id', '')
-  const [apiKey, setApiKey]       = useLocalStorage('odb_jsonbin_key', '')
+  const [blobId, setBlobId]       = useLocalStorage('odb_jsonblob_id', '')
 
   const [db, setDb]               = useState({})
   const [dbLoaded, setDbLoaded]   = useState(false)
@@ -47,11 +46,11 @@ export default function App() {
 
   // Auto-sync notes from JSONBin on load if configured
   useEffect(() => {
-    if (!binId || !apiKey) return
-    fetchNotes(binId, apiKey)
+    if (!blobId) return
+    fetchNotes(blobId)
       .then(remote => { if (Object.keys(remote).length) setNotes(remote) })
       .catch(() => {})
-  }, [binId, apiKey])
+  }, [blobId])
 
   function toast(message) {
     const id = Date.now()
@@ -96,7 +95,7 @@ export default function App() {
   }
 
   function handleNotesChange(updated) { setNotes(updated) }
-  function handleSetCredentials(id, key) { setBinId(id); setApiKey(key) }
+  function handleSetBlobId(id) { setBlobId(id) }
 
   // Navigate to social tab for a specific player (from Compare tab)
   function handleSelectTabSocial(tabId, player) {
@@ -213,9 +212,8 @@ export default function App() {
               db={db}
               notes={notes}
               onNotesChange={handleNotesChange}
-              binId={binId}
-              apiKey={apiKey}
-              onSetCredentials={handleSetCredentials}
+              blobId={blobId}
+              onSetBlobId={handleSetBlobId}
             />
           )}
 

@@ -1,34 +1,31 @@
 import { useState, useEffect, useRef } from 'react'
 import { BONUS_SLUGS } from '../data/players'
 import { PlayerSearch } from './PlayerSearch'
-import { fetchNotes, saveNotes } from '../services/notesService'
+import { fetchNotes, saveNotes, createBlob } from '../services/notesService'
 import styles from './SocialTab.module.css'
 
-export function SocialTab({ db, notes, onNotesChange, binId, apiKey, onSetCredentials }) {
+export function SocialTab({ db, notes, onNotesChange, blobId, onSetBlobId }) {
   const [currentPlayer, setCurrentPlayer] = useState(null)
   const [draft, setDraft]                 = useState('')
   const [saving, setSaving]               = useState(false)
   const [syncing, setSyncing]             = useState(false)
+  const [creating, setCreating]           = useState(false)
   const [lastSync, setLastSync]           = useState(null)
   const [error, setError]                 = useState(null)
-  const [showSetup, setShowSetup]         = useState(!binId || !apiKey)
-  const [setupBinId, setSetupBinId]       = useState(binId || '')
-  const [setupApiKey, setSetupApiKey]     = useState(apiKey || '')
+  const [showSetup, setShowSetup]         = useState(!blobId)
+  const [setupBlobId, setSetupBlobId]     = useState(blobId || '')
   const autoSaveRef = useRef(null)
 
-  // When player changes, load their current note into the draft
   useEffect(() => {
     if (!currentPlayer) return
     setDraft(notes[currentPlayer.slug]?.text || '')
   }, [currentPlayer?.slug])
 
-  // Auto-save draft 2s after user stops typing
+  // Auto-save 2s after typing stops
   useEffect(() => {
     if (!currentPlayer) return
     clearTimeout(autoSaveRef.current)
-    autoSaveRef.current = setTimeout(() => {
-      handleSave(draft)
-    }, 2000)
+    autoSaveRef.current = setTimeout(() => handleSave(draft), 2000)
     return () => clearTimeout(autoSaveRef.current)
   }, [draft])
 
@@ -39,25 +36,23 @@ export function SocialTab({ db, notes, onNotesChange, binId, apiKey, onSetCreden
 
   async function handleSave(text) {
     if (!currentPlayer) return
-    const updated = {
-      ...notes,
-      [currentPlayer.slug]: {
+    const updated = { ...notes }
+    if (text.trim()) {
+      updated[currentPlayer.slug] = {
         text,
         playerName: currentPlayer.name,
         updatedAt: new Date().toISOString(),
       }
+    } else {
+      delete updated[currentPlayer.slug]
     }
-    // Remove if empty
-    if (!text.trim()) delete updated[currentPlayer.slug]
-
     onNotesChange(updated)
 
-    // Push to JSONBin if configured
-    if (binId && apiKey) {
+    if (blobId) {
       setSaving(true)
       setError(null)
       try {
-        await saveNotes(binId, apiKey, updated)
+        await saveNotes(blobId, updated)
       } catch (e) {
         setError(`Save failed: ${e.message}`)
       } finally {
@@ -67,16 +62,14 @@ export function SocialTab({ db, notes, onNotesChange, binId, apiKey, onSetCreden
   }
 
   async function handleSync() {
-    if (!binId || !apiKey) { setShowSetup(true); return }
+    if (!blobId) { setShowSetup(true); return }
     setSyncing(true)
     setError(null)
     try {
-      const remote = await fetchNotes(binId, apiKey)
+      const remote = await fetchNotes(blobId)
       onNotesChange(remote)
       setLastSync(new Date())
-      if (currentPlayer) {
-        setDraft(remote[currentPlayer.slug]?.text || '')
-      }
+      if (currentPlayer) setDraft(remote[currentPlayer.slug]?.text || '')
     } catch (e) {
       setError(`Sync failed: ${e.message}`)
     } finally {
@@ -84,8 +77,23 @@ export function SocialTab({ db, notes, onNotesChange, binId, apiKey, onSetCreden
     }
   }
 
+  async function handleCreateBlob() {
+    setCreating(true)
+    setError(null)
+    try {
+      const id = await createBlob()
+      setSetupBlobId(id)
+      onSetBlobId(id)
+      setShowSetup(false)
+    } catch (e) {
+      setError(`Could not create blob: ${e.message}`)
+    } finally {
+      setCreating(false)
+    }
+  }
+
   function handleSaveCredentials() {
-    onSetCredentials(setupBinId.trim(), setupApiKey.trim())
+    onSetBlobId(setupBlobId.trim())
     setShowSetup(false)
   }
 
@@ -93,33 +101,47 @@ export function SocialTab({ db, notes, onNotesChange, binId, apiKey, onSetCreden
     .filter(([, v]) => v?.text)
     .sort((a, b) => new Date(b[1].updatedAt) - new Date(a[1].updatedAt))
 
+  const isSaved = !currentPlayer || draft === (notes[currentPlayer.slug]?.text || '')
+
   return (
     <div className={styles.wrap}>
+
       {/* Setup panel */}
       {showSetup && (
         <div className={styles.setupBox}>
-          <div className={styles.setupTitle}>⚙️ Setup shared notes (JSONBin.io)</div>
-          <ol className={styles.setupSteps}>
-            <li>Go to <a href="https://jsonbin.io" target="_blank" rel="noreferrer">jsonbin.io</a> → create a free account</li>
-            <li>API Keys → Create Access Key → copy it</li>
-            <li>Click <strong>+ New Bin</strong> → paste <code>{"{}"}</code> → Save → copy the Bin ID from the URL</li>
-            <li>Share the same Bin ID + API Key with your partner</li>
-          </ol>
-          <div className={styles.setupFields}>
-            <label>
-              Bin ID
-              <input type="text" placeholder="e.g. 6650ab1234..." value={setupBinId} onChange={e => setSetupBinId(e.target.value)} />
-            </label>
-            <label>
-              API Key (Master Key)
-              <input type="password" placeholder="$2a$10$..." value={setupApiKey} onChange={e => setSetupApiKey(e.target.value)} />
-            </label>
-          </div>
-          <div className={styles.setupActions}>
-            <button className="primary" onClick={handleSaveCredentials} disabled={!setupBinId || !setupApiKey}>
-              Save credentials
-            </button>
-            {binId && <button onClick={() => setShowSetup(false)}>Cancel</button>}
+          <div className={styles.setupTitle}>⚙️ Setup shared notes</div>
+          <p className={styles.setupDesc}>
+            Notes are stored on <strong>JSONBlob.com</strong> — free, no account needed.
+            Create a blob once, share the ID with your partner.
+          </p>
+
+          <div className={styles.setupOptions}>
+            {/* Option A: create new */}
+            <div className={styles.setupOption}>
+              <div className={styles.setupOptionTitle}>Option A — Create new (first time)</div>
+              <button className="primary" onClick={handleCreateBlob} disabled={creating}>
+                {creating ? '⟳ Creating…' : '✦ Create a new shared blob'}
+              </button>
+              <p className={styles.setupHint}>Automatically generates a blob ID for you and your partner to share.</p>
+            </div>
+
+            <div className={styles.setupOr}>— or —</div>
+
+            {/* Option B: enter existing ID */}
+            <div className={styles.setupOption}>
+              <div className={styles.setupOptionTitle}>Option B — Enter existing Blob ID</div>
+              <div className={styles.setupRow}>
+                <input
+                  type="text"
+                  placeholder="e.g. 1234567890123456789"
+                  value={setupBlobId}
+                  onChange={e => setSetupBlobId(e.target.value)}
+                  className={styles.setupInput}
+                />
+                <button onClick={handleSaveCredentials} disabled={!setupBlobId}>Use this ID</button>
+              </div>
+              <p className={styles.setupHint}>Your partner already created a blob? Enter their ID here.</p>
+            </div>
           </div>
         </div>
       )}
@@ -129,26 +151,32 @@ export function SocialTab({ db, notes, onNotesChange, binId, apiKey, onSetCreden
         <div className={styles.headerLeft}>
           <span className={styles.headerTitle}>📌 Scouting Notes</span>
           <span className={styles.headerSub}>
-            {binId ? '☁ Shared (JSONBin)' : '⚠ Local only — set up sharing above'}
+            {blobId
+              ? <span className={styles.blobId}>☁ Blob: <code>{blobId}</code></span>
+              : <span className={styles.noBlob}>⚠ Local only — set up sharing above</span>}
           </span>
         </div>
         <div className={styles.headerRight}>
-          {lastSync && (
-            <span className={styles.syncTime}>Synced {lastSync.toLocaleTimeString()}</span>
-          )}
+          {lastSync && <span className={styles.syncTime}>Synced {lastSync.toLocaleTimeString()}</span>}
           <button className={styles.syncBtn} onClick={handleSync} disabled={syncing}>
             {syncing ? '⟳ Syncing…' : '⟳ Sync'}
           </button>
-          <button className={styles.setupBtn} onClick={() => setShowSetup(s => !s)}>
-            ⚙ Setup
-          </button>
+          <button className={styles.setupBtn} onClick={() => setShowSetup(s => !s)}>⚙ Setup</button>
         </div>
       </div>
+
+      {/* Blob ID share reminder */}
+      {blobId && !showSetup && (
+        <div className={styles.shareReminder}>
+          📋 Share this Blob ID with your partner: <code className={styles.blobCode}>{blobId}</code>
+          <button className={styles.copyBtn} onClick={() => { navigator.clipboard.writeText(blobId); }}>Copy</button>
+        </div>
+      )}
 
       {error && <div className={styles.error}>{error}</div>}
 
       <div className={styles.layout}>
-        {/* Left: player search + note editor */}
+        {/* Left: editor */}
         <div className={styles.editorCol}>
           <PlayerSearch onSelect={handleSelectPlayer} />
 
@@ -164,7 +192,7 @@ export function SocialTab({ db, notes, onNotesChange, binId, apiKey, onSetCreden
 
               <textarea
                 className={styles.textarea}
-                placeholder={`Add scouting notes for ${currentPlayer.name}…\n\nE.g.:\n- Tweeted he's skipping several events in June\n- Playing full WSOP schedule according to PokerNews\n- Won a bracelet last week, might be in peak form`}
+                placeholder={`Scouting notes for ${currentPlayer.name}…\n\nEx.:\n- Posted on X that he's skipping first 2 weeks of WSOP\n- PokerNews article: playing full schedule this year\n- Won a bracelet last week — in peak form`}
                 value={draft}
                 onChange={e => setDraft(e.target.value)}
                 rows={10}
@@ -172,7 +200,7 @@ export function SocialTab({ db, notes, onNotesChange, binId, apiKey, onSetCreden
 
               <div className={styles.editorFooter}>
                 <span className={styles.autoSaveNote}>
-                  {saving ? '💾 Saving…' : draft !== (notes[currentPlayer.slug]?.text || '') ? '✏ Unsaved changes' : '✓ Saved'}
+                  {saving ? '💾 Saving…' : isSaved ? '✓ Saved' : '✏ Unsaved…'}
                 </span>
                 <button
                   className="primary"
@@ -193,13 +221,13 @@ export function SocialTab({ db, notes, onNotesChange, binId, apiKey, onSetCreden
           ) : (
             <div className={styles.emptyEditor}>
               <div className={styles.emptyIcon}>📌</div>
-              <p>Search for a player above to add or view scouting notes</p>
-              <p className={styles.emptyHint}>Notes are shared with your partner in real time via JSONBin</p>
+              <p>Search for a player above to add scouting notes</p>
+              <p className={styles.emptyHint}>Notes sync in real time with your partner via JSONBlob</p>
             </div>
           )}
         </div>
 
-        {/* Right: all notes feed */}
+        {/* Right: notes feed */}
         <div className={styles.feedCol}>
           <div className={styles.feedTitle}>All notes ({playerNotes.length})</div>
           {playerNotes.length === 0 ? (

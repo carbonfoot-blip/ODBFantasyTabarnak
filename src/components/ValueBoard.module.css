@@ -209,3 +209,31 @@
 }
 
 .noteDot { margin-left: 4px; font-size: 11px; }
+
+/* Est. 2026 pts/$ column */
+.estCol {
+  background: rgba(232,200,74,0.04);
+  border-left: 1px solid rgba(232,200,74,0.15) !important;
+}
+
+.colHint {
+  display: block;
+  font-size: 9px;
+  font-weight: 400;
+  color: var(--text3);
+  letter-spacing: 0;
+  text-transform: none;
+  margin-top: 1px;
+}
+
+.estPpd {
+  font-weight: 700;
+  color: var(--text2);
+}
+.estPpd.estOk   { color: var(--accent); }
+.estPpd.estGood { color: var(--green);  font-size: 14px; }
+
+.cost2026 {
+  font-weight: 600;
+  color: var(--text);
+}

@@ -269,3 +269,61 @@
   color: var(--text3);
   margin-top: 5px;
 }
+
+.setupDesc { font-size: 13px; color: var(--text2); line-height: 1.6; }
+
+.setupOptions { display: flex; flex-direction: column; gap: 12px; }
+
+.setupOption {
+  background: var(--bg3);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.setupOptionTitle { font-size: 12px; font-weight: 600; color: var(--text2); }
+
+.setupOr { text-align: center; font-size: 12px; color: var(--text3); }
+
+.setupRow { display: flex; gap: 8px; align-items: center; }
+
+.setupInput { flex: 1; font-size: 12px; padding: 7px 10px; font-family: monospace; }
+
+.setupHint { font-size: 11px; color: var(--text3); line-height: 1.5; }
+
+.blobId { font-size: 11px; color: var(--green); }
+.blobId code { font-family: monospace; background: var(--bg3); padding: 1px 5px; border-radius: 3px; }
+
+.noBlob { font-size: 11px; color: var(--red); }
+
+.shareReminder {
+  background: rgba(74,222,128,0.06);
+  border: 1px solid rgba(74,222,128,0.2);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+  font-size: 12px;
+  color: var(--text2);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.blobCode {
+  font-family: monospace;
+  font-size: 12px;
+  background: var(--bg3);
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: var(--green);
+  user-select: all;
+}
+
+.copyBtn {
+  font-size: 11px;
+  padding: 3px 8px;
+  color: var(--green);
+  border-color: rgba(74,222,128,0.3);
+}
