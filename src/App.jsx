@@ -124,6 +124,8 @@ export default function App() {
     toast(`${updated.name} saved to DB`)
   }
 
+  function handleNotesChange(updated) { setNotes(updated) }
+
   function handleSyncCostsFromDb() {
     let imported = 0
     setCosts(prev => {
