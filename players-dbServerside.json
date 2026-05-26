@@ -77,7 +77,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 422,
         "cashes": 59
       },
@@ -179,19 +179,11 @@
       {
         "year": 2025,
         "pts": 269,
-        "cost": 108,
+        "cost": 108.0,
         "cashes": 13
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 116,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:49:20.828Z",
-    "cost2026": 116
+    "scrapedAt": "2026-05-25T00:49:20.828Z"
   },
   "phil-hellmuth": {
     "name": "Phil Hellmuth",
@@ -266,7 +258,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 371,
         "cashes": 47
       },
@@ -368,19 +360,11 @@
       {
         "year": 2025,
         "pts": 78,
-        "cost": 79,
+        "cost": 79.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 66,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:49:29.751Z",
-    "cost2026": 66
+    "scrapedAt": "2026-05-25T00:49:29.751Z"
   },
   "shaun-deeb": {
     "name": "Shaun Deeb",
@@ -454,7 +438,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 808,
         "cashes": 94
       },
@@ -550,19 +534,11 @@
       {
         "year": 2025,
         "pts": 359,
-        "cost": 99,
+        "cost": 99.0,
         "cashes": 17
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 133,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:49:38.252Z",
-    "cost2026": 133
+    "scrapedAt": "2026-05-25T00:49:38.252Z"
   },
   "john-racener": {
     "name": "John Racener",
@@ -635,7 +611,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 790,
         "cashes": 60
       },
@@ -725,19 +701,11 @@
       {
         "year": 2025,
         "pts": 104,
-        "cost": 54,
+        "cost": 54.0,
         "cashes": 5
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 86,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:49:46.442Z",
-    "cost2026": 86
+    "scrapedAt": "2026-05-25T00:49:46.442Z"
   },
   "ben-yu": {
     "name": "Ben Yu",
@@ -811,7 +779,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 452,
         "cashes": 104
       },
@@ -907,19 +875,11 @@
       {
         "year": 2025,
         "pts": 162,
-        "cost": 31,
+        "cost": 31.0,
         "cashes": 17
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 37,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:49:55.049Z",
-    "cost2026": 37
+    "scrapedAt": "2026-05-25T00:49:55.049Z"
   },
   "paul-volpe": {
     "name": "Paul Volpe",
@@ -988,7 +948,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 173,
         "cashes": 18
       },
@@ -1084,19 +1044,11 @@
       {
         "year": 2025,
         "pts": 92,
-        "cost": 14,
+        "cost": 14.0,
         "cashes": 4
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 5,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:03.601Z",
-    "cost2026": 5
+    "scrapedAt": "2026-05-25T00:50:03.601Z"
   },
   "john-monnette": {
     "name": "John Monnette",
@@ -1171,7 +1123,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 470,
         "cashes": 45
       },
@@ -1273,19 +1225,11 @@
       {
         "year": 2025,
         "pts": 40,
-        "cost": 19,
+        "cost": 19.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 36,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:12.577Z",
-    "cost2026": 36
+    "scrapedAt": "2026-05-25T00:50:12.577Z"
   },
   "david-odb-baker": {
     "name": "David ODB Baker",
@@ -1355,7 +1299,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 823,
         "cashes": 73
       },
@@ -1457,19 +1401,11 @@
       {
         "year": 2025,
         "pts": 241,
-        "cost": 51,
+        "cost": 51.0,
         "cashes": 13
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 61,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:21.702Z",
-    "cost2026": 61
+    "scrapedAt": "2026-05-25T00:50:21.702Z"
   },
   "jeremy-ausmus": {
     "name": "Jeremy Ausmus",
@@ -1525,7 +1461,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 371,
         "cashes": 46
       },
@@ -1603,19 +1539,11 @@
       {
         "year": 2025,
         "pts": 86,
-        "cost": 141,
+        "cost": 141.0,
         "cashes": 8
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 90,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:29.371Z",
-    "cost2026": 90
+    "scrapedAt": "2026-05-25T00:50:29.371Z"
   },
   "scott-seiver": {
     "name": "Scott Seiver",
@@ -1690,7 +1618,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 158,
         "cashes": 16
       },
@@ -1792,19 +1720,11 @@
       {
         "year": 2025,
         "pts": 46,
-        "cost": 125,
+        "cost": 125.0,
         "cashes": 4
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 79,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:38.353Z",
-    "cost2026": 79
+    "scrapedAt": "2026-05-25T00:50:38.353Z"
   },
   "brian-hastings": {
     "name": "Brian Hastings",
@@ -1879,7 +1799,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 151,
         "cashes": 33
       },
@@ -1981,19 +1901,11 @@
       {
         "year": 2025,
         "pts": 93,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 9
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:47.312Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T00:50:47.312Z"
   },
   "calvin-anderson": {
     "name": "Calvin Anderson",
@@ -2065,7 +1977,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 574,
         "cashes": 61
       },
@@ -2149,19 +2061,11 @@
       {
         "year": 2025,
         "pts": 104,
-        "cost": 51,
+        "cost": 51.0,
         "cashes": 9
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 25,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:55.121Z",
-    "cost2026": 25
+    "scrapedAt": "2026-05-25T00:50:55.121Z"
   },
   "marco-johnson": {
     "name": "Marco Johnson",
@@ -2236,7 +2140,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 406,
         "cashes": 48
       },
@@ -2338,19 +2242,11 @@
       {
         "year": 2025,
         "pts": 252,
-        "cost": 49,
+        "cost": 49.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 51,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:03.971Z",
-    "cost2026": 51
+    "scrapedAt": "2026-05-25T00:51:03.971Z"
   },
   "nick-schulman": {
     "name": "Nick Schulman",
@@ -2419,7 +2315,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 199,
         "cashes": 18
       },
@@ -2515,19 +2411,11 @@
       {
         "year": 2025,
         "pts": 250,
-        "cost": 107,
+        "cost": 107.0,
         "cashes": 9
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 89,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:12.504Z",
-    "cost2026": 89
+    "scrapedAt": "2026-05-25T00:51:12.504Z"
   },
   "benny-glaser": {
     "name": "Benny Glaser",
@@ -2597,7 +2485,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 420,
         "cashes": 35
       },
@@ -2669,19 +2557,11 @@
       {
         "year": 2025,
         "pts": 267,
-        "cost": 99,
+        "cost": 99.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 94,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:19.778Z",
-    "cost2026": 94
+    "scrapedAt": "2026-05-25T00:51:19.778Z"
   },
   "justin-bonomo": {
     "name": "Justin Bonomo",
@@ -2749,7 +2629,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 174,
         "cashes": 14
       },
@@ -2918,7 +2798,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 425,
         "cashes": 41
       },
@@ -3020,19 +2900,11 @@
       {
         "year": 2025,
         "pts": 31,
-        "cost": 40,
+        "cost": 40.0,
         "cashes": 9
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 30,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:36.995Z",
-    "cost2026": 30
+    "scrapedAt": "2026-05-25T00:51:36.995Z"
   },
   "brian-rast": {
     "name": "Brian Rast",
@@ -3110,7 +2982,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 127,
         "cashes": 14
       },
@@ -3200,19 +3072,11 @@
       {
         "year": 2025,
         "pts": 292,
-        "cost": 57,
+        "cost": 57.0,
         "cashes": 14
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 97,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:45.171Z",
-    "cost2026": 97
+    "scrapedAt": "2026-05-25T00:51:45.171Z"
   },
   "jason-mercier": {
     "name": "Jason Mercier",
@@ -3284,7 +3148,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 88,
         "cashes": 17
       },
@@ -3368,19 +3232,11 @@
       {
         "year": 2025,
         "pts": 79,
-        "cost": 41,
+        "cost": 41.0,
         "cashes": 4
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:53.127Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T00:51:53.127Z"
   },
   "anthony-zinno": {
     "name": "Anthony Zinno",
@@ -3451,7 +3307,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 338,
         "cashes": 36
       },
@@ -3529,19 +3385,11 @@
       {
         "year": 2025,
         "pts": 96,
-        "cost": 14,
+        "cost": 14.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 7,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:00.611Z",
-    "cost2026": 7
+    "scrapedAt": "2026-05-25T00:52:00.611Z"
   },
   "stephen-chidwick": {
     "name": "Stephen Chidwick",
@@ -3620,7 +3468,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 168,
         "cashes": 13
       },
@@ -3716,19 +3564,11 @@
       {
         "year": 2025,
         "pts": 98,
-        "cost": 51,
+        "cost": 51.0,
         "cashes": 4
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 32,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:09.153Z",
-    "cost2026": 32
+    "scrapedAt": "2026-05-25T00:52:09.153Z"
   },
   "chance-kornuth": {
     "name": "Chance Kornuth",
@@ -3792,7 +3632,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 96,
         "cashes": 31
       },
@@ -3858,19 +3698,11 @@
       {
         "year": 2025,
         "pts": 50,
-        "cost": 80,
+        "cost": 80.0,
         "cashes": 5
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 34,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:15.937Z",
-    "cost2026": 34
+    "scrapedAt": "2026-05-25T00:52:15.937Z"
   },
   "james-obst": {
     "name": "James Obst",
@@ -3935,7 +3767,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 90,
         "cashes": 22
       },
@@ -4007,19 +3839,11 @@
       {
         "year": 2025,
         "pts": 59,
-        "cost": 91,
+        "cost": 91.0,
         "cashes": 15
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 55,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:23.159Z",
-    "cost2026": 55
+    "scrapedAt": "2026-05-25T00:52:23.159Z"
   },
   "matt-glantz": {
     "name": "Matt Glantz",
@@ -4089,7 +3913,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 550,
         "cashes": 41
       },
@@ -4191,19 +4015,11 @@
       {
         "year": 2025,
         "pts": 133,
-        "cost": 35,
+        "cost": 35.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 27,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:32.061Z",
-    "cost2026": 27
+    "scrapedAt": "2026-05-25T00:52:32.061Z"
   },
   "josh-arieh": {
     "name": "Josh Arieh",
@@ -4262,7 +4078,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 269,
         "cashes": 37
       },
@@ -4328,19 +4144,11 @@
       {
         "year": 2025,
         "pts": 11,
-        "cost": 71,
+        "cost": 71.0,
         "cashes": 7
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 55,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:38.850Z",
-    "cost2026": 55
+    "scrapedAt": "2026-05-25T00:52:38.850Z"
   },
   "eli-elezra": {
     "name": "Eli Elezra",
@@ -4414,7 +4222,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 254,
         "cashes": 23
       },
@@ -4512,17 +4320,9 @@
         "pts": 11,
         "cost": 1,
         "cashes": 1
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:47.427Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T00:52:47.427Z"
   },
   "dan-smith": {
     "name": "Dan Smith",
@@ -4580,7 +4380,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 49,
         "cashes": 9
       },
@@ -4670,19 +4470,11 @@
       {
         "year": 2025,
         "pts": 54,
-        "cost": 6,
+        "cost": 6.0,
         "cashes": 2
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 8,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:55.625Z",
-    "cost2026": 8
+    "scrapedAt": "2026-05-25T00:52:55.625Z"
   },
   "phil-ivey": {
     "name": "Phil Ivey",
@@ -4753,7 +4545,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 90,
         "cashes": 14
       },
@@ -4831,19 +4623,11 @@
       {
         "year": 2025,
         "pts": 190,
-        "cost": 95,
+        "cost": 95.0,
         "cashes": 6
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 80,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:53:03.166Z",
-    "cost2026": 80
+    "scrapedAt": "2026-05-25T00:53:03.166Z"
   },
   "yuval-bronshtein": {
     "name": "Yuval Bronshtein",
@@ -4915,7 +4699,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 263,
         "cashes": 55
       },
@@ -4999,19 +4783,11 @@
       {
         "year": 2025,
         "pts": 16,
-        "cost": 44,
+        "cost": 44.0,
         "cashes": 7
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 3,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:53:11.113Z",
-    "cost2026": 3
+    "scrapedAt": "2026-05-25T00:53:11.113Z"
   },
   "david-bakes-baker": {
     "name": "David Bakes Baker",
@@ -5084,7 +4860,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 382,
         "cashes": 49
       },
@@ -5174,7 +4950,7 @@
       {
         "year": 2025,
         "pts": 39,
-        "cost": 5,
+        "cost": 5.0,
         "cashes": 10
       }
     ],
@@ -5241,7 +5017,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 127,
         "cashes": 14
       },
@@ -5301,19 +5077,11 @@
       {
         "year": 2025,
         "pts": 26,
-        "cost": 15,
+        "cost": 15.0,
         "cashes": 6
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 45,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:53:37.807Z",
-    "cost2026": 45
+    "scrapedAt": "2026-05-25T00:53:37.807Z"
   },
   "john-hennigan": {
     "name": "John Hennigan",
@@ -5379,7 +5147,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 152,
         "cashes": 11
       },
@@ -5457,19 +5225,11 @@
       {
         "year": 2025,
         "pts": 70,
-        "cost": 11,
+        "cost": 11.0,
         "cashes": 7
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:53:45.350Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T00:53:45.350Z"
   },
   "scott-clements": {
     "name": "Scott Clements",
@@ -5536,7 +5296,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 349,
         "cashes": 25
       },
@@ -5674,7 +5434,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 229,
         "cashes": 17
       },
@@ -5818,7 +5578,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 60,
         "cashes": 12
       },
@@ -5908,7 +5668,7 @@
       {
         "year": 2025,
         "pts": 133,
-        "cost": 6,
+        "cost": 6.0,
         "cashes": 5
       }
     ],
@@ -5979,7 +5739,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 380,
         "cashes": 74
       },
@@ -6063,7 +5823,7 @@
       {
         "year": 2025,
         "pts": 18,
-        "cost": 2,
+        "cost": 2.0,
         "cashes": 16
       }
     ],
@@ -6135,7 +5895,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 23,
         "cashes": 23
       },
@@ -6195,19 +5955,11 @@
       {
         "year": 2025,
         "pts": 284,
-        "cost": 85,
+        "cost": 85.0,
         "cashes": 7
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 101,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:54:25.611Z",
-    "cost2026": 101
+    "scrapedAt": "2026-05-25T00:54:25.611Z"
   },
   "bryce-yockey": {
     "name": "Bryce Yockey",
@@ -6279,7 +6031,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 303,
         "cashes": 35
       },
@@ -6363,19 +6115,11 @@
       {
         "year": 2025,
         "pts": 124,
-        "cost": 66,
+        "cost": 66.0,
         "cashes": 8
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 46,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:54:33.516Z",
-    "cost2026": 46
+    "scrapedAt": "2026-05-25T00:54:33.516Z"
   },
   "adam-friedman": {
     "name": "Adam Friedman",
@@ -6452,7 +6196,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 173,
         "cashes": 28
       },
@@ -6536,7 +6280,7 @@
       {
         "year": 2025,
         "pts": 95,
-        "cost": 18,
+        "cost": 18.0,
         "cashes": 4
       }
     ],
@@ -6590,7 +6334,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 111,
         "cashes": 34
       },
@@ -6706,7 +6450,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 352,
         "cashes": 41
       },
@@ -6810,17 +6554,9 @@
         "pts": 12,
         "cost": 20,
         "cashes": 1044
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 80,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:54:55.814Z",
-    "cost2026": 80
+    "scrapedAt": "2026-05-25T00:54:55.814Z"
   },
   "chris-brewer": {
     "name": "Chris Brewer",
@@ -6871,7 +6607,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 109,
         "cashes": 17
       },
@@ -6919,19 +6655,11 @@
       {
         "year": 2025,
         "pts": 68,
-        "cost": 70,
+        "cost": 70.0,
         "cashes": 7
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 61,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:01.647Z",
-    "cost2026": 61
+    "scrapedAt": "2026-05-25T00:55:01.647Z"
   },
   "yuri-dzivielevski": {
     "name": "Yuri Dzivielevski",
@@ -6991,7 +6719,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 303,
         "cashes": 23
       },
@@ -7033,19 +6761,11 @@
       {
         "year": 2025,
         "pts": 95,
-        "cost": 119,
+        "cost": 119.0,
         "cashes": 12
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 90,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:07.092Z",
-    "cost2026": 90
+    "scrapedAt": "2026-05-25T00:55:07.092Z"
   },
   "ari-engel": {
     "name": "Ari Engel",
@@ -7104,7 +6824,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 442,
         "cashes": 75
       },
@@ -7165,19 +6885,11 @@
       {
         "year": 2025,
         "pts": 53,
-        "cost": 20,
+        "cost": 20.0,
         "cashes": 16
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 47,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:13.917Z",
-    "cost2026": 47
+    "scrapedAt": "2026-05-25T00:55:13.917Z"
   },
   "scott-bohlman": {
     "name": "Scott Bohlman",
@@ -7242,7 +6954,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 279,
         "cashes": 79
       },
@@ -7314,19 +7026,11 @@
       {
         "year": 2025,
         "pts": 225,
-        "cost": 9,
+        "cost": 9.0,
         "cashes": 14
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 35,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:21.083Z",
-    "cost2026": 35
+    "scrapedAt": "2026-05-25T00:55:21.083Z"
   },
   "mike-matusow": {
     "name": "Mike Matusow",
@@ -7394,7 +7098,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 223,
         "cashes": 23
       },
@@ -7484,19 +7188,11 @@
       {
         "year": 2025,
         "pts": 71,
-        "cost": 3,
+        "cost": 3.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 7,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:30.407Z",
-    "cost2026": 7
+    "scrapedAt": "2026-05-25T00:55:30.407Z"
   },
   "chad-eveslage": {
     "name": "Chad Eveslage",
@@ -7557,7 +7253,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 64,
         "cashes": 15
       },
@@ -7605,19 +7301,11 @@
       {
         "year": 2025,
         "pts": 217,
-        "cost": 87,
+        "cost": 87.0,
         "cashes": 9
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 89,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:36.159Z",
-    "cost2026": 89
+    "scrapedAt": "2026-05-25T00:55:36.159Z"
   },
   "mike-leah": {
     "name": "Mike Leah",
@@ -7686,7 +7374,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 332,
         "cashes": 53
       },
@@ -7752,19 +7440,11 @@
       {
         "year": 2025,
         "pts": 85,
-        "cost": 3,
+        "cost": 3.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 8,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:43.085Z",
-    "cost2026": 8
+    "scrapedAt": "2026-05-25T00:55:43.085Z"
   },
   "ben-lamb": {
     "name": "Ben Lamb",
@@ -7812,7 +7492,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 5,
         "cashes": 6
       },
@@ -7872,19 +7552,11 @@
       {
         "year": 2025,
         "pts": 228,
-        "cost": 15,
+        "cost": 15.0,
         "cashes": 6
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 14,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:49.554Z",
-    "cost2026": 14
+    "scrapedAt": "2026-05-25T00:55:49.554Z"
   },
   "daniel-weinman": {
     "name": "Daniel Weinman",
@@ -7946,7 +7618,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 303,
         "cashes": 35
       },
@@ -8067,7 +7739,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 71,
         "cashes": 18
       },
@@ -8201,7 +7873,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 178,
         "cashes": 33
       },
@@ -8268,19 +7940,11 @@
       {
         "year": 2025,
         "pts": 16,
-        "cost": 32,
+        "cost": 32.0,
         "cashes": 5
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 16,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:09.137Z",
-    "cost2026": 16
+    "scrapedAt": "2026-05-25T00:56:09.137Z"
   },
   "shannon-shorr": {
     "name": "Shannon Shorr",
@@ -8333,7 +7997,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 249,
         "cashes": 79
       },
@@ -8423,19 +8087,11 @@
       {
         "year": 2025,
         "pts": 8,
-        "cost": 35,
+        "cost": 35.0,
         "cashes": 6
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 11,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:17.393Z",
-    "cost2026": 11
+    "scrapedAt": "2026-05-25T00:56:17.393Z"
   },
   "alex-livingston": {
     "name": "Alex Livingston",
@@ -8501,7 +8157,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 194,
         "cashes": 21
       },
@@ -8549,19 +8205,11 @@
       {
         "year": 2025,
         "pts": 123,
-        "cost": 81,
+        "cost": 81.0,
         "cashes": 15
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 61,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:23.206Z",
-    "cost2026": 61
+    "scrapedAt": "2026-05-25T00:56:23.206Z"
   },
   "erik-seidel": {
     "name": "Erik Seidel",
@@ -8629,7 +8277,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 75,
         "cashes": 23
       },
@@ -8719,19 +8367,11 @@
       {
         "year": 2025,
         "pts": 61,
-        "cost": 15,
+        "cost": 15.0,
         "cashes": 8
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:31.536Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T00:56:31.536Z"
   },
   "ryan-riess": {
     "name": "Ryan Riess",
@@ -8795,7 +8435,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 428,
         "cashes": 84
       },
@@ -8861,19 +8501,11 @@
       {
         "year": 2025,
         "pts": 30,
-        "cost": 11,
+        "cost": 11.0,
         "cashes": 13
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 3,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:38.342Z",
-    "cost2026": 3
+    "scrapedAt": "2026-05-25T00:56:38.342Z"
   },
   "randy-ohel": {
     "name": "Randy Ohel",
@@ -8941,7 +8573,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 94,
         "cashes": 17
       },
@@ -9070,7 +8702,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 26,
         "cashes": 4
       },
@@ -9174,7 +8806,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 331,
         "cashes": 16
       },
@@ -9234,19 +8866,11 @@
       {
         "year": 2025,
         "pts": 152,
-        "cost": 48,
+        "cost": 48.0,
         "cashes": 9
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 49,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:56.897Z",
-    "cost2026": 49
+    "scrapedAt": "2026-05-25T00:56:56.897Z"
   },
   "alex-foxen": {
     "name": "Alex Foxen",
@@ -9303,7 +8927,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 124,
         "cashes": 31
       },
@@ -9357,19 +8981,11 @@
       {
         "year": 2025,
         "pts": 205,
-        "cost": 66,
+        "cost": 66.0,
         "cashes": 14
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 79,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:03.081Z",
-    "cost2026": 79
+    "scrapedAt": "2026-05-25T00:57:03.081Z"
   },
   "jerry-wong": {
     "name": "Jerry Wong",
@@ -9432,7 +9048,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 76,
         "cashes": 26
       },
@@ -9492,19 +9108,11 @@
       {
         "year": 2025,
         "pts": 5,
-        "cost": 19,
+        "cost": 19.0,
         "cashes": 3
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 8,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:09.564Z",
-    "cost2026": 8
+    "scrapedAt": "2026-05-25T00:57:09.564Z"
   },
   "mike-watson": {
     "name": "Mike Watson",
@@ -9573,7 +9181,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 304,
         "cashes": 19
       },
@@ -9699,7 +9307,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 369,
         "cashes": 43
       },
@@ -9772,19 +9380,11 @@
       {
         "year": 2025,
         "pts": 183,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 12
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:23.949Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T00:57:23.949Z"
   },
   "dan-kelly": {
     "name": "Dan Kelly",
@@ -9842,7 +9442,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 301,
         "cashes": 23
       },
@@ -9978,7 +9578,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 82,
         "cashes": 20
       },
@@ -10062,19 +9662,11 @@
       {
         "year": 2025,
         "pts": 176,
-        "cost": 42,
+        "cost": 42.0,
         "cashes": 7
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 35,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:38.321Z",
-    "cost2026": 35
+    "scrapedAt": "2026-05-25T00:57:38.321Z"
   },
   "todd-brunson": {
     "name": "Todd Brunson",
@@ -10135,7 +9727,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 141,
         "cashes": 16
       },
@@ -10275,7 +9867,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 165,
         "cashes": 28
       },
@@ -10330,19 +9922,11 @@
       {
         "year": 2025,
         "pts": 138,
-        "cost": 34,
+        "cost": 34.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 30,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:52.328Z",
-    "cost2026": 30
+    "scrapedAt": "2026-05-25T00:57:52.328Z"
   },
   "jason-koon": {
     "name": "Jason Koon",
@@ -10386,7 +9970,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 85,
         "cashes": 8
       },
@@ -10452,19 +10036,11 @@
       {
         "year": 2025,
         "pts": 128,
-        "cost": 4,
+        "cost": 4.0,
         "cashes": 2
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:59.098Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T00:57:59.098Z"
   },
   "jared-bleznick": {
     "name": "Jared Bleznick",
@@ -10523,7 +10099,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 112,
         "cashes": 13
       },
@@ -10589,19 +10165,11 @@
       {
         "year": 2025,
         "pts": 83,
-        "cost": 6,
+        "cost": 6.0,
         "cashes": 1
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 12,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:05.899Z",
-    "cost2026": 12
+    "scrapedAt": "2026-05-25T00:58:05.899Z"
   },
   "chris-hunichen": {
     "name": "Chris Hunichen",
@@ -10642,7 +10210,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 195,
         "cashes": 25
       },
@@ -10690,19 +10258,11 @@
       {
         "year": 2025,
         "pts": 70,
-        "cost": 15,
+        "cost": 15.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 35,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:11.693Z",
-    "cost2026": 35
+    "scrapedAt": "2026-05-25T00:58:11.693Z"
   },
   "jake-schwartz": {
     "name": "Jake Schwartz",
@@ -10760,7 +10320,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 224,
         "cashes": 66
       },
@@ -10815,7 +10375,7 @@
       {
         "year": 2025,
         "pts": 62,
-        "cost": 31,
+        "cost": 31.0,
         "cashes": 17
       }
     ],
@@ -10873,7 +10433,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 321,
         "cashes": 25
       },
@@ -11002,7 +10562,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 167,
         "cashes": 21
       },
@@ -11113,7 +10673,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 357,
         "cashes": 39
       },
@@ -11161,19 +10721,11 @@
       {
         "year": 2025,
         "pts": 280,
-        "cost": 33,
+        "cost": 33.0,
         "cashes": 8
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 31,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:37.681Z",
-    "cost2026": 31
+    "scrapedAt": "2026-05-25T00:58:37.681Z"
   },
   "phillip-hui": {
     "name": "Phillip Hui",
@@ -11236,7 +10788,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 274,
         "cashes": 45
       },
@@ -11296,19 +10848,11 @@
       {
         "year": 2025,
         "pts": 107,
-        "cost": 30,
+        "cost": 30.0,
         "cashes": 12
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 12,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:44.160Z",
-    "cost2026": 12
+    "scrapedAt": "2026-05-25T00:58:44.160Z"
   },
   "shawn-buchanan": {
     "name": "Shawn Buchanan",
@@ -11366,7 +10910,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 367,
         "cashes": 66
       },
@@ -11458,17 +11002,9 @@
         "pts": 14,
         "cost": 46,
         "cashes": 29
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 2,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:52.540Z",
-    "cost2026": 2
+    "scrapedAt": "2026-05-25T00:58:52.540Z"
   },
   "maxx-coleman": {
     "name": "Maxx Coleman",
@@ -11529,7 +11065,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 289,
         "cashes": 36
       },
@@ -11577,19 +11113,11 @@
       {
         "year": 2025,
         "pts": 110,
-        "cost": 70,
+        "cost": 70.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 58,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:58.293Z",
-    "cost2026": 58
+    "scrapedAt": "2026-05-25T00:58:58.293Z"
   },
   "joey-couden": {
     "name": "Joey Couden",
@@ -11646,7 +11174,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 441,
         "cashes": 51
       },
@@ -11695,19 +11223,11 @@
       {
         "year": 2025,
         "pts": 118,
-        "cost": 14,
+        "cost": 14.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 12,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:59:04.444Z",
-    "cost2026": 12
+    "scrapedAt": "2026-05-25T00:59:04.444Z"
   },
   "yueqi-zhu": {
     "name": "Yueqi Zhu",
@@ -11775,7 +11295,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 225,
         "cashes": 68
       },
@@ -11835,19 +11355,11 @@
       {
         "year": 2025,
         "pts": 97,
-        "cost": 13,
+        "cost": 13.0,
         "cashes": 12
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 18,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:59:10.940Z",
-    "cost2026": 18
+    "scrapedAt": "2026-05-25T00:59:10.940Z"
   },
   "rep-porter": {
     "name": "Rep Porter",
@@ -11905,7 +11417,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 159,
         "cashes": 20
       },
@@ -12038,7 +11550,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 306,
         "cashes": 61
       },
@@ -12099,7 +11611,7 @@
       {
         "year": 2025,
         "pts": 54,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 8
       }
     ],
@@ -12161,7 +11673,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 310,
         "cashes": 57
       },
@@ -12216,19 +11728,11 @@
       {
         "year": 2025,
         "pts": 7,
-        "cost": 3,
+        "cost": 3.0,
         "cashes": 7
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 4,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:59:30.914Z",
-    "cost2026": 4
+    "scrapedAt": "2026-05-25T00:59:30.914Z"
   },
   "craig-chait": {
     "name": "Craig Chait",
@@ -12296,7 +11800,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 313,
         "cashes": 30
       },
@@ -12353,17 +11857,9 @@
         "pts": 6,
         "cost": 15,
         "cashes": 28
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:59:37.436Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T00:59:37.436Z"
   },
   "ryan-laplante": {
     "name": "Ryan Laplante",
@@ -12417,7 +11913,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 411,
         "cashes": 65
       },
@@ -12483,7 +11979,7 @@
       {
         "year": 2025,
         "pts": 44,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 6
       }
     ],
@@ -12538,7 +12034,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 444,
         "cashes": 39
       },
@@ -12586,19 +12082,11 @@
       {
         "year": 2025,
         "pts": 139,
-        "cost": 6,
+        "cost": 6.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:00:01.979Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T01:00:01.979Z"
   },
   "chris-ferguson": {
     "name": "Chris Ferguson",
@@ -12664,7 +12152,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 145,
         "cashes": 38
       },
@@ -12756,7 +12244,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 445,
         "cashes": 31
       },
@@ -12798,19 +12286,11 @@
       {
         "year": 2025,
         "pts": 48,
-        "cost": 54,
+        "cost": 54.0,
         "cashes": 12
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 12,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:00:25.163Z",
-    "cost2026": 12
+    "scrapedAt": "2026-05-25T01:00:25.163Z"
   },
   "david-peters": {
     "name": "David Peters",
@@ -12844,7 +12324,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 71,
         "cashes": 24
       },
@@ -12910,19 +12390,11 @@
       {
         "year": 2025,
         "pts": 77,
-        "cost": 3,
+        "cost": 3.0,
         "cashes": 5
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 3,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:00:33.009Z",
-    "cost2026": 3
+    "scrapedAt": "2026-05-25T01:00:33.009Z"
   },
   "ryan-hughes": {
     "name": "Ryan Hughes",
@@ -12983,7 +12455,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 237,
         "cashes": 26
       },
@@ -13084,7 +12556,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 130,
         "cashes": 8
       },
@@ -13152,17 +12624,9 @@
         "pts": 75,
         "cost": 4,
         "cashes": 3
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 7,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:00:47.593Z",
-    "cost2026": 7
+    "scrapedAt": "2026-05-25T01:00:47.593Z"
   },
   "dylan-linde": {
     "name": "Dylan Linde",
@@ -13222,7 +12686,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 311,
         "cashes": 44
       },
@@ -13294,19 +12758,11 @@
       {
         "year": 2025,
         "pts": 299,
-        "cost": 36,
+        "cost": 36.0,
         "cashes": 6
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 59,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:00:54.788Z",
-    "cost2026": 59
+    "scrapedAt": "2026-05-25T01:00:54.788Z"
   },
   "christian-harder": {
     "name": "Christian Harder",
@@ -13355,7 +12811,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 236,
         "cashes": 44
       },
@@ -13421,19 +12877,11 @@
       {
         "year": 2025,
         "pts": 72,
-        "cost": 7,
+        "cost": 7.0,
         "cashes": 13
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 6,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:01:01.712Z",
-    "cost2026": 6
+    "scrapedAt": "2026-05-25T01:01:01.712Z"
   },
   "david-chiu": {
     "name": "David Chiu",
@@ -13491,7 +12939,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 135,
         "cashes": 12
       },
@@ -13595,7 +13043,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 10,
         "cashes": 3
       },
@@ -13678,7 +13126,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 275,
         "cashes": 13
       },
@@ -13790,7 +13238,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 349,
         "cashes": 32
       },
@@ -13886,7 +13334,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 5,
         "cashes": 5
       },
@@ -13934,19 +13382,11 @@
       {
         "year": 2025,
         "pts": 15,
-        "cost": 25,
+        "cost": 25.0,
         "cashes": 4
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 12,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:01:44.717Z",
-    "cost2026": 12
+    "scrapedAt": "2026-05-25T01:01:44.717Z"
   },
   "sam-soverel": {
     "name": "Sam Soverel",
@@ -14035,19 +13475,11 @@
       {
         "year": 2025,
         "pts": 214,
-        "cost": 4,
+        "cost": 4.0,
         "cashes": 8
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 28,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:01:50.462Z",
-    "cost2026": 28
+    "scrapedAt": "2026-05-25T01:01:50.462Z"
   },
   "sean-winter": {
     "name": "Sean Winter",
@@ -14098,7 +13530,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 2,
         "cashes": 4
       },
@@ -14146,19 +13578,11 @@
       {
         "year": 2025,
         "pts": 52,
-        "cost": 22,
+        "cost": 22.0,
         "cashes": 5
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 13,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:01:56.245Z",
-    "cost2026": 13
+    "scrapedAt": "2026-05-25T01:01:56.245Z"
   },
   "max-pescatori": {
     "name": "Max Pescatori",
@@ -14228,7 +13652,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 270,
         "cashes": 39
       },
@@ -14295,7 +13719,7 @@
       {
         "year": 2025,
         "pts": 13,
-        "cost": 2,
+        "cost": 2.0,
         "cashes": 6
       }
     ],
@@ -14368,7 +13792,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 289,
         "cashes": 46
       },
@@ -14431,17 +13855,9 @@
         "pts": 8,
         "cost": 15,
         "cashes": 16
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:02:10.278Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T01:02:10.278Z"
   },
   "jim-collopy": {
     "name": "Jim Collopy",
@@ -14498,7 +13914,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 173,
         "cashes": 44
       },
@@ -14552,19 +13968,11 @@
       {
         "year": 2025,
         "pts": 25,
-        "cost": 43,
+        "cost": 43.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 14,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:02:16.407Z",
-    "cost2026": 14
+    "scrapedAt": "2026-05-25T01:02:16.407Z"
   },
   "johanes-becker": {
     "name": "Johanes Becker",
@@ -14614,7 +14022,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 8,
         "cashes": 2
       },
@@ -14704,7 +14112,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 62,
         "cashes": 16
       },
@@ -14740,19 +14148,11 @@
       {
         "year": 2025,
         "pts": 43,
-        "cost": 103,
+        "cost": 103.0,
         "cashes": 7
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 69,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:02:26.881Z",
-    "cost2026": 69
+    "scrapedAt": "2026-05-25T01:02:26.881Z"
   },
   "nick-guagenti": {
     "name": "Nick Guagenti",
@@ -14814,7 +14214,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 215,
         "cashes": 25
       },
@@ -14868,19 +14268,11 @@
       {
         "year": 2025,
         "pts": 219,
-        "cost": 38,
+        "cost": 38.0,
         "cashes": 12
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 37,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:02:33.022Z",
-    "cost2026": 37
+    "scrapedAt": "2026-05-25T01:02:33.022Z"
   },
   "frank-kassela": {
     "name": "Frank Kassela",
@@ -14943,7 +14335,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 118,
         "cashes": 13
       },
@@ -15149,7 +14541,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 18,
         "cashes": 5
       },
@@ -15215,7 +14607,7 @@
       {
         "year": 2025,
         "pts": 0,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 0
       }
     ],
@@ -15287,7 +14679,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 129,
         "cashes": 40
       },
@@ -15342,7 +14734,7 @@
       {
         "year": 2025,
         "pts": 41,
-        "cost": 18,
+        "cost": 18.0,
         "cashes": 11
       }
     ],
@@ -15397,7 +14789,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 66,
         "cashes": 15
       },
@@ -15528,7 +14920,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 45,
         "cashes": 31
       },
@@ -15638,7 +15030,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 30,
         "cashes": 3
       },
@@ -15729,7 +15121,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 79,
         "cashes": 18
       },
@@ -15771,19 +15163,11 @@
       {
         "year": 2025,
         "pts": 38,
-        "cost": 40,
+        "cost": 40.0,
         "cashes": 6
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 22,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:03:36.594Z",
-    "cost2026": 22
+    "scrapedAt": "2026-05-25T01:03:36.594Z"
   },
   "jeff-lisandro": {
     "name": "Jeff Lisandro",
@@ -15845,7 +15229,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 29,
         "cashes": 4
       },
@@ -15977,7 +15361,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 191,
         "cashes": 59
       },
@@ -16075,17 +15459,9 @@
         "pts": 7,
         "cost": 54,
         "cashes": 56
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 2,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:03:51.167Z",
-    "cost2026": 2
+    "scrapedAt": "2026-05-25T01:03:51.167Z"
   },
   "david-bach": {
     "name": "David Bach",
@@ -16149,7 +15525,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 95,
         "cashes": 16
       },
@@ -16285,7 +15661,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 152,
         "cashes": 37
       },
@@ -16430,7 +15806,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 123,
         "cashes": 18
       },
@@ -16485,7 +15861,7 @@
       {
         "year": 2025,
         "pts": 30,
-        "cost": 21,
+        "cost": 21.0,
         "cashes": 8
       }
     ],
@@ -16523,7 +15899,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 341,
         "cashes": 13
       },
@@ -16554,19 +15930,11 @@
       {
         "year": 2025,
         "pts": 154,
-        "cost": 17,
+        "cost": 17.0,
         "cashes": 8
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 18,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:04:16.934Z",
-    "cost2026": 18
+    "scrapedAt": "2026-05-25T01:04:16.934Z"
   },
   "joe-cheong": {
     "name": "Joe Cheong",
@@ -16608,7 +15976,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 251,
         "cashes": 35
       },
@@ -16730,7 +16098,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 149,
         "cashes": 20
       },
@@ -16761,19 +16129,11 @@
       {
         "year": 2025,
         "pts": 194,
-        "cost": 31,
+        "cost": 31.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 21,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:04:29.129Z",
-    "cost2026": 21
+    "scrapedAt": "2026-05-25T01:04:29.129Z"
   },
   "josh-reichard": {
     "name": "Josh Reichard",
@@ -16817,7 +16177,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 370,
         "cashes": 21
       },
@@ -16848,19 +16208,11 @@
       {
         "year": 2025,
         "pts": 169,
-        "cost": 37,
+        "cost": 37.0,
         "cashes": 13
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 20,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:04:34.211Z",
-    "cost2026": 20
+    "scrapedAt": "2026-05-25T01:04:34.211Z"
   },
   "barry-greenstein": {
     "name": "Barry Greenstein",
@@ -16921,7 +16273,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 139,
         "cashes": 12
       },
@@ -17040,7 +16392,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 146,
         "cashes": 26
       },
@@ -17154,7 +16506,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 111,
         "cashes": 21
       },
@@ -17197,7 +16549,7 @@
       {
         "year": 2025,
         "pts": 7,
-        "cost": 15,
+        "cost": 15.0,
         "cashes": 5
       }
     ],
@@ -17235,7 +16587,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 130,
         "cashes": 19
       },
@@ -17325,7 +16677,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 155,
         "cashes": 12
       },
@@ -17367,19 +16719,11 @@
       {
         "year": 2025,
         "pts": 71,
-        "cost": 51,
+        "cost": 51.0,
         "cashes": 4
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 46,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:05:14.400Z",
-    "cost2026": 46
+    "scrapedAt": "2026-05-25T01:05:14.400Z"
   },
   "isaac-haxton": {
     "name": "Isaac Haxton",
@@ -17417,7 +16761,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 6,
         "cashes": 5
       },
@@ -17477,19 +16821,11 @@
       {
         "year": 2025,
         "pts": 276,
-        "cost": 6,
+        "cost": 6.0,
         "cashes": 4
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 19,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:05:20.919Z",
-    "cost2026": 19
+    "scrapedAt": "2026-05-25T01:05:20.919Z"
   },
   "patrick-leonard": {
     "name": "Patrick Leonard",
@@ -17551,7 +16887,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 262,
         "cashes": 28
       },
@@ -17605,19 +16941,11 @@
       {
         "year": 2025,
         "pts": 256,
-        "cost": 30,
+        "cost": 30.0,
         "cashes": 16
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 41,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:05:27.043Z",
-    "cost2026": 41
+    "scrapedAt": "2026-05-25T01:05:27.043Z"
   },
   "phil-galfond": {
     "name": "Phil Galfond",
@@ -17663,7 +16991,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -17759,7 +17087,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 14,
         "cashes": 14
       },
@@ -17795,19 +17123,11 @@
       {
         "year": 2025,
         "pts": 65,
-        "cost": 89,
+        "cost": 89.0,
         "cashes": 8
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 130,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:05:37.998Z",
-    "cost2026": 130
+    "scrapedAt": "2026-05-25T01:05:37.998Z"
   },
   "georgios-sotiropoulos": {
     "name": "Georgios Sotiropoulos",
@@ -17854,7 +17174,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 238,
         "cashes": 29
       },
@@ -17908,7 +17228,7 @@
       {
         "year": 2025,
         "pts": 35,
-        "cost": 3,
+        "cost": 3.0,
         "cashes": 6
       }
     ],
@@ -17963,7 +17283,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 5,
         "cashes": 5
       },
@@ -18011,19 +17331,11 @@
       {
         "year": 2025,
         "pts": 99,
-        "cost": 14,
+        "cost": 14.0,
         "cashes": 2
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 12,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:05:49.813Z",
-    "cost2026": 12
+    "scrapedAt": "2026-05-25T01:05:49.813Z"
   },
   "julien-martini": {
     "name": "Julien Martini",
@@ -18080,7 +17392,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 8,
         "cashes": 8
       },
@@ -18177,7 +17489,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 12,
         "cashes": 14
       },
@@ -18213,19 +17525,11 @@
       {
         "year": 2025,
         "pts": 94,
-        "cost": 42,
+        "cost": 42.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 29,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:06:01.033Z",
-    "cost2026": 29
+    "scrapedAt": "2026-05-25T01:06:01.033Z"
   },
   "vanessa-selbst": {
     "name": "Vanessa Selbst",
@@ -18276,7 +17580,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 72,
         "cashes": 5
       },
@@ -18376,7 +17680,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 138,
         "cashes": 36
       },
@@ -18495,7 +17799,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 247,
         "cashes": 23
       },
@@ -18537,7 +17841,7 @@
       {
         "year": 2025,
         "pts": 24,
-        "cost": 5,
+        "cost": 5.0,
         "cashes": 5
       }
     ],
@@ -18580,7 +17884,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 4,
         "cashes": 12
       },
@@ -18690,7 +17994,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 13,
         "cashes": 3
       },
@@ -18766,7 +18070,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 120,
         "cashes": 12
       },
@@ -18939,7 +18243,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 99,
         "cashes": 6
       },
@@ -19030,7 +18334,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 6,
         "cashes": 6
       },
@@ -19126,7 +18430,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 149,
         "cashes": 33
       },
@@ -19168,19 +18472,11 @@
       {
         "year": 2025,
         "pts": 118,
-        "cost": 35,
+        "cost": 35.0,
         "cashes": 13
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 70,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:07:21.281Z",
-    "cost2026": 70
+    "scrapedAt": "2026-05-25T01:07:21.281Z"
   },
   "daniel-buzgon": {
     "name": "Daniel Buzgon",
@@ -19221,7 +18517,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 224,
         "cashes": 36
       },
@@ -19317,7 +18613,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 40,
         "cashes": 4
       },
@@ -19406,7 +18702,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 54,
         "cashes": 3
       },
@@ -19482,7 +18778,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 192,
         "cashes": 15
       },
@@ -19579,7 +18875,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 48,
         "cashes": 11
       },
@@ -19669,7 +18965,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 183,
         "cashes": 26
       },
@@ -19700,7 +18996,7 @@
       {
         "year": 2025,
         "pts": 9,
-        "cost": 8,
+        "cost": 8.0,
         "cashes": 8
       }
     ],
@@ -19770,7 +19066,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 140,
         "cashes": 53
       },
@@ -19876,7 +19172,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 89,
         "cashes": 14
       },
@@ -19912,19 +19208,11 @@
       {
         "year": 2025,
         "pts": 186,
-        "cost": 38,
+        "cost": 38.0,
         "cashes": 15
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 31,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:08:04.480Z",
-    "cost2026": 31
+    "scrapedAt": "2026-05-25T01:08:04.480Z"
   },
   "dong-chen": {
     "name": "Dong Chen",
@@ -19962,7 +19250,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 155,
         "cashes": 11
       },
@@ -19987,19 +19275,11 @@
       {
         "year": 2025,
         "pts": 14,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 4,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:08:09.174Z",
-    "cost2026": 4
+    "scrapedAt": "2026-05-25T01:08:09.174Z"
   },
   "nate-silver": {
     "name": "Nate Silver",
@@ -20029,7 +19309,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 91,
         "cashes": 8
       },
@@ -20106,7 +19386,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 91,
         "cashes": 23
       },
@@ -20189,7 +19469,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 45,
         "cashes": 13
       },
@@ -20237,7 +19517,7 @@
       {
         "year": 2025,
         "pts": 18,
-        "cost": 2,
+        "cost": 2.0,
         "cashes": 6
       }
     ],
@@ -20301,7 +19581,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 161,
         "cashes": 9
       },
@@ -20343,7 +19623,7 @@
       {
         "year": 2025,
         "pts": 183,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 12
       }
     ],
@@ -20397,7 +19677,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 31,
         "cashes": 21
       },
@@ -20439,19 +19719,11 @@
       {
         "year": 2025,
         "pts": 50,
-        "cost": 2,
+        "cost": 2.0,
         "cashes": 8
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 3,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:08:36.860Z",
-    "cost2026": 3
+    "scrapedAt": "2026-05-25T01:08:36.860Z"
   },
   "tom-marchese": {
     "name": "Tom Marchese",
@@ -20488,7 +19760,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 5,
         "cashes": 5
       },
@@ -20597,7 +19869,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 102,
         "cashes": 9
       },
@@ -20705,7 +19977,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 97,
         "cashes": 8
       },
@@ -20796,7 +20068,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 192,
         "cashes": 20
       },
@@ -20886,7 +20158,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 6,
         "cashes": 6
       },
@@ -20928,19 +20200,11 @@
       {
         "year": 2025,
         "pts": 254,
-        "cost": 21,
+        "cost": 21.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 65,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:04.916Z",
-    "cost2026": 65
+    "scrapedAt": "2026-05-25T01:09:04.916Z"
   },
   "nacho-barbero": {
     "name": "Nacho Barbero",
@@ -20990,7 +20254,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 83,
         "cashes": 8
       },
@@ -21032,19 +20296,11 @@
       {
         "year": 2025,
         "pts": 103,
-        "cost": 59,
+        "cost": 59.0,
         "cashes": 5
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 43,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:10.328Z",
-    "cost2026": 43
+    "scrapedAt": "2026-05-25T01:09:10.328Z"
   },
   "jeff-madsen": {
     "name": "Jeff Madsen",
@@ -21106,7 +20362,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 158,
         "cashes": 55
       },
@@ -21155,19 +20411,11 @@
       {
         "year": 2025,
         "pts": 95,
-        "cost": 11,
+        "cost": 11.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 4,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:16.417Z",
-    "cost2026": 4
+    "scrapedAt": "2026-05-25T01:09:16.417Z"
   },
   "seth-davies": {
     "name": "Seth Davies",
@@ -21239,7 +20487,7 @@
       {
         "year": 2025,
         "pts": 131,
-        "cost": 29,
+        "cost": 29.0,
         "cashes": 4
       }
     ],
@@ -21303,19 +20551,11 @@
       {
         "year": 2025,
         "pts": 142,
-        "cost": 28,
+        "cost": 28.0,
         "cashes": 3
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 39,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:26.876Z",
-    "cost2026": 39
+    "scrapedAt": "2026-05-25T01:09:26.876Z"
   },
   "danny-tang": {
     "name": "Danny Tang",
@@ -21348,7 +20588,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -21378,19 +20618,11 @@
       {
         "year": 2025,
         "pts": 5,
-        "cost": 26,
+        "cost": 26.0,
         "cashes": 3
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 12,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:31.565Z",
-    "cost2026": 12
+    "scrapedAt": "2026-05-25T01:09:31.565Z"
   },
   "renan-bruschi": {
     "name": "Renan Bruschi",
@@ -21444,7 +20676,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 91,
         "cashes": 23
       },
@@ -21480,19 +20712,11 @@
       {
         "year": 2025,
         "pts": 22,
-        "cost": 36,
+        "cost": 36.0,
         "cashes": 8
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 49,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:36.640Z",
-    "cost2026": 49
+    "scrapedAt": "2026-05-25T01:09:36.640Z"
   },
   "aram-zobian": {
     "name": "Aram Zobian",
@@ -21526,7 +20750,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 160,
         "cashes": 15
       },
@@ -21557,19 +20781,11 @@
       {
         "year": 2025,
         "pts": 128,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 7,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:41.672Z",
-    "cost2026": 7
+    "scrapedAt": "2026-05-25T01:09:41.672Z"
   },
   "faraz-jaka": {
     "name": "Faraz Jaka",
@@ -21600,7 +20816,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 89,
         "cashes": 11
       },
@@ -21679,7 +20895,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 191,
         "cashes": 6
       }
@@ -21741,7 +20957,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 77,
         "cashes": 23
       },
@@ -21777,7 +20993,7 @@
       {
         "year": 2025,
         "pts": 9,
-        "cost": 13,
+        "cost": 13.0,
         "cashes": 8
       }
     ],
@@ -21827,7 +21043,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 5,
         "cashes": 5
       },
@@ -21928,7 +21144,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 24,
         "cashes": 4
       },
@@ -22017,7 +21233,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 66,
         "cashes": 13
       },
@@ -22104,7 +21320,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 49,
         "cashes": 12
       },
@@ -22158,7 +21374,7 @@
       {
         "year": 2025,
         "pts": 33,
-        "cost": 2,
+        "cost": 2.0,
         "cashes": 11
       }
     ],
@@ -22201,7 +21417,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 11,
         "cashes": 15
       },
@@ -22237,7 +21453,7 @@
       {
         "year": 2025,
         "pts": 131,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 2
       }
     ],
@@ -22295,7 +21511,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 57,
         "cashes": 34
       },
@@ -22361,7 +21577,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 65,
         "cashes": 8
       },
@@ -22461,7 +21677,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 195,
         "cashes": 13
       },
@@ -22486,7 +21702,7 @@
       {
         "year": 2025,
         "pts": 52,
-        "cost": 23,
+        "cost": 23.0,
         "cashes": 8
       }
     ],
@@ -22539,7 +21755,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 104,
         "cashes": 14
       },
@@ -22602,7 +21818,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 151,
         "cashes": 4
       },
@@ -22673,7 +21889,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 139,
         "cashes": 7
       },
@@ -22689,17 +21905,9 @@
         "pts": 168,
         "cost": 1,
         "cashes": 9
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:10:53.970Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T01:10:53.970Z"
   },
   "daniel-idema": {
     "name": "Daniel Idema",
@@ -22747,7 +21955,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 81,
         "cashes": 4
       },
@@ -22809,7 +22017,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 153,
         "cashes": 7
       },
@@ -22886,7 +22094,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 162,
         "cashes": 19
       },
@@ -22916,19 +22124,11 @@
       {
         "year": 2025,
         "pts": 184,
-        "cost": 7,
+        "cost": 7.0,
         "cashes": 15
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 34,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:11:08.117Z",
-    "cost2026": 34
+    "scrapedAt": "2026-05-25T01:11:08.117Z"
   },
   "hal-rotholz": {
     "name": "Hal Rotholz",
@@ -22987,7 +22187,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 45,
         "cashes": 8
       },
@@ -23023,7 +22223,7 @@
       {
         "year": 2025,
         "pts": 38,
-        "cost": 5,
+        "cost": 5.0,
         "cashes": 7
       }
     ],
@@ -23081,7 +22281,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 65,
         "cashes": 5
       },
@@ -23160,7 +22360,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 3,
         "cashes": 3
       },
@@ -23245,7 +22445,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 194,
         "cashes": 18
       }
@@ -23274,17 +22474,9 @@
         "pts": 5,
         "cost": 1,
         "cashes": 68
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:11:40.674Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T01:11:40.674Z"
   },
   "dylan-smith": {
     "name": "Dylan Smith",
@@ -23338,7 +22530,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 74,
         "cashes": 21
       },
@@ -23374,19 +22566,11 @@
       {
         "year": 2025,
         "pts": 112,
-        "cost": 64,
+        "cost": 64.0,
         "cashes": 9
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 59,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:11:45.739Z",
-    "cost2026": 59
+    "scrapedAt": "2026-05-25T01:11:45.739Z"
   },
   "brett-richey": {
     "name": "Brett Richey",
@@ -23436,7 +22620,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 4,
         "cashes": 3
       },
@@ -23530,7 +22714,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 23,
         "cashes": 4
       },
@@ -23587,7 +22771,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 158,
         "cashes": 7
       },
@@ -23614,17 +22798,9 @@
         "pts": 5,
         "cost": 7,
         "cashes": 848
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:12:00.629Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T01:12:00.629Z"
   },
   "richard-ashby": {
     "name": "Richard Ashby",
@@ -23731,7 +22907,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 86,
         "cashes": 3
       },
@@ -23761,19 +22937,11 @@
       {
         "year": 2025,
         "pts": 90,
-        "cost": 9,
+        "cost": 9.0,
         "cashes": 7
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 24,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:12:10.432Z",
-    "cost2026": 24
+    "scrapedAt": "2026-05-25T01:12:10.432Z"
   },
   "michael-trivett": {
     "name": "Michael Trivett",
@@ -23827,7 +22995,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 50,
         "cashes": 11
       },
@@ -23892,7 +23060,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 19,
         "cashes": 10
       },
@@ -23960,7 +23128,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -24037,7 +23205,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 201,
         "cashes": 19
       },
@@ -24068,19 +23236,11 @@
       {
         "year": 2025,
         "pts": 158,
-        "cost": 9,
+        "cost": 9.0,
         "cashes": 8
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 6,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:12:42.288Z",
-    "cost2026": 6
+    "scrapedAt": "2026-05-25T01:12:42.288Z"
   },
   "joe-cassidy": {
     "name": "Joe Cassidy",
@@ -24125,7 +23285,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -24213,7 +23373,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 17,
         "cashes": 5
       },
@@ -24270,7 +23430,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 10,
         "cashes": 4
       },
@@ -24349,7 +23509,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 26,
         "cashes": 10
       },
@@ -24432,7 +23592,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 145,
         "cashes": 9
       },
@@ -24494,7 +23654,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 3,
         "cashes": 3
       },
@@ -24573,7 +23733,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 72,
         "cashes": 17
       },
@@ -24753,7 +23913,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 8,
         "cashes": 8
       },
@@ -24778,19 +23938,11 @@
       {
         "year": 2025,
         "pts": 148,
-        "cost": 12,
+        "cost": 12.0,
         "cashes": 5
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 19,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:13:27.274Z",
-    "cost2026": 19
+    "scrapedAt": "2026-05-25T01:13:27.274Z"
   },
   "dario-alioto": {
     "name": "Dario Alioto",
@@ -24845,7 +23997,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 39,
         "cashes": 9
       },
@@ -24882,7 +24034,7 @@
       {
         "year": 2025,
         "pts": 89,
-        "cost": 25,
+        "cost": 25.0,
         "cashes": 8
       }
     ],
@@ -24919,7 +24071,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 2,
         "cashes": 2
       },
@@ -24977,7 +24129,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 73,
         "cashes": 11
       },
@@ -25051,7 +24203,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 117,
         "cashes": 12
       },
@@ -25087,19 +24239,11 @@
       {
         "year": 2025,
         "pts": 129,
-        "cost": 19,
+        "cost": 19.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 38,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:13:47.566Z",
-    "cost2026": 38
+    "scrapedAt": "2026-05-25T01:13:47.566Z"
   },
   "carol-fuchs": {
     "name": "Carol Fuchs",
@@ -25153,7 +24297,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 55,
         "cashes": 10
       },
@@ -25216,7 +24360,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 133,
         "cashes": 17
       },
@@ -25289,7 +24433,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 89,
         "cashes": 24
       },
@@ -25391,7 +24535,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 126,
         "cashes": 4
       }
@@ -25432,7 +24576,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 118,
         "cashes": 9
       },
@@ -25525,7 +24669,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 52,
         "cashes": 22
       },
@@ -25561,19 +24705,11 @@
       {
         "year": 2025,
         "pts": 116,
-        "cost": 42,
+        "cost": 42.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 34,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:14:18.953Z",
-    "cost2026": 34
+    "scrapedAt": "2026-05-25T01:14:18.953Z"
   },
   "fedor-holz": {
     "name": "Fedor Holz",
@@ -25601,7 +24737,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 19,
         "cashes": 1
       },
@@ -25685,7 +24821,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 77,
         "cashes": 7
       },
@@ -25755,7 +24891,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 83,
         "cashes": 3
       },
@@ -25845,7 +24981,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 44,
         "cashes": 16
       },
@@ -25882,7 +25018,7 @@
       {
         "year": 2025,
         "pts": 28,
-        "cost": 19,
+        "cost": 19.0,
         "cashes": 10
       }
     ],
@@ -25939,7 +25075,7 @@
       {
         "year": 2025,
         "pts": 85,
-        "cost": 2,
+        "cost": 2.0,
         "cashes": 2
       }
     ],
@@ -25973,7 +25109,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 93,
         "cashes": 18
       },
@@ -26046,7 +25182,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 105,
         "cashes": 5
       },
@@ -26097,7 +25233,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 57,
         "cashes": 5
       },
@@ -26170,7 +25306,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 27,
         "cashes": 11
       },
@@ -26235,7 +25371,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 6,
         "cashes": 9
       },
@@ -26314,7 +25450,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 124,
         "cashes": 9
       },
@@ -26339,7 +25475,7 @@
       {
         "year": 2025,
         "pts": 105,
-        "cost": 26,
+        "cost": 26.0,
         "cashes": 3
       }
     ],
@@ -26373,7 +25509,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 93,
         "cashes": 6
       },
@@ -26448,7 +25584,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 88,
         "cashes": 26
       },
@@ -26484,19 +25620,11 @@
       {
         "year": 2025,
         "pts": 85,
-        "cost": 5,
+        "cost": 5.0,
         "cashes": 12
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 20,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:15:24.616Z",
-    "cost2026": 20
+    "scrapedAt": "2026-05-25T01:15:24.616Z"
   },
   "alexey-makarov": {
     "name": "Alexey Makarov",
@@ -26539,7 +25667,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 94,
         "cashes": 4
       },
@@ -26612,7 +25740,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 206,
         "cashes": 21
       },
@@ -26650,17 +25778,9 @@
         "pts": 12,
         "cost": 20,
         "cashes": 843
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 6,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:15:34.494Z",
-    "cost2026": 6
+    "scrapedAt": "2026-05-25T01:15:34.494Z"
   },
   "michael-wang": {
     "name": "Michael Wang",
@@ -26700,7 +25820,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 192,
         "cashes": 20
       },
@@ -26739,17 +25859,9 @@
         "pts": 9,
         "cost": 3,
         "cashes": 2422
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:15:39.947Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T01:15:39.947Z"
   },
   "landon-tice": {
     "name": "Landon Tice",
@@ -26779,7 +25891,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 58,
         "cashes": 13
       },
@@ -26853,7 +25965,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 19,
         "cashes": 2
       },
@@ -26921,7 +26033,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 29,
         "cashes": 2
       },
@@ -26985,7 +26097,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 63,
         "cashes": 16
       },
@@ -27048,7 +26160,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 90,
         "cashes": 15
       },
@@ -27105,7 +26217,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 108,
         "cashes": 8
       },
@@ -27174,7 +26286,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 104,
         "cashes": 26
       },
@@ -27243,7 +26355,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 54,
         "cashes": 4
       },
@@ -27366,7 +26478,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 9,
         "cashes": 3
       },
@@ -27428,7 +26540,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 84,
         "cashes": 9
       },
@@ -27506,7 +26618,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 103,
         "cashes": 14
       },
@@ -27570,7 +26682,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 21,
         "cashes": 9
       },
@@ -27639,7 +26751,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -27690,7 +26802,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 102,
         "cashes": 2
       }
@@ -27743,7 +26855,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 3,
         "cashes": 3
       },
@@ -27817,7 +26929,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -27876,7 +26988,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 4,
         "cashes": 4
       },
@@ -27955,7 +27067,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 6,
         "cashes": 6
       },
@@ -27985,19 +27097,11 @@
       {
         "year": 2025,
         "pts": 10,
-        "cost": 7,
+        "cost": 7.0,
         "cashes": 8
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 26,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:17:18.208Z",
-    "cost2026": 26
+    "scrapedAt": "2026-05-25T01:17:18.208Z"
   },
   "allen-cunningham": {
     "name": "Allen Cunningham",
@@ -28036,7 +27140,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 90,
         "cashes": 8
       },
@@ -28136,7 +27240,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 83,
         "cashes": 11
       },
@@ -28226,7 +27330,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 8,
         "cashes": 8
       },
@@ -28289,7 +27393,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 36,
         "cashes": 10
       },
@@ -28321,17 +27425,9 @@
         "pts": 7,
         "cost": 50,
         "cashes": 86
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 5,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:17:38.490Z",
-    "cost2026": 5
+    "scrapedAt": "2026-05-25T01:17:38.490Z"
   },
   "dustin-dirksen": {
     "name": "Dustin Dirksen",
@@ -28374,7 +27470,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 3,
         "cashes": 3
       },
@@ -28525,7 +27621,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 15,
         "cashes": 2
       },
@@ -28599,7 +27695,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 64,
         "cashes": 15
       },
@@ -28678,7 +27774,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 13,
         "cashes": 2
       },
@@ -28745,7 +27841,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 4,
         "cashes": 4
       },
@@ -28819,7 +27915,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 9,
         "cashes": 9
       },
@@ -28892,7 +27988,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 19,
         "cashes": 5
       },
@@ -28948,7 +28044,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 188,
         "cashes": 13
       },
@@ -28973,19 +28069,11 @@
       {
         "year": 2025,
         "pts": 131,
-        "cost": 6,
+        "cost": 6.0,
         "cashes": 13
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 3,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:18:40.600Z",
-    "cost2026": 3
+    "scrapedAt": "2026-05-25T01:18:40.600Z"
   },
   "christoph-vogelsang": {
     "name": "Christoph Vogelsang",
@@ -29081,7 +28169,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 48,
         "cashes": 2
       },
@@ -29224,7 +28312,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 46,
         "cashes": 16
       },
@@ -29370,7 +28458,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 81,
         "cashes": 14
       }
@@ -29438,7 +28526,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 2,
         "cashes": 2
       },
@@ -29510,7 +28598,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 3,
         "cashes": 3
       },
@@ -29584,7 +28672,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 3,
         "cashes": 3
       },
@@ -29676,7 +28764,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 81,
         "cashes": 13
       },
@@ -29744,7 +28832,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 3,
         "cashes": 3
       },
@@ -29794,7 +28882,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -29854,7 +28942,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 7,
         "cashes": 7
       },
@@ -29906,7 +28994,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 69,
         "cashes": 10
       },
@@ -29937,7 +29025,7 @@
       {
         "year": 2025,
         "pts": 3,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 3
       }
     ],
@@ -29994,7 +29082,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 63,
         "cashes": 13
       },
@@ -30055,7 +29143,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 28,
         "cashes": 5
       },
@@ -30126,7 +29214,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 8,
         "cashes": 11
       },
@@ -30156,7 +29244,7 @@
       {
         "year": 2025,
         "pts": 3,
-        "cost": 3,
+        "cost": 3.0,
         "cashes": 3
       }
     ],
@@ -30199,7 +29287,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 2,
         "cashes": 2
       },
@@ -30325,7 +29413,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 65,
         "cashes": 31
       },
@@ -30405,7 +29493,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 58,
         "cashes": 14
       },
@@ -30497,7 +29585,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 62,
         "cashes": 5
       },
@@ -30559,7 +29647,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 54,
         "cashes": 8
       },
@@ -30627,7 +29715,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 12,
         "cashes": 21
       },
@@ -30665,17 +29753,9 @@
         "pts": 24,
         "cost": 1,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:20:55.178Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T01:20:55.178Z"
   },
   "anson-tsang": {
     "name": "Anson Tsang",
@@ -30729,7 +29809,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 49,
         "cashes": 20
       },
@@ -30765,19 +29845,11 @@
       {
         "year": 2025,
         "pts": 48,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 14
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:21:00.278Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T01:21:00.278Z"
   },
   "eric-baldwin": {
     "name": "Eric Baldwin",
@@ -30824,7 +29896,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 53,
         "cashes": 35
       },
@@ -30873,7 +29945,7 @@
       {
         "year": 2025,
         "pts": 34,
-        "cost": 5,
+        "cost": 5.0,
         "cashes": 12
       }
     ],
@@ -30907,7 +29979,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 18,
         "cashes": 7
       },
@@ -30949,19 +30021,11 @@
       {
         "year": 2025,
         "pts": 146,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 4
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 3,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:21:11.798Z",
-    "cost2026": 3
+    "scrapedAt": "2026-05-25T01:21:11.798Z"
   },
   "andrey-zhigalov": {
     "name": "Andrey Zhigalov",
@@ -30993,7 +30057,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 59,
         "cashes": 3
       }
@@ -31050,7 +30114,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 4,
         "cashes": 4
       },
@@ -31132,7 +30196,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 3,
         "cashes": 3
       },
@@ -31198,7 +30262,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 37,
         "cashes": 4
       },
@@ -31252,7 +30316,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 37,
         "cashes": 9
       },
@@ -31325,7 +30389,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 41,
         "cashes": 4
       },
@@ -31388,7 +30452,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 58,
         "cashes": 17
       },
@@ -31430,19 +30494,11 @@
       {
         "year": 2025,
         "pts": 13,
-        "cost": 12,
+        "cost": 12.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:21:47.987Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T01:21:47.987Z"
   },
   "ebony-kenney": {
     "name": "Ebony Kenney",
@@ -31470,7 +30526,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 56,
         "cashes": 7
       }
@@ -31527,7 +30583,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 2,
         "cashes": 2
       },
@@ -31599,7 +30655,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 19,
         "cashes": 4
       },
@@ -31682,7 +30738,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 33,
         "cashes": 15
       },
@@ -31744,7 +30800,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 54,
         "cashes": 7
       }
@@ -31801,7 +30857,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 18,
         "cashes": 17
       },
@@ -31864,7 +30920,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 41,
         "cashes": 3
       },
@@ -31921,7 +30977,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 9,
         "cashes": 10
       },
@@ -31987,7 +31043,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 52,
         "cashes": 5
       }
@@ -32037,7 +31093,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 49,
         "cashes": 7
       },
@@ -32108,7 +31164,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 6,
         "cashes": 6
       },
@@ -32168,7 +31224,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 93,
         "cashes": 39
       },
@@ -32269,7 +31325,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 25,
         "cashes": 13
       },
@@ -32347,7 +31403,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 44,
         "cashes": 13
       },
@@ -32400,7 +31456,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 2
       },
@@ -32474,7 +31530,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 42,
         "cashes": 10
       },
@@ -32552,7 +31608,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 48,
         "cashes": 9
       },
@@ -32624,7 +31680,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 49,
         "cashes": 6
       }
@@ -32693,7 +31749,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 31,
         "cashes": 8
       },
@@ -32761,7 +31817,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 35,
         "cashes": 2
       },
@@ -32832,7 +31888,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 90,
         "cashes": 10
       },
@@ -32859,17 +31915,9 @@
         "pts": 14,
         "cost": 15,
         "cashes": 414
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 4,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:23:30.913Z",
-    "cost2026": 4
+    "scrapedAt": "2026-05-25T01:23:30.913Z"
   },
   "jordan-siegel": {
     "name": "Jordan Siegel",
@@ -32918,7 +31966,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 21,
         "cashes": 21
       },
@@ -32951,17 +31999,9 @@
         "pts": 15,
         "cost": 16,
         "cashes": 1136
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:23:36.212Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T01:23:36.212Z"
   },
   "huck-seed": {
     "name": "Huck Seed",
@@ -33027,7 +32067,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 157,
         "cashes": 11
       },
@@ -33075,19 +32115,11 @@
       {
         "year": 2025,
         "pts": 185,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 13
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 7,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:23:41.936Z",
-    "cost2026": 7
+    "scrapedAt": "2026-05-25T01:23:41.936Z"
   },
   "mikita-badziakouski": {
     "name": "Mikita Badziakouski",
@@ -33162,7 +32194,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -33243,7 +32275,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 238,
         "cashes": 44
       },
@@ -33292,20 +32324,12 @@
       {
         "year": 2025,
         "pts": 102,
-        "cost": 21,
+        "cost": 21.0,
         "cashes": 16
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 15,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T23:29:00.119Z",
-    "fixedSlug": "andrew-kelsall",
-    "cost2026": 15
+    "scrapedAt": "2026-05-25T21:48:09.506Z",
+    "fixedSlug": "andrew-kelsall"
   },
   "joao-simao-peres": {
     "name": "Joao Simao Peres",
@@ -33349,7 +32373,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 114,
         "cashes": 17
       },
@@ -33385,20 +32409,12 @@
       {
         "year": 2025,
         "pts": 27,
-        "cost": 45,
+        "cost": 45.0,
         "cashes": 10
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 20,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T23:29:03.492Z",
-    "fixedSlug": "joao-simao",
-    "cost2026": 20
+    "scrapedAt": "2026-05-25T21:48:15.416Z",
+    "fixedSlug": "joao-simao"
   },
   "nikolay-evdakov": {
     "name": "Nikolay Evdakov",
@@ -33480,7 +32496,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 44,
         "cashes": 8
       }
@@ -33520,7 +32536,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 36,
         "cashes": 3
       },
@@ -33565,7 +32581,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 37,
         "cashes": 1
       }
@@ -33621,7 +32637,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 35,
         "cashes": 4
       },
@@ -33673,7 +32689,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -33824,7 +32840,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 2,
         "cashes": 2
       },
@@ -33884,7 +32900,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 29,
         "cashes": 1
       },
@@ -33934,7 +32950,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -33991,7 +33007,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 10,
         "cashes": 17
       },
@@ -34027,19 +33043,11 @@
       {
         "year": 2025,
         "pts": 10,
-        "cost": 3,
+        "cost": 3.0,
         "cashes": 7
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T21:50:17.791Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T21:50:17.791Z"
   },
   "brian-tate": {
     "name": "Brian Tate",
@@ -34072,7 +33080,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 13,
         "cashes": 2
       },
@@ -34134,7 +33142,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 9,
         "cashes": 2
       },
@@ -34191,7 +33199,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -34221,19 +33229,11 @@
       {
         "year": 2025,
         "pts": 52,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 6
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 7,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T21:50:24.722Z",
-    "cost2026": 7
+    "scrapedAt": "2026-05-25T21:50:24.722Z"
   },
   "andrew-ostapchenko": {
     "name": "Andrew Ostapchenko",
@@ -34266,7 +33266,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 26,
         "cashes": 4
       },
@@ -34296,19 +33296,11 @@
       {
         "year": 2025,
         "pts": 234,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 12,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T21:50:27.008Z",
-    "cost2026": 12
+    "scrapedAt": "2026-05-25T21:50:27.008Z"
   },
   "mike-thorpe": {
     "name": "Mike Thorpe",
@@ -34367,7 +33359,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 18,
         "cashes": 7
       },
@@ -34439,7 +33431,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 5,
         "cashes": 5
       },
@@ -34455,17 +33447,9 @@
         "pts": 6,
         "cost": 0,
         "cashes": 21
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T21:50:31.644Z",
-    "cost2026": 1
+    "scrapedAt": "2026-05-25T21:50:31.644Z"
   },
   "kathy-liebert": {
     "name": "Kathy Liebert",
@@ -34492,7 +33476,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 25,
         "cashes": 4
       },
@@ -34537,7 +33521,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 1,
         "cashes": 1
       },
@@ -34587,7 +33571,7 @@
     ],
     "buyIn": [
       {
-        "level": "Low Stakes (≤ $1,500)",
+        "level": "Low Stakes (\u2264 $1,500)",
         "pts": 26,
         "cashes": 6
       }
@@ -34605,872 +33589,97 @@
   "dan-zack": {
     "name": "Dan Zack",
     "slug": "dan-zack",
-    "rank": 999,
-    "allTimeScore": 998,
-    "allTimeRank": 31,
-    "timesDrafted": 9,
-    "totalCashes": 88,
-    "avgSalary": 47.78,
-    "highestSalary": 109,
-    "highestSalaryYear": 2023,
-    "lowestSalary": 13,
-    "lowestSalaryYear": 2025,
-    "years": [
-      2016,
-      2017,
-      2018,
-      2019,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "gameType": [
-      {
-        "type": "Mixed Games",
-        "pts": 253,
-        "cashes": 15
-      },
-      {
-        "type": "Hold Em",
-        "pts": 247,
-        "cashes": 45
-      },
-      {
-        "type": "Pot Limit Omaha",
-        "pts": 188,
-        "cashes": 20
-      },
-      {
-        "type": "Omaha 8",
-        "pts": 138,
-        "cashes": 6
-      },
-      {
-        "type": "Draw",
-        "pts": 113,
-        "cashes": 7
-      },
-      {
-        "type": "Stud 8",
-        "pts": 101,
-        "cashes": 1
-      },
-      {
-        "type": "Razz",
-        "pts": 73,
-        "cashes": 2
-      },
-      {
-        "type": "Stud",
-        "pts": 20,
-        "cashes": 2
-      }
-    ],
-    "buyIn": [
-      {
-        "level": "Low Stakes (≤ $1,500)",
-        "pts": 212,
-        "cashes": 62
-      },
-      {
-        "level": "High Stakes ($10,000 - $24,999)",
-        "pts": 564,
-        "cashes": 18
-      },
-      {
-        "level": "Nosebleed Stakes ($25,000+)",
-        "pts": 107,
-        "cashes": 3
-      },
-      {
-        "level": "Mid Stakes ($1,501 - $9,999)",
-        "pts": 250,
-        "cashes": 15
-      }
-    ],
     "history": [
-      {
-        "year": 2016,
-        "pts": 22,
-        "cost": 16,
-        "cashes": 3
-      },
-      {
-        "year": 2017,
-        "pts": 59,
-        "cost": 22,
-        "cashes": 10
-      },
-      {
-        "year": 2018,
-        "pts": 128,
-        "cost": 32,
-        "cashes": 7
-      },
-      {
-        "year": 2019,
-        "pts": 179,
-        "cost": 39,
-        "cashes": 14
-      },
-      {
-        "year": 2021,
-        "pts": 182,
-        "cost": 62,
-        "cashes": 16
-      },
-      {
-        "year": 2022,
-        "pts": 351,
-        "cost": 87,
-        "cashes": 16
-      },
-      {
-        "year": 2023,
-        "pts": 52,
-        "cost": 109,
-        "cashes": 10
-      },
-      {
-        "year": 2024,
-        "pts": 25,
-        "cost": 50,
-        "cashes": 12
-      },
       {
         "year": 2025,
         "pts": 135,
-        "cost": 13,
+        "cost": 13.0,
         "cashes": 10
       }
-    ],
-    "scrapedAt": "2026-05-25T23:28:33.338Z",
-    "fixedSlug": "daniel-zack"
+    ]
   },
   "chino-rheem": {
     "name": "Chino Rheem",
     "slug": "chino-rheem",
-    "rank": 999,
-    "allTimeScore": 474,
-    "allTimeRank": 88,
-    "timesDrafted": 7,
-    "totalCashes": 39,
-    "avgSalary": 21.29,
-    "highestSalary": 45,
-    "highestSalaryYear": 2025,
-    "lowestSalary": 1,
-    "lowestSalaryYear": 2018,
-    "years": [
-      2014,
-      2016,
-      2018,
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "gameType": [
-      {
-        "type": "Hold Em",
-        "pts": 228,
-        "cashes": 27
-      },
-      {
-        "type": "Pot Limit Omaha",
-        "pts": 124,
-        "cashes": 7
-      },
-      {
-        "type": "Omaha 8",
-        "pts": 95,
-        "cashes": 4
-      },
-      {
-        "type": "Stud",
-        "pts": 91,
-        "cashes": 1
-      },
-      {
-        "type": "Stud 8",
-        "pts": 61,
-        "cashes": 1
-      },
-      {
-        "type": "Draw",
-        "pts": 33,
-        "cashes": 5
-      },
-      {
-        "type": "Mixed Games",
-        "pts": 23,
-        "cashes": 4
-      },
-      {
-        "type": "Short Deck",
-        "pts": 11,
-        "cashes": 1
-      }
-    ],
-    "buyIn": [
-      {
-        "level": "Low Stakes (≤ $1,500)",
-        "pts": 254,
-        "cashes": 24
-      },
-      {
-        "level": "High Stakes ($10,000 - $24,999)",
-        "pts": 355,
-        "cashes": 10
-      },
-      {
-        "level": "Nosebleed Stakes ($25,000+)",
-        "pts": 6,
-        "cashes": 3
-      },
-      {
-        "level": "Mid Stakes ($1,501 - $9,999)",
-        "pts": 51,
-        "cashes": 13
-      }
-    ],
     "history": [
-      {
-        "year": 2014,
-        "pts": 73,
-        "cost": 4,
-        "cashes": 3
-      },
-      {
-        "year": 2016,
-        "pts": 23,
-        "cost": 2,
-        "cashes": 4
-      },
-      {
-        "year": 2018,
-        "pts": 5,
-        "cost": 1,
-        "cashes": 3
-      },
-      {
-        "year": 2022,
-        "pts": 168,
-        "cost": 29,
-        "cashes": 9
-      },
-      {
-        "year": 2023,
-        "pts": 131,
-        "cost": 28,
-        "cashes": 11
-      },
-      {
-        "year": 2024,
-        "pts": 74,
-        "cost": 40,
-        "cashes": 9
-      },
       {
         "year": 2025,
         "pts": 192,
-        "cost": 45,
+        "cost": 45.0,
         "cashes": 11
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 51,
-        "cashes": null,
-        "pending": true
       }
-    ],
-    "scrapedAt": "2026-05-25T23:28:37.423Z",
-    "fixedSlug": "david-rheem",
-    "cost2026": 51
+    ]
   },
   "kristen-foxen": {
     "name": "Kristen Foxen",
     "slug": "kristen-foxen",
-    "rank": 999,
-    "allTimeScore": 431,
-    "allTimeRank": 96,
-    "timesDrafted": 7,
-    "totalCashes": 43,
-    "avgSalary": 8.43,
-    "highestSalary": 31,
-    "highestSalaryYear": 2025,
-    "lowestSalary": 0,
-    "lowestSalaryYear": 2017,
-    "years": [
-      2017,
-      2018,
-      2019,
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "gameType": [
-      {
-        "type": "Hold Em",
-        "pts": 416,
-        "cashes": 48
-      },
-      {
-        "type": "Mixed Games",
-        "pts": 35,
-        "cashes": 1
-      }
-    ],
-    "buyIn": [
-      {
-        "level": "Low Stakes (≤ $1,500)",
-        "pts": 106,
-        "cashes": 19
-      },
-      {
-        "level": "High Stakes ($10,000 - $24,999)",
-        "pts": 223,
-        "cashes": 7
-      },
-      {
-        "level": "Nosebleed Stakes ($25,000+)",
-        "pts": 51,
-        "cashes": 6
-      },
-      {
-        "level": "Mid Stakes ($1,501 - $9,999)",
-        "pts": 71,
-        "cashes": 17
-      }
-    ],
     "history": [
-      {
-        "year": 2017,
-        "pts": 7,
-        "cost": 737,
-        "cashes": 1
-      },
-      {
-        "year": 2018,
-        "pts": 7,
-        "cost": 631,
-        "cashes": 1
-      },
-      {
-        "year": 2019,
-        "pts": 10,
-        "cost": 7,
-        "cashes": 46
-      },
-      {
-        "year": 2022,
-        "pts": 2,
-        "cost": 8,
-        "cashes": 2629
-      },
-      {
-        "year": 2023,
-        "pts": 73,
-        "cost": 17,
-        "cashes": 7
-      },
-      {
-        "year": 2024,
-        "pts": 215,
-        "cost": 11,
-        "cashes": 10
-      },
       {
         "year": 2025,
         "pts": 20,
-        "cost": 31,
+        "cost": 31.0,
         "cashes": 6
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 16,
-        "cashes": null,
-        "pending": true
       }
-    ],
-    "scrapedAt": "2026-05-25T23:28:41.432Z",
-    "fixedSlug": "kristen-bicknell",
-    "cost2026": 16
+    ]
   },
   "daniel-shak": {
     "name": "Daniel Shak",
     "slug": "daniel-shak",
-    "rank": 999,
-    "allTimeScore": 344,
-    "allTimeRank": 112,
-    "timesDrafted": 5,
-    "totalCashes": 29,
-    "avgSalary": 7.6,
-    "highestSalary": 18,
-    "highestSalaryYear": 2012,
-    "lowestSalary": 1,
-    "lowestSalaryYear": 2023,
-    "years": [
-      2012,
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "gameType": [
-      {
-        "type": "Hold Em",
-        "pts": 186,
-        "cashes": 18
-      },
-      {
-        "type": "Stud",
-        "pts": 91,
-        "cashes": 1
-      },
-      {
-        "type": "Pot Limit Omaha",
-        "pts": 52,
-        "cashes": 6
-      },
-      {
-        "type": "Draw",
-        "pts": 15,
-        "cashes": 3
-      },
-      {
-        "type": "Omaha 8",
-        "pts": 6,
-        "cashes": 4
-      },
-      {
-        "type": "Mixed Games",
-        "pts": 2,
-        "cashes": 2
-      },
-      {
-        "type": "Stud 8",
-        "pts": 1,
-        "cashes": 1
-      }
-    ],
-    "buyIn": [
-      {
-        "level": "Low Stakes (≤ $1,500)",
-        "pts": 175,
-        "cashes": 14
-      },
-      {
-        "level": "High Stakes ($10,000 - $24,999)",
-        "pts": 145,
-        "cashes": 10
-      },
-      {
-        "level": "Nosebleed Stakes ($25,000+)",
-        "pts": 14,
-        "cashes": 3
-      },
-      {
-        "level": "Mid Stakes ($1,501 - $9,999)",
-        "pts": 19,
-        "cashes": 8
-      }
-    ],
     "history": [
-      {
-        "year": 2012,
-        "pts": 5,
-        "cost": 18,
-        "cashes": 4
-      },
-      {
-        "year": 2022,
-        "pts": 28,
-        "cost": 5,
-        "cashes": 6
-      },
-      {
-        "year": 2023,
-        "pts": 228,
-        "cost": 1,
-        "cashes": 9
-      },
-      {
-        "year": 2024,
-        "pts": 83,
-        "cost": 4,
-        "cashes": 10
-      },
       {
         "year": 2025,
         "pts": 9,
-        "cost": 10,
+        "cost": 10.0,
         "cashes": 6
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
-    ],
-    "scrapedAt": "2026-05-25T23:28:44.785Z",
-    "fixedSlug": "dan-shak",
-    "cost2026": 1
+    ]
   },
   "michael-holtz": {
     "name": "Michael Holtz",
     "slug": "michael-holtz",
-    "rank": 999,
-    "allTimeScore": 288,
-    "allTimeRank": 131,
-    "timesDrafted": 3,
-    "totalCashes": 40,
-    "avgSalary": 0.33,
-    "highestSalary": 1,
-    "highestSalaryYear": 2025,
-    "lowestSalary": 0,
-    "lowestSalaryYear": 2024,
-    "years": [
-      2023,
-      2024,
-      2025
-    ],
-    "gameType": [
-      {
-        "type": "Hold Em",
-        "pts": 227,
-        "cashes": 42
-      },
-      {
-        "type": "Mixed Games",
-        "pts": 37,
-        "cashes": 1
-      },
-      {
-        "type": "Omaha 8",
-        "pts": 18,
-        "cashes": 2
-      },
-      {
-        "type": "Pot Limit Omaha",
-        "pts": 16,
-        "cashes": 4
-      }
-    ],
-    "buyIn": [
-      {
-        "level": "Low Stakes (≤ $1,500)",
-        "pts": 260,
-        "cashes": 40
-      },
-      {
-        "level": "Mid Stakes ($1,501 - $9,999)",
-        "pts": 38,
-        "cashes": 9
-      }
-    ],
     "history": [
-      {
-        "year": 2023,
-        "pts": 1962,
-        "cost": 1,
-        "cashes": 83
-      },
-      {
-        "year": 2024,
-        "pts": 36,
-        "cost": 22,
-        "cashes": 231
-      },
       {
         "year": 2025,
         "pts": 10,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 9
       }
-    ],
-    "scrapedAt": "2026-05-25T23:28:47.725Z",
-    "fixedSlug": "mike-holtz"
+    ]
   },
   "joe-cada": {
     "name": "Joe Cada",
     "slug": "joe-cada",
-    "rank": 999,
-    "allTimeScore": 256,
-    "allTimeRank": 144,
-    "timesDrafted": 5,
-    "totalCashes": 35,
-    "avgSalary": 1,
-    "highestSalary": 2,
-    "highestSalaryYear": 2023,
-    "lowestSalary": 0,
-    "lowestSalaryYear": 2019,
-    "years": [
-      2019,
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "gameType": [
-      {
-        "type": "Hold Em",
-        "pts": 306,
-        "cashes": 40
-      },
-      {
-        "type": "Pot Limit Omaha",
-        "pts": 3,
-        "cashes": 3
-      },
-      {
-        "type": "Mixed Games",
-        "pts": 2,
-        "cashes": 1
-      }
-    ],
-    "buyIn": [
-      {
-        "level": "Low Stakes (≤ $1,500)",
-        "pts": 171,
-        "cashes": 30
-      },
-      {
-        "level": "High Stakes ($10,000 - $24,999)",
-        "pts": 49,
-        "cashes": 2
-      },
-      {
-        "level": "Nosebleed Stakes ($25,000+)",
-        "pts": 2,
-        "cashes": 1
-      },
-      {
-        "level": "Mid Stakes ($1,501 - $9,999)",
-        "pts": 89,
-        "cashes": 11
-      }
-    ],
     "history": [
-      {
-        "year": 2019,
-        "pts": 8,
-        "cost": 920,
-        "cashes": 1
-      },
-      {
-        "year": 2022,
-        "pts": 55,
-        "cost": 1,
-        "cashes": 10
-      },
-      {
-        "year": 2023,
-        "pts": 111,
-        "cost": 2,
-        "cashes": 7
-      },
-      {
-        "year": 2024,
-        "pts": 4,
-        "cost": 1,
-        "cashes": 10
-      },
       {
         "year": 2025,
         "pts": 55,
-        "cost": 1,
+        "cost": 1.0,
         "cashes": 9
       }
-    ],
-    "scrapedAt": "2026-05-25T23:28:51.050Z",
-    "fixedSlug": "joseph-cada"
+    ]
   },
   "matt-wantman": {
     "name": "Matt Wantman",
     "slug": "matt-wantman",
-    "rank": 999,
-    "allTimeScore": 156,
-    "allTimeRank": 208,
-    "timesDrafted": 4,
-    "totalCashes": 38,
-    "avgSalary": 13.25,
-    "highestSalary": 30,
-    "highestSalaryYear": 2024,
-    "lowestSalary": 0,
-    "lowestSalaryYear": 2021,
-    "years": [
-      2021,
-      2023,
-      2024,
-      2025
-    ],
-    "gameType": [
-      {
-        "type": "Hold Em",
-        "pts": 216,
-        "cashes": 29
-      },
-      {
-        "type": "Pot Limit Omaha",
-        "pts": 31,
-        "cashes": 11
-      },
-      {
-        "type": "Draw",
-        "pts": 10,
-        "cashes": 1
-      },
-      {
-        "type": "Mixed Games",
-        "pts": 7,
-        "cashes": 5
-      },
-      {
-        "type": "Omaha 8",
-        "pts": 1,
-        "cashes": 1
-      }
-    ],
-    "buyIn": [
-      {
-        "level": "Low Stakes (≤ $1,500)",
-        "pts": 33,
-        "cashes": 32
-      },
-      {
-        "level": "High Stakes ($10,000 - $24,999)",
-        "pts": 105,
-        "cashes": 2
-      },
-      {
-        "level": "Nosebleed Stakes ($25,000+)",
-        "pts": 59,
-        "cashes": 5
-      },
-      {
-        "level": "Mid Stakes ($1,501 - $9,999)",
-        "pts": 68,
-        "cashes": 8
-      }
-    ],
     "history": [
-      {
-        "year": 2021,
-        "pts": 8,
-        "cost": 191,
-        "cashes": 1
-      },
-      {
-        "year": 2023,
-        "pts": 128,
-        "cost": 2,
-        "cashes": 14
-      },
-      {
-        "year": 2024,
-        "pts": 8,
-        "cost": 30,
-        "cashes": 16
-      },
       {
         "year": 2025,
         "pts": 109,
-        "cost": 21,
+        "cost": 21.0,
         "cashes": 9
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 46,
-        "cashes": null,
-        "pending": true
       }
-    ],
-    "scrapedAt": "2026-05-25T23:28:54.090Z",
-    "fixedSlug": "matthew-wantman",
-    "cost2026": 46
+    ]
   },
   "daniel-sepiol": {
     "name": "Daniel Sepiol",
     "slug": "daniel-sepiol",
-    "rank": 999,
-    "allTimeScore": 79,
-    "allTimeRank": 287,
-    "timesDrafted": 2,
-    "totalCashes": 20,
-    "avgSalary": 6,
-    "highestSalary": 12,
-    "highestSalaryYear": 2025,
-    "lowestSalary": 0,
-    "lowestSalaryYear": 2024,
-    "years": [
-      2024,
-      2025
-    ],
-    "gameType": [
-      {
-        "type": "Hold Em",
-        "pts": 150,
-        "cashes": 22
-      },
-      {
-        "type": "Pot Limit Omaha",
-        "pts": 4,
-        "cashes": 5
-      }
-    ],
-    "buyIn": [
-      {
-        "level": "Low Stakes (≤ $1,500)",
-        "pts": 74,
-        "cashes": 16
-      },
-      {
-        "level": "High Stakes ($10,000 - $24,999)",
-        "pts": 7,
-        "cashes": 3
-      },
-      {
-        "level": "Nosebleed Stakes ($25,000+)",
-        "pts": 45,
-        "cashes": 2
-      },
-      {
-        "level": "Mid Stakes ($1,501 - $9,999)",
-        "pts": 28,
-        "cashes": 6
-      }
-    ],
     "history": [
-      {
-        "year": 2024,
-        "pts": 189,
-        "cost": 1,
-        "cashes": 52
-      },
       {
         "year": 2025,
         "pts": 75,
-        "cost": 12,
+        "cost": 12.0,
         "cashes": 7
-      },
-      {
-        "year": 2026,
-        "pts": null,
-        "cost": 1,
-        "cashes": null,
-        "pending": true
       }
-    ],
-    "scrapedAt": "2026-05-25T23:28:56.398Z",
-    "fixedSlug": "dan-sepiol",
-    "cost2026": 1
+    ]
   }
 }
