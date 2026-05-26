@@ -181,9 +181,17 @@
         "pts": 269,
         "cost": 108,
         "cashes": 13
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 116,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:49:20.828Z"
+    "scrapedAt": "2026-05-25T00:49:20.828Z",
+    "cost2026": 116
   },
   "phil-hellmuth": {
     "name": "Phil Hellmuth",
@@ -362,9 +370,17 @@
         "pts": 78,
         "cost": 79,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 66,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:49:29.751Z"
+    "scrapedAt": "2026-05-25T00:49:29.751Z",
+    "cost2026": 66
   },
   "shaun-deeb": {
     "name": "Shaun Deeb",
@@ -536,9 +552,17 @@
         "pts": 359,
         "cost": 99,
         "cashes": 17
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 133,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:49:38.252Z"
+    "scrapedAt": "2026-05-25T00:49:38.252Z",
+    "cost2026": 133
   },
   "john-racener": {
     "name": "John Racener",
@@ -703,9 +727,17 @@
         "pts": 104,
         "cost": 54,
         "cashes": 5
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 86,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:49:46.442Z"
+    "scrapedAt": "2026-05-25T00:49:46.442Z",
+    "cost2026": 86
   },
   "ben-yu": {
     "name": "Ben Yu",
@@ -877,9 +909,17 @@
         "pts": 162,
         "cost": 31,
         "cashes": 17
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 37,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:49:55.049Z"
+    "scrapedAt": "2026-05-25T00:49:55.049Z",
+    "cost2026": 37
   },
   "paul-volpe": {
     "name": "Paul Volpe",
@@ -1046,9 +1086,17 @@
         "pts": 92,
         "cost": 14,
         "cashes": 4
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 5,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:03.601Z"
+    "scrapedAt": "2026-05-25T00:50:03.601Z",
+    "cost2026": 5
   },
   "john-monnette": {
     "name": "John Monnette",
@@ -1227,9 +1275,17 @@
         "pts": 40,
         "cost": 19,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 36,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:12.577Z"
+    "scrapedAt": "2026-05-25T00:50:12.577Z",
+    "cost2026": 36
   },
   "david-odb-baker": {
     "name": "David ODB Baker",
@@ -1403,9 +1459,17 @@
         "pts": 241,
         "cost": 51,
         "cashes": 13
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 61,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:21.702Z"
+    "scrapedAt": "2026-05-25T00:50:21.702Z",
+    "cost2026": 61
   },
   "jeremy-ausmus": {
     "name": "Jeremy Ausmus",
@@ -1541,9 +1605,17 @@
         "pts": 86,
         "cost": 141,
         "cashes": 8
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 90,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:29.371Z"
+    "scrapedAt": "2026-05-25T00:50:29.371Z",
+    "cost2026": 90
   },
   "scott-seiver": {
     "name": "Scott Seiver",
@@ -1722,9 +1794,17 @@
         "pts": 46,
         "cost": 125,
         "cashes": 4
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 79,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:38.353Z"
+    "scrapedAt": "2026-05-25T00:50:38.353Z",
+    "cost2026": 79
   },
   "brian-hastings": {
     "name": "Brian Hastings",
@@ -1903,9 +1983,17 @@
         "pts": 93,
         "cost": 1,
         "cashes": 9
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:47.312Z"
+    "scrapedAt": "2026-05-25T00:50:47.312Z",
+    "cost2026": 1
   },
   "calvin-anderson": {
     "name": "Calvin Anderson",
@@ -2063,9 +2151,17 @@
         "pts": 104,
         "cost": 51,
         "cashes": 9
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 25,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:50:55.121Z"
+    "scrapedAt": "2026-05-25T00:50:55.121Z",
+    "cost2026": 25
   },
   "marco-johnson": {
     "name": "Marco Johnson",
@@ -2244,9 +2340,17 @@
         "pts": 252,
         "cost": 49,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 51,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:03.971Z"
+    "scrapedAt": "2026-05-25T00:51:03.971Z",
+    "cost2026": 51
   },
   "nick-schulman": {
     "name": "Nick Schulman",
@@ -2413,9 +2517,17 @@
         "pts": 250,
         "cost": 107,
         "cashes": 9
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 89,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:12.504Z"
+    "scrapedAt": "2026-05-25T00:51:12.504Z",
+    "cost2026": 89
   },
   "benny-glaser": {
     "name": "Benny Glaser",
@@ -2559,9 +2671,17 @@
         "pts": 267,
         "cost": 99,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 94,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:19.778Z"
+    "scrapedAt": "2026-05-25T00:51:19.778Z",
+    "cost2026": 94
   },
   "justin-bonomo": {
     "name": "Justin Bonomo",
@@ -2902,9 +3022,17 @@
         "pts": 31,
         "cost": 40,
         "cashes": 9
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 30,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:36.995Z"
+    "scrapedAt": "2026-05-25T00:51:36.995Z",
+    "cost2026": 30
   },
   "brian-rast": {
     "name": "Brian Rast",
@@ -3074,9 +3202,17 @@
         "pts": 292,
         "cost": 57,
         "cashes": 14
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 97,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:45.171Z"
+    "scrapedAt": "2026-05-25T00:51:45.171Z",
+    "cost2026": 97
   },
   "jason-mercier": {
     "name": "Jason Mercier",
@@ -3234,9 +3370,17 @@
         "pts": 79,
         "cost": 41,
         "cashes": 4
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:51:53.127Z"
+    "scrapedAt": "2026-05-25T00:51:53.127Z",
+    "cost2026": 1
   },
   "anthony-zinno": {
     "name": "Anthony Zinno",
@@ -3387,9 +3531,17 @@
         "pts": 96,
         "cost": 14,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 7,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:00.611Z"
+    "scrapedAt": "2026-05-25T00:52:00.611Z",
+    "cost2026": 7
   },
   "stephen-chidwick": {
     "name": "Stephen Chidwick",
@@ -3566,9 +3718,17 @@
         "pts": 98,
         "cost": 51,
         "cashes": 4
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 32,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:09.153Z"
+    "scrapedAt": "2026-05-25T00:52:09.153Z",
+    "cost2026": 32
   },
   "chance-kornuth": {
     "name": "Chance Kornuth",
@@ -3700,9 +3860,17 @@
         "pts": 50,
         "cost": 80,
         "cashes": 5
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 34,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:15.937Z"
+    "scrapedAt": "2026-05-25T00:52:15.937Z",
+    "cost2026": 34
   },
   "james-obst": {
     "name": "James Obst",
@@ -3841,9 +4009,17 @@
         "pts": 59,
         "cost": 91,
         "cashes": 15
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 55,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:23.159Z"
+    "scrapedAt": "2026-05-25T00:52:23.159Z",
+    "cost2026": 55
   },
   "matt-glantz": {
     "name": "Matt Glantz",
@@ -4017,9 +4193,17 @@
         "pts": 133,
         "cost": 35,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 27,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:32.061Z"
+    "scrapedAt": "2026-05-25T00:52:32.061Z",
+    "cost2026": 27
   },
   "josh-arieh": {
     "name": "Josh Arieh",
@@ -4146,9 +4330,17 @@
         "pts": 11,
         "cost": 71,
         "cashes": 7
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 55,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:38.850Z"
+    "scrapedAt": "2026-05-25T00:52:38.850Z",
+    "cost2026": 55
   },
   "eli-elezra": {
     "name": "Eli Elezra",
@@ -4320,9 +4512,17 @@
         "pts": 11,
         "cost": 1,
         "cashes": 1
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:47.427Z"
+    "scrapedAt": "2026-05-25T00:52:47.427Z",
+    "cost2026": 1
   },
   "dan-smith": {
     "name": "Dan Smith",
@@ -4472,9 +4672,17 @@
         "pts": 54,
         "cost": 6,
         "cashes": 2
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 8,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:52:55.625Z"
+    "scrapedAt": "2026-05-25T00:52:55.625Z",
+    "cost2026": 8
   },
   "phil-ivey": {
     "name": "Phil Ivey",
@@ -4625,9 +4833,17 @@
         "pts": 190,
         "cost": 95,
         "cashes": 6
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 80,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:53:03.166Z"
+    "scrapedAt": "2026-05-25T00:53:03.166Z",
+    "cost2026": 80
   },
   "yuval-bronshtein": {
     "name": "Yuval Bronshtein",
@@ -4785,9 +5001,17 @@
         "pts": 16,
         "cost": 44,
         "cashes": 7
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 3,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:53:11.113Z"
+    "scrapedAt": "2026-05-25T00:53:11.113Z",
+    "cost2026": 3
   },
   "david-bakes-baker": {
     "name": "David Bakes Baker",
@@ -5079,9 +5303,17 @@
         "pts": 26,
         "cost": 15,
         "cashes": 6
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 45,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:53:37.807Z"
+    "scrapedAt": "2026-05-25T00:53:37.807Z",
+    "cost2026": 45
   },
   "john-hennigan": {
     "name": "John Hennigan",
@@ -5227,9 +5459,17 @@
         "pts": 70,
         "cost": 11,
         "cashes": 7
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:53:45.350Z"
+    "scrapedAt": "2026-05-25T00:53:45.350Z",
+    "cost2026": 1
   },
   "scott-clements": {
     "name": "Scott Clements",
@@ -5957,9 +6197,17 @@
         "pts": 284,
         "cost": 85,
         "cashes": 7
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 101,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:54:25.611Z"
+    "scrapedAt": "2026-05-25T00:54:25.611Z",
+    "cost2026": 101
   },
   "bryce-yockey": {
     "name": "Bryce Yockey",
@@ -6117,9 +6365,17 @@
         "pts": 124,
         "cost": 66,
         "cashes": 8
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 46,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:54:33.516Z"
+    "scrapedAt": "2026-05-25T00:54:33.516Z",
+    "cost2026": 46
   },
   "adam-friedman": {
     "name": "Adam Friedman",
@@ -6554,9 +6810,17 @@
         "pts": 12,
         "cost": 20,
         "cashes": 1044
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 80,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:54:55.814Z"
+    "scrapedAt": "2026-05-25T00:54:55.814Z",
+    "cost2026": 80
   },
   "chris-brewer": {
     "name": "Chris Brewer",
@@ -6657,9 +6921,17 @@
         "pts": 68,
         "cost": 70,
         "cashes": 7
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 61,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:01.647Z"
+    "scrapedAt": "2026-05-25T00:55:01.647Z",
+    "cost2026": 61
   },
   "yuri-dzivielevski": {
     "name": "Yuri Dzivielevski",
@@ -6763,9 +7035,17 @@
         "pts": 95,
         "cost": 119,
         "cashes": 12
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 90,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:07.092Z"
+    "scrapedAt": "2026-05-25T00:55:07.092Z",
+    "cost2026": 90
   },
   "ari-engel": {
     "name": "Ari Engel",
@@ -6887,9 +7167,17 @@
         "pts": 53,
         "cost": 20,
         "cashes": 16
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 47,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:13.917Z"
+    "scrapedAt": "2026-05-25T00:55:13.917Z",
+    "cost2026": 47
   },
   "scott-bohlman": {
     "name": "Scott Bohlman",
@@ -7028,9 +7316,17 @@
         "pts": 225,
         "cost": 9,
         "cashes": 14
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 35,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:21.083Z"
+    "scrapedAt": "2026-05-25T00:55:21.083Z",
+    "cost2026": 35
   },
   "mike-matusow": {
     "name": "Mike Matusow",
@@ -7190,9 +7486,17 @@
         "pts": 71,
         "cost": 3,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 7,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:30.407Z"
+    "scrapedAt": "2026-05-25T00:55:30.407Z",
+    "cost2026": 7
   },
   "chad-eveslage": {
     "name": "Chad Eveslage",
@@ -7303,9 +7607,17 @@
         "pts": 217,
         "cost": 87,
         "cashes": 9
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 89,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:36.159Z"
+    "scrapedAt": "2026-05-25T00:55:36.159Z",
+    "cost2026": 89
   },
   "mike-leah": {
     "name": "Mike Leah",
@@ -7442,9 +7754,17 @@
         "pts": 85,
         "cost": 3,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 8,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:43.085Z"
+    "scrapedAt": "2026-05-25T00:55:43.085Z",
+    "cost2026": 8
   },
   "ben-lamb": {
     "name": "Ben Lamb",
@@ -7554,9 +7874,17 @@
         "pts": 228,
         "cost": 15,
         "cashes": 6
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 14,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:55:49.554Z"
+    "scrapedAt": "2026-05-25T00:55:49.554Z",
+    "cost2026": 14
   },
   "daniel-weinman": {
     "name": "Daniel Weinman",
@@ -7942,9 +8270,17 @@
         "pts": 16,
         "cost": 32,
         "cashes": 5
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 16,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:09.137Z"
+    "scrapedAt": "2026-05-25T00:56:09.137Z",
+    "cost2026": 16
   },
   "shannon-shorr": {
     "name": "Shannon Shorr",
@@ -8089,9 +8425,17 @@
         "pts": 8,
         "cost": 35,
         "cashes": 6
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 11,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:17.393Z"
+    "scrapedAt": "2026-05-25T00:56:17.393Z",
+    "cost2026": 11
   },
   "alex-livingston": {
     "name": "Alex Livingston",
@@ -8207,9 +8551,17 @@
         "pts": 123,
         "cost": 81,
         "cashes": 15
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 61,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:23.206Z"
+    "scrapedAt": "2026-05-25T00:56:23.206Z",
+    "cost2026": 61
   },
   "erik-seidel": {
     "name": "Erik Seidel",
@@ -8369,9 +8721,17 @@
         "pts": 61,
         "cost": 15,
         "cashes": 8
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:31.536Z"
+    "scrapedAt": "2026-05-25T00:56:31.536Z",
+    "cost2026": 1
   },
   "ryan-riess": {
     "name": "Ryan Riess",
@@ -8503,9 +8863,17 @@
         "pts": 30,
         "cost": 11,
         "cashes": 13
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 3,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:38.342Z"
+    "scrapedAt": "2026-05-25T00:56:38.342Z",
+    "cost2026": 3
   },
   "randy-ohel": {
     "name": "Randy Ohel",
@@ -8868,9 +9236,17 @@
         "pts": 152,
         "cost": 48,
         "cashes": 9
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 49,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:56:56.897Z"
+    "scrapedAt": "2026-05-25T00:56:56.897Z",
+    "cost2026": 49
   },
   "alex-foxen": {
     "name": "Alex Foxen",
@@ -8983,9 +9359,17 @@
         "pts": 205,
         "cost": 66,
         "cashes": 14
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 79,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:03.081Z"
+    "scrapedAt": "2026-05-25T00:57:03.081Z",
+    "cost2026": 79
   },
   "jerry-wong": {
     "name": "Jerry Wong",
@@ -9110,9 +9494,17 @@
         "pts": 5,
         "cost": 19,
         "cashes": 3
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 8,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:09.564Z"
+    "scrapedAt": "2026-05-25T00:57:09.564Z",
+    "cost2026": 8
   },
   "mike-watson": {
     "name": "Mike Watson",
@@ -9382,9 +9774,17 @@
         "pts": 183,
         "cost": 1,
         "cashes": 12
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:23.949Z"
+    "scrapedAt": "2026-05-25T00:57:23.949Z",
+    "cost2026": 1
   },
   "dan-kelly": {
     "name": "Dan Kelly",
@@ -9664,9 +10064,17 @@
         "pts": 176,
         "cost": 42,
         "cashes": 7
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 35,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:38.321Z"
+    "scrapedAt": "2026-05-25T00:57:38.321Z",
+    "cost2026": 35
   },
   "todd-brunson": {
     "name": "Todd Brunson",
@@ -9924,9 +10332,17 @@
         "pts": 138,
         "cost": 34,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 30,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:52.328Z"
+    "scrapedAt": "2026-05-25T00:57:52.328Z",
+    "cost2026": 30
   },
   "jason-koon": {
     "name": "Jason Koon",
@@ -10038,9 +10454,17 @@
         "pts": 128,
         "cost": 4,
         "cashes": 2
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:57:59.098Z"
+    "scrapedAt": "2026-05-25T00:57:59.098Z",
+    "cost2026": 1
   },
   "jared-bleznick": {
     "name": "Jared Bleznick",
@@ -10167,9 +10591,17 @@
         "pts": 83,
         "cost": 6,
         "cashes": 1
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 12,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:05.899Z"
+    "scrapedAt": "2026-05-25T00:58:05.899Z",
+    "cost2026": 12
   },
   "chris-hunichen": {
     "name": "Chris Hunichen",
@@ -10260,9 +10692,17 @@
         "pts": 70,
         "cost": 15,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 35,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:11.693Z"
+    "scrapedAt": "2026-05-25T00:58:11.693Z",
+    "cost2026": 35
   },
   "jake-schwartz": {
     "name": "Jake Schwartz",
@@ -10723,9 +11163,17 @@
         "pts": 280,
         "cost": 33,
         "cashes": 8
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 31,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:37.681Z"
+    "scrapedAt": "2026-05-25T00:58:37.681Z",
+    "cost2026": 31
   },
   "phillip-hui": {
     "name": "Phillip Hui",
@@ -10850,9 +11298,17 @@
         "pts": 107,
         "cost": 30,
         "cashes": 12
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 12,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:44.160Z"
+    "scrapedAt": "2026-05-25T00:58:44.160Z",
+    "cost2026": 12
   },
   "shawn-buchanan": {
     "name": "Shawn Buchanan",
@@ -11002,9 +11458,17 @@
         "pts": 14,
         "cost": 46,
         "cashes": 29
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 2,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:52.540Z"
+    "scrapedAt": "2026-05-25T00:58:52.540Z",
+    "cost2026": 2
   },
   "maxx-coleman": {
     "name": "Maxx Coleman",
@@ -11115,9 +11579,17 @@
         "pts": 110,
         "cost": 70,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 58,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:58:58.293Z"
+    "scrapedAt": "2026-05-25T00:58:58.293Z",
+    "cost2026": 58
   },
   "joey-couden": {
     "name": "Joey Couden",
@@ -11225,9 +11697,17 @@
         "pts": 118,
         "cost": 14,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 12,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:59:04.444Z"
+    "scrapedAt": "2026-05-25T00:59:04.444Z",
+    "cost2026": 12
   },
   "yueqi-zhu": {
     "name": "Yueqi Zhu",
@@ -11357,9 +11837,17 @@
         "pts": 97,
         "cost": 13,
         "cashes": 12
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 18,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:59:10.940Z"
+    "scrapedAt": "2026-05-25T00:59:10.940Z",
+    "cost2026": 18
   },
   "rep-porter": {
     "name": "Rep Porter",
@@ -11730,9 +12218,17 @@
         "pts": 7,
         "cost": 3,
         "cashes": 7
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 4,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:59:30.914Z"
+    "scrapedAt": "2026-05-25T00:59:30.914Z",
+    "cost2026": 4
   },
   "craig-chait": {
     "name": "Craig Chait",
@@ -11857,9 +12353,17 @@
         "pts": 6,
         "cost": 15,
         "cashes": 28
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T00:59:37.436Z"
+    "scrapedAt": "2026-05-25T00:59:37.436Z",
+    "cost2026": 1
   },
   "ryan-laplante": {
     "name": "Ryan Laplante",
@@ -12084,9 +12588,17 @@
         "pts": 139,
         "cost": 6,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:00:01.979Z"
+    "scrapedAt": "2026-05-25T01:00:01.979Z",
+    "cost2026": 1
   },
   "chris-ferguson": {
     "name": "Chris Ferguson",
@@ -12288,9 +12800,17 @@
         "pts": 48,
         "cost": 54,
         "cashes": 12
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 12,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:00:25.163Z"
+    "scrapedAt": "2026-05-25T01:00:25.163Z",
+    "cost2026": 12
   },
   "david-peters": {
     "name": "David Peters",
@@ -12392,9 +12912,17 @@
         "pts": 77,
         "cost": 3,
         "cashes": 5
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 3,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:00:33.009Z"
+    "scrapedAt": "2026-05-25T01:00:33.009Z",
+    "cost2026": 3
   },
   "ryan-hughes": {
     "name": "Ryan Hughes",
@@ -12624,9 +13152,17 @@
         "pts": 75,
         "cost": 4,
         "cashes": 3
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 7,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:00:47.593Z"
+    "scrapedAt": "2026-05-25T01:00:47.593Z",
+    "cost2026": 7
   },
   "dylan-linde": {
     "name": "Dylan Linde",
@@ -12760,9 +13296,17 @@
         "pts": 299,
         "cost": 36,
         "cashes": 6
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 59,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:00:54.788Z"
+    "scrapedAt": "2026-05-25T01:00:54.788Z",
+    "cost2026": 59
   },
   "christian-harder": {
     "name": "Christian Harder",
@@ -12879,9 +13423,17 @@
         "pts": 72,
         "cost": 7,
         "cashes": 13
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 6,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:01:01.712Z"
+    "scrapedAt": "2026-05-25T01:01:01.712Z",
+    "cost2026": 6
   },
   "david-chiu": {
     "name": "David Chiu",
@@ -13384,9 +13936,17 @@
         "pts": 15,
         "cost": 25,
         "cashes": 4
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 12,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:01:44.717Z"
+    "scrapedAt": "2026-05-25T01:01:44.717Z",
+    "cost2026": 12
   },
   "sam-soverel": {
     "name": "Sam Soverel",
@@ -13477,9 +14037,17 @@
         "pts": 214,
         "cost": 4,
         "cashes": 8
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 28,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:01:50.462Z"
+    "scrapedAt": "2026-05-25T01:01:50.462Z",
+    "cost2026": 28
   },
   "sean-winter": {
     "name": "Sean Winter",
@@ -13580,9 +14148,17 @@
         "pts": 52,
         "cost": 22,
         "cashes": 5
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 13,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:01:56.245Z"
+    "scrapedAt": "2026-05-25T01:01:56.245Z",
+    "cost2026": 13
   },
   "max-pescatori": {
     "name": "Max Pescatori",
@@ -13855,9 +14431,17 @@
         "pts": 8,
         "cost": 15,
         "cashes": 16
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:02:10.278Z"
+    "scrapedAt": "2026-05-25T01:02:10.278Z",
+    "cost2026": 1
   },
   "jim-collopy": {
     "name": "Jim Collopy",
@@ -13970,9 +14554,17 @@
         "pts": 25,
         "cost": 43,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 14,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:02:16.407Z"
+    "scrapedAt": "2026-05-25T01:02:16.407Z",
+    "cost2026": 14
   },
   "johanes-becker": {
     "name": "Johanes Becker",
@@ -14150,9 +14742,17 @@
         "pts": 43,
         "cost": 103,
         "cashes": 7
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 69,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:02:26.881Z"
+    "scrapedAt": "2026-05-25T01:02:26.881Z",
+    "cost2026": 69
   },
   "nick-guagenti": {
     "name": "Nick Guagenti",
@@ -14270,9 +14870,17 @@
         "pts": 219,
         "cost": 38,
         "cashes": 12
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 37,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:02:33.022Z"
+    "scrapedAt": "2026-05-25T01:02:33.022Z",
+    "cost2026": 37
   },
   "frank-kassela": {
     "name": "Frank Kassela",
@@ -15165,9 +15773,17 @@
         "pts": 38,
         "cost": 40,
         "cashes": 6
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 22,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:03:36.594Z"
+    "scrapedAt": "2026-05-25T01:03:36.594Z",
+    "cost2026": 22
   },
   "jeff-lisandro": {
     "name": "Jeff Lisandro",
@@ -15459,9 +16075,17 @@
         "pts": 7,
         "cost": 54,
         "cashes": 56
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 2,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:03:51.167Z"
+    "scrapedAt": "2026-05-25T01:03:51.167Z",
+    "cost2026": 2
   },
   "david-bach": {
     "name": "David Bach",
@@ -15932,9 +16556,17 @@
         "pts": 154,
         "cost": 17,
         "cashes": 8
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 18,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:04:16.934Z"
+    "scrapedAt": "2026-05-25T01:04:16.934Z",
+    "cost2026": 18
   },
   "joe-cheong": {
     "name": "Joe Cheong",
@@ -16131,9 +16763,17 @@
         "pts": 194,
         "cost": 31,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 21,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:04:29.129Z"
+    "scrapedAt": "2026-05-25T01:04:29.129Z",
+    "cost2026": 21
   },
   "josh-reichard": {
     "name": "Josh Reichard",
@@ -16210,9 +16850,17 @@
         "pts": 169,
         "cost": 37,
         "cashes": 13
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 20,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:04:34.211Z"
+    "scrapedAt": "2026-05-25T01:04:34.211Z",
+    "cost2026": 20
   },
   "barry-greenstein": {
     "name": "Barry Greenstein",
@@ -16721,9 +17369,17 @@
         "pts": 71,
         "cost": 51,
         "cashes": 4
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 46,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:05:14.400Z"
+    "scrapedAt": "2026-05-25T01:05:14.400Z",
+    "cost2026": 46
   },
   "isaac-haxton": {
     "name": "Isaac Haxton",
@@ -16823,9 +17479,17 @@
         "pts": 276,
         "cost": 6,
         "cashes": 4
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 19,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:05:20.919Z"
+    "scrapedAt": "2026-05-25T01:05:20.919Z",
+    "cost2026": 19
   },
   "patrick-leonard": {
     "name": "Patrick Leonard",
@@ -16943,9 +17607,17 @@
         "pts": 256,
         "cost": 30,
         "cashes": 16
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 41,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:05:27.043Z"
+    "scrapedAt": "2026-05-25T01:05:27.043Z",
+    "cost2026": 41
   },
   "phil-galfond": {
     "name": "Phil Galfond",
@@ -17125,9 +17797,17 @@
         "pts": 65,
         "cost": 89,
         "cashes": 8
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 130,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:05:37.998Z"
+    "scrapedAt": "2026-05-25T01:05:37.998Z",
+    "cost2026": 130
   },
   "georgios-sotiropoulos": {
     "name": "Georgios Sotiropoulos",
@@ -17333,9 +18013,17 @@
         "pts": 99,
         "cost": 14,
         "cashes": 2
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 12,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:05:49.813Z"
+    "scrapedAt": "2026-05-25T01:05:49.813Z",
+    "cost2026": 12
   },
   "julien-martini": {
     "name": "Julien Martini",
@@ -17527,9 +18215,17 @@
         "pts": 94,
         "cost": 42,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 29,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:06:01.033Z"
+    "scrapedAt": "2026-05-25T01:06:01.033Z",
+    "cost2026": 29
   },
   "vanessa-selbst": {
     "name": "Vanessa Selbst",
@@ -18474,9 +19170,17 @@
         "pts": 118,
         "cost": 35,
         "cashes": 13
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 70,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:07:21.281Z"
+    "scrapedAt": "2026-05-25T01:07:21.281Z",
+    "cost2026": 70
   },
   "daniel-buzgon": {
     "name": "Daniel Buzgon",
@@ -19210,9 +19914,17 @@
         "pts": 186,
         "cost": 38,
         "cashes": 15
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 31,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:08:04.480Z"
+    "scrapedAt": "2026-05-25T01:08:04.480Z",
+    "cost2026": 31
   },
   "dong-chen": {
     "name": "Dong Chen",
@@ -19277,9 +19989,17 @@
         "pts": 14,
         "cost": 1,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 4,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:08:09.174Z"
+    "scrapedAt": "2026-05-25T01:08:09.174Z",
+    "cost2026": 4
   },
   "nate-silver": {
     "name": "Nate Silver",
@@ -19721,9 +20441,17 @@
         "pts": 50,
         "cost": 2,
         "cashes": 8
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 3,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:08:36.860Z"
+    "scrapedAt": "2026-05-25T01:08:36.860Z",
+    "cost2026": 3
   },
   "tom-marchese": {
     "name": "Tom Marchese",
@@ -20202,9 +20930,17 @@
         "pts": 254,
         "cost": 21,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 65,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:04.916Z"
+    "scrapedAt": "2026-05-25T01:09:04.916Z",
+    "cost2026": 65
   },
   "nacho-barbero": {
     "name": "Nacho Barbero",
@@ -20298,9 +21034,17 @@
         "pts": 103,
         "cost": 59,
         "cashes": 5
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 43,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:10.328Z"
+    "scrapedAt": "2026-05-25T01:09:10.328Z",
+    "cost2026": 43
   },
   "jeff-madsen": {
     "name": "Jeff Madsen",
@@ -20413,9 +21157,17 @@
         "pts": 95,
         "cost": 11,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 4,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:16.417Z"
+    "scrapedAt": "2026-05-25T01:09:16.417Z",
+    "cost2026": 4
   },
   "seth-davies": {
     "name": "Seth Davies",
@@ -20553,9 +21305,17 @@
         "pts": 142,
         "cost": 28,
         "cashes": 3
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 39,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:26.876Z"
+    "scrapedAt": "2026-05-25T01:09:26.876Z",
+    "cost2026": 39
   },
   "danny-tang": {
     "name": "Danny Tang",
@@ -20620,9 +21380,17 @@
         "pts": 5,
         "cost": 26,
         "cashes": 3
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 12,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:31.565Z"
+    "scrapedAt": "2026-05-25T01:09:31.565Z",
+    "cost2026": 12
   },
   "renan-bruschi": {
     "name": "Renan Bruschi",
@@ -20714,9 +21482,17 @@
         "pts": 22,
         "cost": 36,
         "cashes": 8
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 49,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:36.640Z"
+    "scrapedAt": "2026-05-25T01:09:36.640Z",
+    "cost2026": 49
   },
   "aram-zobian": {
     "name": "Aram Zobian",
@@ -20783,9 +21559,17 @@
         "pts": 128,
         "cost": 1,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 7,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:09:41.672Z"
+    "scrapedAt": "2026-05-25T01:09:41.672Z",
+    "cost2026": 7
   },
   "faraz-jaka": {
     "name": "Faraz Jaka",
@@ -21905,9 +22689,17 @@
         "pts": 168,
         "cost": 1,
         "cashes": 9
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:10:53.970Z"
+    "scrapedAt": "2026-05-25T01:10:53.970Z",
+    "cost2026": 1
   },
   "daniel-idema": {
     "name": "Daniel Idema",
@@ -22126,9 +22918,17 @@
         "pts": 184,
         "cost": 7,
         "cashes": 15
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 34,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:11:08.117Z"
+    "scrapedAt": "2026-05-25T01:11:08.117Z",
+    "cost2026": 34
   },
   "hal-rotholz": {
     "name": "Hal Rotholz",
@@ -22474,9 +23274,17 @@
         "pts": 5,
         "cost": 1,
         "cashes": 68
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:11:40.674Z"
+    "scrapedAt": "2026-05-25T01:11:40.674Z",
+    "cost2026": 1
   },
   "dylan-smith": {
     "name": "Dylan Smith",
@@ -22568,9 +23376,17 @@
         "pts": 112,
         "cost": 64,
         "cashes": 9
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 59,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:11:45.739Z"
+    "scrapedAt": "2026-05-25T01:11:45.739Z",
+    "cost2026": 59
   },
   "brett-richey": {
     "name": "Brett Richey",
@@ -22798,9 +23614,17 @@
         "pts": 5,
         "cost": 7,
         "cashes": 848
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:12:00.629Z"
+    "scrapedAt": "2026-05-25T01:12:00.629Z",
+    "cost2026": 1
   },
   "richard-ashby": {
     "name": "Richard Ashby",
@@ -22939,9 +23763,17 @@
         "pts": 90,
         "cost": 9,
         "cashes": 7
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 24,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:12:10.432Z"
+    "scrapedAt": "2026-05-25T01:12:10.432Z",
+    "cost2026": 24
   },
   "michael-trivett": {
     "name": "Michael Trivett",
@@ -23238,9 +24070,17 @@
         "pts": 158,
         "cost": 9,
         "cashes": 8
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 6,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:12:42.288Z"
+    "scrapedAt": "2026-05-25T01:12:42.288Z",
+    "cost2026": 6
   },
   "joe-cassidy": {
     "name": "Joe Cassidy",
@@ -23940,9 +24780,17 @@
         "pts": 148,
         "cost": 12,
         "cashes": 5
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 19,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:13:27.274Z"
+    "scrapedAt": "2026-05-25T01:13:27.274Z",
+    "cost2026": 19
   },
   "dario-alioto": {
     "name": "Dario Alioto",
@@ -24241,9 +25089,17 @@
         "pts": 129,
         "cost": 19,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 38,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:13:47.566Z"
+    "scrapedAt": "2026-05-25T01:13:47.566Z",
+    "cost2026": 38
   },
   "carol-fuchs": {
     "name": "Carol Fuchs",
@@ -24707,9 +25563,17 @@
         "pts": 116,
         "cost": 42,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 34,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:14:18.953Z"
+    "scrapedAt": "2026-05-25T01:14:18.953Z",
+    "cost2026": 34
   },
   "fedor-holz": {
     "name": "Fedor Holz",
@@ -25622,9 +26486,17 @@
         "pts": 85,
         "cost": 5,
         "cashes": 12
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 20,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:15:24.616Z"
+    "scrapedAt": "2026-05-25T01:15:24.616Z",
+    "cost2026": 20
   },
   "alexey-makarov": {
     "name": "Alexey Makarov",
@@ -25778,9 +26650,17 @@
         "pts": 12,
         "cost": 20,
         "cashes": 843
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 6,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:15:34.494Z"
+    "scrapedAt": "2026-05-25T01:15:34.494Z",
+    "cost2026": 6
   },
   "michael-wang": {
     "name": "Michael Wang",
@@ -25859,9 +26739,17 @@
         "pts": 9,
         "cost": 3,
         "cashes": 2422
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:15:39.947Z"
+    "scrapedAt": "2026-05-25T01:15:39.947Z",
+    "cost2026": 1
   },
   "landon-tice": {
     "name": "Landon Tice",
@@ -27099,9 +27987,17 @@
         "pts": 10,
         "cost": 7,
         "cashes": 8
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 26,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:17:18.208Z"
+    "scrapedAt": "2026-05-25T01:17:18.208Z",
+    "cost2026": 26
   },
   "allen-cunningham": {
     "name": "Allen Cunningham",
@@ -27425,9 +28321,17 @@
         "pts": 7,
         "cost": 50,
         "cashes": 86
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 5,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:17:38.490Z"
+    "scrapedAt": "2026-05-25T01:17:38.490Z",
+    "cost2026": 5
   },
   "dustin-dirksen": {
     "name": "Dustin Dirksen",
@@ -28071,9 +28975,17 @@
         "pts": 131,
         "cost": 6,
         "cashes": 13
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 3,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:18:40.600Z"
+    "scrapedAt": "2026-05-25T01:18:40.600Z",
+    "cost2026": 3
   },
   "christoph-vogelsang": {
     "name": "Christoph Vogelsang",
@@ -29753,9 +30665,17 @@
         "pts": 24,
         "cost": 1,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:20:55.178Z"
+    "scrapedAt": "2026-05-25T01:20:55.178Z",
+    "cost2026": 1
   },
   "anson-tsang": {
     "name": "Anson Tsang",
@@ -29847,9 +30767,17 @@
         "pts": 48,
         "cost": 1,
         "cashes": 14
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:21:00.278Z"
+    "scrapedAt": "2026-05-25T01:21:00.278Z",
+    "cost2026": 1
   },
   "eric-baldwin": {
     "name": "Eric Baldwin",
@@ -30023,9 +30951,17 @@
         "pts": 146,
         "cost": 1,
         "cashes": 4
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 3,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:21:11.798Z"
+    "scrapedAt": "2026-05-25T01:21:11.798Z",
+    "cost2026": 3
   },
   "andrey-zhigalov": {
     "name": "Andrey Zhigalov",
@@ -30496,9 +31432,17 @@
         "pts": 13,
         "cost": 12,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:21:47.987Z"
+    "scrapedAt": "2026-05-25T01:21:47.987Z",
+    "cost2026": 1
   },
   "ebony-kenney": {
     "name": "Ebony Kenney",
@@ -31915,9 +32859,17 @@
         "pts": 14,
         "cost": 15,
         "cashes": 414
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 4,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:23:30.913Z"
+    "scrapedAt": "2026-05-25T01:23:30.913Z",
+    "cost2026": 4
   },
   "jordan-siegel": {
     "name": "Jordan Siegel",
@@ -31999,9 +32951,17 @@
         "pts": 15,
         "cost": 16,
         "cashes": 1136
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:23:36.212Z"
+    "scrapedAt": "2026-05-25T01:23:36.212Z",
+    "cost2026": 1
   },
   "huck-seed": {
     "name": "Huck Seed",
@@ -32117,9 +33077,17 @@
         "pts": 185,
         "cost": 1,
         "cashes": 13
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 7,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T01:23:41.936Z"
+    "scrapedAt": "2026-05-25T01:23:41.936Z",
+    "cost2026": 7
   },
   "mikita-badziakouski": {
     "name": "Mikita Badziakouski",
@@ -32326,10 +33294,18 @@
         "pts": 102,
         "cost": 21,
         "cashes": 16
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 15,
+        "cashes": null,
+        "pending": true
       }
     ],
     "scrapedAt": "2026-05-25T23:29:00.119Z",
-    "fixedSlug": "andrew-kelsall"
+    "fixedSlug": "andrew-kelsall",
+    "cost2026": 15
   },
   "joao-simao-peres": {
     "name": "Joao Simao Peres",
@@ -32411,10 +33387,18 @@
         "pts": 27,
         "cost": 45,
         "cashes": 10
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 20,
+        "cashes": null,
+        "pending": true
       }
     ],
     "scrapedAt": "2026-05-25T23:29:03.492Z",
-    "fixedSlug": "joao-simao"
+    "fixedSlug": "joao-simao",
+    "cost2026": 20
   },
   "nikolay-evdakov": {
     "name": "Nikolay Evdakov",
@@ -33045,9 +34029,17 @@
         "pts": 10,
         "cost": 3,
         "cashes": 7
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T21:50:17.791Z"
+    "scrapedAt": "2026-05-25T21:50:17.791Z",
+    "cost2026": 1
   },
   "brian-tate": {
     "name": "Brian Tate",
@@ -33231,9 +34223,17 @@
         "pts": 52,
         "cost": 1,
         "cashes": 6
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 7,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T21:50:24.722Z"
+    "scrapedAt": "2026-05-25T21:50:24.722Z",
+    "cost2026": 7
   },
   "andrew-ostapchenko": {
     "name": "Andrew Ostapchenko",
@@ -33298,9 +34298,17 @@
         "pts": 234,
         "cost": 1,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 12,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T21:50:27.008Z"
+    "scrapedAt": "2026-05-25T21:50:27.008Z",
+    "cost2026": 12
   },
   "mike-thorpe": {
     "name": "Mike Thorpe",
@@ -33447,9 +34455,17 @@
         "pts": 6,
         "cost": 0,
         "cashes": 21
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
-    "scrapedAt": "2026-05-25T21:50:31.644Z"
+    "scrapedAt": "2026-05-25T21:50:31.644Z",
+    "cost2026": 1
   },
   "kathy-liebert": {
     "name": "Kathy Liebert",
@@ -33861,10 +34877,18 @@
         "pts": 192,
         "cost": 45,
         "cashes": 11
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 51,
+        "cashes": null,
+        "pending": true
       }
     ],
     "scrapedAt": "2026-05-25T23:28:37.423Z",
-    "fixedSlug": "david-rheem"
+    "fixedSlug": "david-rheem",
+    "cost2026": 51
   },
   "kristen-foxen": {
     "name": "Kristen Foxen",
@@ -33964,10 +34988,18 @@
         "pts": 20,
         "cost": 31,
         "cashes": 6
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 16,
+        "cashes": null,
+        "pending": true
       }
     ],
     "scrapedAt": "2026-05-25T23:28:41.432Z",
-    "fixedSlug": "kristen-bicknell"
+    "fixedSlug": "kristen-bicknell",
+    "cost2026": 16
   },
   "daniel-shak": {
     "name": "Daniel Shak",
@@ -34078,10 +35110,18 @@
         "pts": 9,
         "cost": 10,
         "cashes": 6
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
     "scrapedAt": "2026-05-25T23:28:44.785Z",
-    "fixedSlug": "dan-shak"
+    "fixedSlug": "dan-shak",
+    "cost2026": 1
   },
   "michael-holtz": {
     "name": "Michael Holtz",
@@ -34344,10 +35384,18 @@
         "pts": 109,
         "cost": 21,
         "cashes": 9
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 46,
+        "cashes": null,
+        "pending": true
       }
     ],
     "scrapedAt": "2026-05-25T23:28:54.090Z",
-    "fixedSlug": "matthew-wantman"
+    "fixedSlug": "matthew-wantman",
+    "cost2026": 46
   },
   "daniel-sepiol": {
     "name": "Daniel Sepiol",
@@ -34412,9 +35460,17 @@
         "pts": 75,
         "cost": 12,
         "cashes": 7
+      },
+      {
+        "year": 2026,
+        "pts": null,
+        "cost": 1,
+        "cashes": null,
+        "pending": true
       }
     ],
     "scrapedAt": "2026-05-25T23:28:56.398Z",
-    "fixedSlug": "dan-sepiol"
+    "fixedSlug": "dan-sepiol",
+    "cost2026": 1
   }
 }
