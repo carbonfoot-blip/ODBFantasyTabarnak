@@ -43,7 +43,34 @@ export default function App() {
   useEffect(() => {
     fetch('./players-db.json')
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
-      .then(data => { setDb(data); setDbLoaded(true) })
+      .then(data => {
+        setDb(data)
+        setDbLoaded(true)
+        // Auto-import 2026 costs from DB into costs state
+        // DB cost2026 always wins (it was set by the update-costs script)
+        setCosts(prev => {
+          const merged = { ...prev }
+          let imported = 0
+          Object.entries(data).forEach(([slug, player]) => {
+            // cost2026 field (set by update-costs-2026.mjs) takes priority
+            if (player.cost2026 != null) {
+              if (merged[slug] !== player.cost2026) {
+                merged[slug] = player.cost2026
+                imported++
+              }
+            // Fallback: check history for 2026 pending entry cost
+            } else {
+              const y2026 = player.history?.find(y => y.year === 2026)
+              if (y2026?.cost != null && !merged[slug]) {
+                merged[slug] = y2026.cost
+                imported++
+              }
+            }
+          })
+          if (imported > 0) console.log(`Auto-imported ${imported} 2026 costs from DB`)
+          return merged
+        })
+      })
       .catch(err => { setDbError(err.message); setDbLoaded(true) })
   }, [])
 
@@ -97,7 +124,23 @@ export default function App() {
     toast(`${updated.name} saved to DB`)
   }
 
-  function handleNotesChange(updated) { setNotes(updated) }
+  function handleSyncCostsFromDb() {
+    let imported = 0
+    setCosts(prev => {
+      const merged = { ...prev }
+      Object.entries(db).forEach(([slug, player]) => {
+        if (player.cost2026 != null) {
+          merged[slug] = player.cost2026
+          imported++
+        } else {
+          const y2026 = player.history?.find(y => y.year === 2026)
+          if (y2026?.cost != null) { merged[slug] = y2026.cost; imported++ }
+        }
+      })
+      return merged
+    })
+    toast(`✓ Synced ${imported} 2026 costs from DB`)
+  }
   function handleSetGistCredentials(id, tok) { setGistId(id); setGhToken(tok) }
 
   // Navigate to social tab for a specific player (from Compare tab)
@@ -127,7 +170,7 @@ export default function App() {
             <span className={styles.dbBadge}>✓ {Object.keys(db).length} players</span>
           )}
           {dbError && <span className={styles.dbError}>⚠ DB not found</span>}
-          {costsEntered > 0 && <span className={styles.costsBadge}>{costsEntered} costs</span>}
+          {costsEntered > 0 && <span className={styles.costsBadge} style={{cursor:'pointer'}} onClick={handleSyncCostsFromDb} title="Re-sync costs from DB">{costsEntered} costs ↻</span>}
           {notesCount   > 0 && <span className={styles.notesBadge}>{notesCount} notes</span>}
           <a href="https://www.25kfantasy.com/odb-fantasy/" target="_blank" rel="noreferrer" className={styles.externalLink}>
             25KFantasy ↗

@@ -79,10 +79,24 @@ export function SocialTab({ db, notes, onNotesChange, gistId, token, onSetCreden
     finally { setCreating(false) }
   }
 
-  function handleSaveExisting() {
+  async function handleSaveExisting() {
     if (!setupToken || !setupGistId) return
-    onSetCredentials(setupGistId.trim(), setupToken.trim())
+    const id  = setupGistId.trim()
+    const tok = setupToken.trim()
+    onSetCredentials(id, tok)
     setShowSetup(false)
+    // Auto-sync immediately so notes appear right away
+    setSyncing(true); setError(null)
+    try {
+      const remote = await fetchNotes(id, tok)
+      if (Object.keys(remote).length) {
+        onNotesChange(remote)
+        setLastSync(new Date())
+      } else {
+        setError('Connected — but no notes found yet in this Gist.')
+      }
+    } catch (e) { setError(`Sync failed: ${e.message}`) }
+    finally { setSyncing(false) }
   }
 
   const playerNotes = Object.entries(notes)
@@ -153,9 +167,12 @@ export function SocialTab({ db, notes, onNotesChange, gistId, token, onSetCreden
                     className={styles.gistInput}
                   />
                   <button onClick={handleSaveExisting} disabled={!setupGistId || !setupToken}>
-                    Use this Gist
+                    {syncing ? '⟳ Connecting…' : 'Connect & sync →'}
                   </button>
                 </div>
+                <p style={{fontSize:11, color:'var(--text3)', marginTop:4}}>
+                  ⚠️ You need <strong>your own token</strong> (Step 2) even to read a partner's Gist — the token identifies you as a GitHub user.
+                </p>
               </div>
             </div>
           </div>
